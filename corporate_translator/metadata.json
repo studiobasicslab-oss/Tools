@@ -1,0 +1,6 @@
+{
+  "name": "Corporate Translator",
+  "description": "Translate informal, emotional, or slang-filled messages into professional, polished workplace communication.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

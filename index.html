@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Arcade | Basic Studio Labs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg: #f5f4ef; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg); color: #4a4a4a; }
+        .serif { font-family: 'Instrument Serif', serif; }
+        
+        .game-card {
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(8px);
+        }
+        .game-card:hover {
+            transform: scale(1.02);
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 20px 40px -10px rgba(0,0,0,0.1);
+        }
+        .mascot-float { animation: float 4s ease-in-out infinite; }
+        @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+    </style>
+</head>
+<body class="p-8 md:p-20">
+
+    <nav class="max-w-6xl mx-auto mb-16">
+        <a href="https://haris-lab.vercel.app/" class="text-stone-400 hover:text-stone-900 transition">&larr; Back to Studio</a>
+    </nav>
+
+    <header class="max-w-6xl mx-auto mb-16">
+        <h1 class="serif text-6xl text-stone-900 mb-4">Curated Utilities</h1>
+        <p class="text-xl text-stone-500 italic">Precision instruments designed to optimize your workflow and sharpen your communication.</p>
+    </header>
+
+    <main class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Corporate translator Card -->
+        <div class="game-card p-8 rounded-3xl border border-stone-200">
+            <div class="h-12 w-12 mb-4 rounded bg-emerald-900/30 flex items-center justify-center text-emerald-400 group-hover:scale-110 transition-transform">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                    </svg>
+                </div>
+            <h3 class="text-xl font-medium text-stone-800 mb-2">Genz Corporate translator</h3>
+            <p class="text-stone-500 mb-6 text-sm">Input your informal thoughts and let the translator refine them into polished, executive-level language.</p>
+            <a href="corporate_translator/index.html" class="inline-block px-6 py-2 bg-stone-900 text-white rounded-full text-sm hover:bg-stone-700 transition">Try Now</a>
+        </div>
+
+
+        <!-- Empty State/Placeholder -->
+        <div class="p-8 rounded-3xl border-2 border-dashed border-stone-200 flex flex-col justify-center items-center text-center">
+            <span class="text-stone-300 text-4xl mb-4">+</span>
+            <p class="text-stone-400 text-sm">More Tools coming soon...</p>
+        </div>
+
+    </main>
+
+</body>
+</html>
+
