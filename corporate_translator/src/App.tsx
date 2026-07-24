@@ -236,6 +236,15 @@ export default function App() {
   const [isCompareMode, setIsCompareMode] = useState(false);
   const [activeHistoryId, setActiveHistoryId] = useState<string | null>(null);
 
+  // Client-side API Key configuration
+  const [apiKey, setApiKey] = useState(() => localStorage.getItem("gemini_api_key") || "");
+  const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+
+  const handleSaveApiKey = (key: string) => {
+    setApiKey(key);
+    localStorage.setItem("gemini_api_key", key);
+  };
+
   // Loading animation stage interval
   useEffect(() => {
     let interval: NodeJS.Timeout;
@@ -275,35 +284,208 @@ export default function App() {
     if (e) e.preventDefault();
     if (!message.trim()) return;
 
+    if (!apiKey) {
+      setError("Please configure your Gemini API Key first. Click the key lock icon in the top right to configure it.");
+      setIsSettingsOpen(true);
+      return;
+    }
+
     setIsLoading(true);
     setError(null);
     setResult(null);
     setActiveHistoryId(null);
 
+    const p = {
+      politeness: typeof parameters.politeness === "number" ? parameters.politeness : 50,
+      assertiveness: typeof parameters.assertiveness === "number" ? parameters.assertiveness : 50,
+      friendliness: typeof parameters.friendliness === "number" ? parameters.friendliness : 50,
+      formality: typeof parameters.formality === "number" ? parameters.formality : 50,
+      empathy: typeof parameters.empathy === "number" ? parameters.empathy : 50,
+      directness: typeof parameters.directness === "number" ? parameters.directness : 50,
+      buzzwords: typeof parameters.buzzwords === "number" ? parameters.buzzwords : 0,
+      passiveAggressiveness: typeof parameters.passiveAggressiveness === "number" ? parameters.passiveAggressiveness : 0,
+      humour: typeof parameters.humour === "number" ? parameters.humour : 0,
+    };
+
+    const contextInstruction = context ? `Audience Context / Recipient constraints: ${context}` : "";
+
+    const systemInstruction = `You are Corporate Translator AI.
+Your job is to rewrite workplace messages while preserving their meaning.
+The user can control multiple behavioral dimensions ranging from 0 to 100. Interpret these as continuous values rather than discrete presets:
+
+1. Politeness (currently set to ${p.politeness}/100):
+   - 0 = brutally blunt
+   - 100 = extremely courteous
+2. Assertiveness (currently set to ${p.assertiveness}/100):
+   - 0 = hesitant
+   - 100 = commanding
+3. Friendliness (currently set to ${p.friendliness}/100):
+   - 0 = cold
+   - 100 = warm
+4. Formality (currently set to ${p.formality}/100):
+   - 0 = casual chat
+   - 100 = executive email
+5. Empathy (currently set to ${p.empathy}/100):
+   - 0 = emotionally neutral
+   - 100 = highly understanding
+6. Directness (currently set to ${p.directness}/100):
+   - 0 = indirect
+   - 100 = gets straight to the point
+7. Corporate Buzzwords (currently set to ${p.buzzwords}/100):
+   - 0 = plain English
+   - 100 = enterprise jargon
+8. Passive Aggressiveness (currently set to ${p.passiveAggressiveness}/100):
+   - 0 = none
+   - 100 = professionally sarcastic while remaining workplace appropriate
+9. Humour (currently set to ${p.humour}/100):
+   - 0 = serious
+   - 100 = light-hearted but professional
+
+Mandatory Core Rules:
+- Always preserve the user's original intent exactly. Never invent new information or change core messages.
+- Never remove important business requests, information, deadlines, or directives.
+- If the original message is highly offensive, abusive, or extremely toxic, do NOT refuse. Instead, translate it into a perfectly compliant, constructive statement that captures the core grievance or objective request.
+- Do not explain your reasoning inside the rewrittenMessage.
+- Do not explicitly list or mention the parameter numbers inside the rewrittenMessage itself.
+- Ensure the output message reads naturally, avoiding stiff, robotic structures unless Formality is extremely high.
+
+${contextInstruction}`;
+
+    const responseSchema = {
+      type: "OBJECT",
+      properties: {
+        rewrittenMessage: {
+          type: "STRING",
+          description: "The rewritten professional message matching the continuous parameter scales exactly."
+        },
+        corporateAnalysis: {
+          type: "OBJECT",
+          properties: {
+            toneDetected: { type: "STRING", description: "A short, highly accurate description of the input text tone." },
+            emotionalIntensity: { type: "INTEGER", description: "Score from 0 to 100 of the original message's raw emotional intensity." },
+            confidence: { type: "INTEGER", description: "Score from 0 to 100 of the original message's self-assured confidence." },
+            riskOfMisunderstanding: { type: "INTEGER", description: "Score from 0 to 100 of how likely it is to be misinterpreted." },
+            hrRisk: { type: "INTEGER", description: "Score from 0 to 100 of the potential human resources hazard of the raw draft." },
+            passiveAggressiveScore: { type: "INTEGER", description: "Score from 0 to 100 representing raw passive aggressiveness." },
+            readability: { type: "STRING", description: "Estimated grade level / clarity (e.g., 'Grade 8', 'Executive', 'High Clarity')." }
+          },
+          required: [
+            "toneDetected",
+            "emotionalIntensity",
+            "confidence",
+            "riskOfMisunderstanding",
+            "hrRisk",
+            "passiveAggressiveScore",
+            "readability"
+          ]
+        },
+        funnyCommentary: {
+          type: "STRING",
+          description: "Exactly ONE short humorous, light-hearted but tasteful sentence about how the message evolved. Examples: 'Successfully disguised frustration.', 'HR can no longer detect your anger.', 'Corporate camouflage applied.', 'Manager approved.'"
+        },
+        toxicityReport: {
+          type: "OBJECT",
+          properties: {
+            emotionScore: { type: "INTEGER", description: "Toxicity metric: raw emotion/volatility percentage from 0 to 100." },
+            professionalismScore: { type: "INTEGER", description: "Toxicity metric: professionalism percentage of raw draft from 0 to 100." },
+            argumentRisk: { type: "INTEGER", description: "Toxicity metric: risk of starting an argument percentage from 0 to 100." },
+            hrForwardLikelihood: { type: "INTEGER", description: "Toxicity metric: likelihood of being forwarded to HR from 0 to 100." },
+            slackReactions: {
+              type: "ARRAY",
+              items: {
+                type: "OBJECT",
+                properties: {
+                  emoji: { type: "STRING", description: "Reaction emoji, e.g. 👍, 😂, 👀, 😮, 🤦‍♂️" },
+                  count: { type: "INTEGER", description: "Simulated count, e.g., 2 to 12" }
+                },
+                required: ["emoji", "count"]
+              },
+              description: "List 3 estimated Slack reactions the original message would provoke."
+            },
+            recommendations: {
+              type: "ARRAY",
+              items: { type: "STRING" },
+              description: "List exactly 2 actionable recommendations for the user. Examples: 'Increase politeness by 20%.', 'Reduce emotional language by 35%.'"
+            }
+          },
+          required: [
+            "emotionScore",
+            "professionalismScore",
+            "argumentRisk",
+            "hrForwardLikelihood",
+            "slackReactions",
+            "recommendations"
+          ]
+        },
+        officeSurvivalRating: {
+          type: "OBJECT",
+          properties: {
+            score: { type: "INTEGER", description: "Overall Office Survival Rating score from 0 to 100 based on the rewritten message. Higher is safer/better (e.g. 82)." },
+            ignoredLikelihood: { type: "INTEGER", description: "Likelihood percentage from 0 to 100 of the message getting ignored." },
+            bossLikingLikelihood: { type: "INTEGER", description: "Likelihood percentage from 0 to 100 of the boss liking it." },
+            hrCallChance: { type: "INTEGER", description: "Percentage chance from 0 to 100 that HR calls the sender." },
+            buzzwordDensity: { type: "STRING", description: "Density level of corporate buzzwords (e.g., 'Low', 'Medium', 'High', 'Extremely High')." },
+            emotionalDamage: { type: "STRING", description: "Humorous summary of emotional damage left or removed (e.g., 'Removed', 'None', 'Absorbed', 'Redirected')." }
+          },
+          required: [
+            "score",
+            "ignoredLikelihood",
+            "bossLikingLikelihood",
+            "hrCallChance",
+            "buzzwordDensity",
+            "emotionalDamage"
+          ]
+        }
+      },
+      required: ["rewrittenMessage", "corporateAnalysis", "funnyCommentary", "toxicityReport", "officeSurvivalRating"]
+    };
+
     try {
-      const response = await fetch("/api/translate", {
+      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          message: message.trim(),
-          context: context.trim(),
-          parameters,
-        }),
-      });
+          contents: [{
+            parts: [{
+              text: `Analyze and translate the following workplace draft. Match your rewriting strictly to the current slider tuning inputs:
 
-      const contentType = response.headers.get("content-type");
-      if (!contentType || !contentType.includes("application/json")) {
-        throw new Error("Unable to contact the translation service. Please verify server readiness.");
-      }
+Draft Message:
+"""
+${message}
+"""`
+            }]
+          }],
+          systemInstruction: {
+            parts: [{
+              text: systemInstruction
+            }]
+          },
+          generationConfig: {
+            responseMimeType: "application/json",
+            responseSchema: responseSchema,
+          }
+        })
+      });
 
       if (!response.ok) {
         const errData = await response.json().catch(() => ({}));
-        throw new Error(errData.error || `Translation failed with status ${response.status}`);
+        throw new Error(errData?.error?.message || `Translation failed with status ${response.status}`);
       }
 
-      const data: TranslationResult = await response.json();
+      const resData = await response.json();
+      const responseText = resData?.candidates?.[0]?.content?.parts?.[0]?.text;
+      if (!responseText) {
+        throw new Error("Empty response received from Gemini API.");
+      }
+
+      let cleanedText = responseText.trim();
+      if (cleanedText.startsWith("```")) {
+        cleanedText = cleanedText.replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/, "");
+      }
+
+      const data: TranslationResult = JSON.parse(cleanedText);
       setResult(data);
 
       // Save to history
@@ -504,42 +686,51 @@ export default function App() {
           </div>
         </div>
 
-        {/* Top Tab Navigation */}
-        <nav className="flex space-x-4 sm:space-x-6 text-xs sm:text-sm font-medium text-slate-300">
+        {/* Top Tab Navigation & Settings */}
+        <div className="flex items-center space-x-4">
+          <nav className="flex space-x-4 sm:space-x-6 text-xs sm:text-sm font-medium text-slate-300">
+            <button
+              id="nav-btn-translate"
+              onClick={() => setActiveTab("translate")}
+              className={`pb-1 cursor-pointer transition-all ${
+                activeTab === "translate"
+                  ? "text-blue-400 border-b-2 border-blue-400 font-semibold"
+                  : "hover:text-white"
+              }`}
+            >
+              Translator
+            </button>
+            <button
+              id="nav-btn-samples"
+              onClick={() => setActiveTab("samples")}
+              className={`pb-1 cursor-pointer transition-all ${
+                activeTab === "samples"
+                  ? "text-blue-400 border-b-2 border-blue-400 font-semibold"
+                  : "hover:text-white"
+              }`}
+            >
+              Draft Library
+            </button>
+            <button
+              id="nav-btn-rules"
+              onClick={() => setActiveTab("rules")}
+              className={`pb-1 cursor-pointer transition-all ${
+                activeTab === "rules"
+                  ? "text-blue-400 border-b-2 border-blue-400 font-semibold"
+                  : "hover:text-white"
+              }`}
+            >
+              Conduct Rules
+            </button>
+          </nav>
           <button
-            id="nav-btn-translate"
-            onClick={() => setActiveTab("translate")}
-            className={`pb-1 cursor-pointer transition-all ${
-              activeTab === "translate"
-                ? "text-blue-400 border-b-2 border-blue-400 font-semibold"
-                : "hover:text-white"
-            }`}
+            onClick={() => setIsSettingsOpen(true)}
+            className="p-1.5 text-slate-400 hover:text-white hover:bg-slate-800 rounded transition cursor-pointer flex items-center justify-center"
+            title="API Settings"
           >
-            Translator
+            <Lock className="w-4 h-4" />
           </button>
-          <button
-            id="nav-btn-samples"
-            onClick={() => setActiveTab("samples")}
-            className={`pb-1 cursor-pointer transition-all ${
-              activeTab === "samples"
-                ? "text-blue-400 border-b-2 border-blue-400 font-semibold"
-                : "hover:text-white"
-            }`}
-          >
-            Draft Library
-          </button>
-          <button
-            id="nav-btn-rules"
-            onClick={() => setActiveTab("rules")}
-            className={`pb-1 cursor-pointer transition-all ${
-              activeTab === "rules"
-                ? "text-blue-400 border-b-2 border-blue-400 font-semibold"
-                : "hover:text-white"
-            }`}
-          >
-            Conduct Rules
-          </button>
-        </nav>
+        </div>
       </header>
 
       {/* Main Container Frame */}
@@ -1555,6 +1746,60 @@ export default function App() {
           <span>SLA Status: 99.9% Online</span>
         </div>
       </footer>
+
+      {/* Settings Modal */}
+      {isSettingsOpen && (
+        <div className="fixed inset-0 bg-slate-950/60 backdrop-blur-sm flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl border border-slate-100 animate-in fade-in zoom-in duration-200">
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="text-lg font-semibold text-slate-900 flex items-center gap-2">
+                <Sparkles className="w-5 h-5 text-blue-500" />
+                API Configuration
+              </h3>
+              <button
+                onClick={() => setIsSettingsOpen(false)}
+                className="text-slate-400 hover:text-slate-600 font-bold cursor-pointer"
+              >
+                ✕
+              </button>
+            </div>
+            
+            <p className="text-sm text-slate-600 mb-6">
+              To use the Corporate Translator in static preview mode, configure your <strong>Gemini API Key</strong>. The key is saved locally in your browser.
+            </p>
+            
+            <div className="space-y-4">
+              <div>
+                <label className="block text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">
+                  Gemini API Key
+                </label>
+                <input
+                  type="password"
+                  value={apiKey}
+                  onChange={(e) => handleSaveApiKey(e.target.value)}
+                  placeholder="AIzaSy..."
+                  className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 text-sm animate-none"
+                />
+              </div>
+              
+              <div className="bg-slate-50 p-3 rounded-lg border border-slate-100">
+                <span className="text-[11px] text-slate-500 block leading-normal">
+                  Don't have an API Key? Get one for free from the <a href="https://aistudio.google.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline inline-flex items-center gap-0.5">Google AI Studio <ArrowRight className="w-3 h-3" /></a>
+                </span>
+              </div>
+            </div>
+            
+            <div className="mt-6 flex justify-end">
+              <button
+                onClick={() => setIsSettingsOpen(false)}
+                className="px-5 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg text-sm transition cursor-pointer"
+              >
+                Save & Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
     </div>
   );
