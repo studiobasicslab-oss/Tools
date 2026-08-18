@@ -1,0 +1,6335 @@
+[
+  {
+    "name": "Blind Contour Drawing",
+    "category": "🎨 Arts & Drawing",
+    "oneLiner": "Draw an object without looking at your paper.",
+    "whatIsIt": "You slowly trace the outline of a subject with your eyes while simultaneously drawing it on paper—but you are not allowed to look down at what you are drawing until you're finished. The result is a beautifully chaotic, abstract piece of art.",
+    "whyTryIt": [
+      "It trains you to really *see* an object rather than what you think it looks like.",
+      "It removes the pressure of making something 'good'—it's impossible to make it perfect.",
+      "It's a great warm-up exercise for any creative work."
+    ],
+    "examples": [
+      "Draw your non-dominant hand.",
+      "Draw a messy pile of cables.",
+      "Draw a friend's face."
+    ],
+    "howToStart": {
+      "need": "Paper and a pen.",
+      "firstThing": "Pick an object with complex edges (like a crumpled piece of paper or a plant).",
+      "firstProject": "Set a timer for 2 minutes. Trace the edges of the object with your eyes, letting your hand mimic the movement on the paper. Do not look down!",
+      "next": "Try 'continuous line drawing', where you can look at the paper, but you can't lift your pen."
+    },
+    "cost": {
+      "starting": "₹0 - ₹20",
+      "typical": "Any scrap paper and a pen.",
+      "household": "Yes, use whatever pen/pencil you have lying around.",
+      "optional": "A nice sketchbook and a fine-liner pen (₹200+)."
+    },
+    "time": "5–15 minutes",
+    "difficulty": 1,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Watercolor Postcards",
+    "category": "🎨 Arts & Drawing",
+    "oneLiner": "Paint tiny scenes to send to friends or keep for yourself.",
+    "whatIsIt": "Using a small palette of watercolors to paint A6-sized (or smaller) cards. Since the canvas is small, the commitment is low, and you can finish a painting in one sitting.",
+    "whyTryIt": [
+      "Watercolors are famously unpredictable, which teaches you to let go of control.",
+      "A small canvas means you won't get overwhelmed.",
+      "You end up with a tangible, giftable item."
+    ],
+    "examples": [
+      "A simple sunset over the ocean.",
+      "A loose, abstract floral pattern.",
+      "A silhouette of trees against a colorful sky."
+    ],
+    "howToStart": {
+      "need": "Watercolor paints, a brush, a cup of water, and thick paper (ideally watercolor paper).",
+      "firstThing": "Learn how to do a 'wash' (covering an area with a smooth layer of diluted color).",
+      "firstProject": "Paint a simple gradient sunset. Wet the paper slightly, add blue at the top, pink in the middle, and yellow at the bottom. Let them bleed together.",
+      "next": "Try painting simple botanical shapes over a dried background."
+    },
+    "cost": {
+      "starting": "₹200 - ₹500",
+      "typical": "A student-grade watercolor set and a pad of watercolor paper.",
+      "household": "You might have some old paints from school, but good paper is key.",
+      "optional": "Professional tube paints, 100% cotton paper, and a set of Kolinsky sable brushes (₹2000+)."
+    },
+    "time": "15–30 minutes",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Micro-journaling",
+    "category": "✍️ Writing & Creative Expression",
+    "oneLiner": "Capture your life in just one or two sentences a day.",
+    "whatIsIt": "Writing a tiny amount every day, often focusing on a single moment, thought, or gratitude, rather than trying to recount the entire day's events.",
+    "whyTryIt": [
+      "It builds a habit without the daunting commitment of writing pages of text.",
+      "It forces you to find the most important or memorable part of your day.",
+      "Over time, you build a fascinating record of your life."
+    ],
+    "examples": [
+      "A one-line-a-day journal.",
+      "Writing down one thing that made you laugh.",
+      "Recording a snippet of conversation you overheard."
+    ],
+    "howToStart": {
+      "need": "A notebook and pen, or a notes app on your phone.",
+      "firstThing": "Decide on a format or a prompt (e.g., 'Today I noticed...').",
+      "firstProject": "Write your first entry right now. Just one sentence about something that happened today.",
+      "next": "Set a daily reminder on your phone to keep the habit going."
+    },
+    "cost": {
+      "starting": "₹0 - ₹50",
+      "typical": "Any notebook and pen.",
+      "household": "Yes, any spare notebook.",
+      "optional": "A dedicated 5-year 'One Line A Day' journal (₹1000+)."
+    },
+    "time": "5–15 minutes",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Blackout Poetry",
+    "category": "✍️ Writing & Creative Expression",
+    "oneLiner": "Find poetry hidden in existing text by crossing out words.",
+    "whatIsIt": "You take a printed page of text (like a newspaper article or a page from an old book) and use a marker to cross out most of the words. The words you leave behind form a new poem or statement.",
+    "whyTryIt": [
+      "It's a great way to write poetry if you suffer from blank-page syndrome.",
+      "It feels like solving a puzzle.",
+      "You can create visually striking art alongside the poem."
+    ],
+    "examples": [
+      "A romantic poem hidden in a dry political article.",
+      "A funny sentence found in a serious instruction manual.",
+      "Using patterns to cross out words instead of solid blocks of black."
+    ],
+    "howToStart": {
+      "need": "An old book/newspaper and a thick black marker.",
+      "firstThing": "Scan the page for 'anchor words'—words that stand out to you.",
+      "firstProject": "Read a page, lightly circle 5-10 words that form a cohesive thought, then color everything else black.",
+      "next": "Try incorporating drawings or patterns into the blacked-out areas."
+    },
+    "cost": {
+      "starting": "₹20 - ₹100",
+      "typical": "A black marker and a cheap secondhand book.",
+      "household": "Yes, an old newspaper and any marker will do.",
+      "optional": "Different colored markers or paint pens for the blackout (₹300+)."
+    },
+    "time": "15–30 minutes",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Kalimba (Thumb Piano)",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Play soothing, music-box melodies with your thumbs.",
+    "whatIsIt": "The kalimba is an African instrument featuring staggered metal tines attached to a wooden board or box. You pluck the tines with your thumbs to produce a sweet, resonant sound.",
+    "whyTryIt": [
+      "It's incredibly easy to learn; you can play a simple song on day one.",
+      "It sounds beautiful even if you make a mistake.",
+      "It's highly portable and quiet enough not to annoy neighbors."
+    ],
+    "examples": [
+      "Playing simple pop melodies or lullabies.",
+      "Improvising relaxing, ambient sounds.",
+      "Learning traditional African tunes."
+    ],
+    "howToStart": {
+      "need": "A 17-key kalimba (usually tuned to C major).",
+      "firstThing": "Learn how to hold it comfortably and pluck the tines with the fleshy part of your thumb/nail.",
+      "firstProject": "Look up kalimba tabs (number notation) for a simple song like 'Twinkle Twinkle Little Star' and learn to play it.",
+      "next": "Try playing chords (plucking two or three adjacent tines at once)."
+    },
+    "cost": {
+      "starting": "₹800 - ₹2000",
+      "typical": "A standard 17-key wooden kalimba.",
+      "household": "No, requires the instrument.",
+      "optional": "Chromatic kalimbas or ones made of acrylic/special woods (₹3000+)."
+    },
+    "time": "15–30 minutes",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Beatboxing",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Create drum beats and musical sounds using only your mouth.",
+    "whatIsIt": "Vocal percussion—using your lips, tongue, and voice to mimic drum machines, turntables, and other instruments.",
+    "whyTryIt": [
+      "It requires literally zero equipment.",
+      "You can practice it anywhere (in the shower, while driving).",
+      "It improves your sense of rhythm and breath control."
+    ],
+    "examples": [
+      "The classic 'boots and cats' beat.",
+      "Adding vocal scratches or basslines.",
+      "Beatboxing along to your favorite songs on the radio."
+    ],
+    "howToStart": {
+      "need": "Just your mouth and lungs.",
+      "firstThing": "Learn the three basic sounds: Kick drum (B), Hi-hat (T), and Snare (K).",
+      "firstProject": "Practice the phrase 'Boots and Cats' repeatedly. The 'B' is the kick, the 'ts' is the hi-hat, and the 'C/K' is the snare.",
+      "next": "Look up a beginner beatbox tutorial on YouTube to refine your snare sound."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "Nothing.",
+      "household": "Yes, you already have a mouth.",
+      "optional": "A microphone and a loop station pedal to layer beats (₹10,000+)."
+    },
+    "time": "5–15 minutes",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Kitchen Chemistry (Fermentation)",
+    "category": "🔬 Science & Experiments",
+    "oneLiner": "Harness microbes to create delicious, bubbly foods.",
+    "whatIsIt": "Using wild yeast and bacteria to transform raw ingredients into preserved, probiotic-rich foods like sauerkraut, kombucha, or a ginger bug.",
+    "whyTryIt": [
+      "It's basically a low-effort science experiment you can eat.",
+      "It teaches you about the invisible ecosystem all around us.",
+      "The results are tasty and good for your gut health."
+    ],
+    "examples": [
+      "Making a 'ginger bug' to brew homemade ginger ale.",
+      "Fermenting cabbage into crunchy sauerkraut.",
+      "Growing a SCOBY to make kombucha."
+    ],
+    "howToStart": {
+      "need": "A clean glass jar, water, sugar, ginger, and a cloth cover.",
+      "firstThing": "Understand that cleanliness is key—you want good bacteria, not mold.",
+      "firstProject": "Start a ginger bug! Mix 1 cup water, 1 tbsp grated ginger (skin on), and 1 tbsp sugar in a jar. Cover with cloth. Feed it 1 tbsp ginger and sugar daily until it bubbles (3-5 days).",
+      "next": "Use your ginger bug to ferment fruit juice into a fizzy soda."
+    },
+    "cost": {
+      "starting": "₹50 - ₹200",
+      "typical": "Sugar, ginger, cabbage, salt, and glass jars.",
+      "household": "You likely have everything in your kitchen already.",
+      "optional": "Fermentation weights, airlocks, and specialized crocks (₹1500+)."
+    },
+    "time": "15–30 minutes",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "CSS Art",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Paint pictures using web code instead of a brush.",
+    "whatIsIt": "Using HTML (to create basic shapes) and CSS (to style, color, and position them) to create illustrations, characters, and animations directly in the browser.",
+    "whyTryIt": [
+      "It's a highly creative way to learn a technical skill.",
+      "You don't need any expensive design software.",
+      "It forces you to think mathematically and geometrically about art."
+    ],
+    "examples": [
+      "Drawing a cute animal using overlapping circles and ovals.",
+      "Creating an animated loading spinner.",
+      "Recreating a famous logo using only CSS."
+    ],
+    "howToStart": {
+      "need": "A computer and a web browser.",
+      "firstThing": "Learn basic CSS properties like width, height, background-color, and border-radius.",
+      "firstProject": "Go to CodePen.io. Create a `<div>` and use CSS to turn it into a perfect circle (border-radius: 50%). Then try adding 'eyes' to it to make a smiley face.",
+      "next": "Learn how to use CSS gradients and box-shadows to add depth to your shapes."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "A computer and internet access.",
+      "household": "Yes, assuming you have a laptop/PC.",
+      "optional": "A paid CodePen Pro account for private pens and asset hosting."
+    },
+    "time": "30–60 minutes",
+    "difficulty": 4,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Focaccia Bread Baking",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Bake a dimpled, olive-oil soaked bread with minimal effort.",
+    "whatIsIt": "Focaccia is an Italian flatbread. Unlike sourdough, it's very forgiving, doesn't require kneading, and is mostly a game of waiting for yeast to do its job.",
+    "whyTryIt": [
+      "It requires zero kneading—just mixing and waiting.",
+      "The smell of baking bread will make your house feel incredibly cozy.",
+      "You can 'paint' the top with vegetables and herbs to make it beautiful."
+    ],
+    "examples": [
+      "A classic sea salt and rosemary focaccia.",
+      "A focaccia topped with cherry tomatoes and garlic.",
+      "Creating a 'focaccia garden' with bell peppers, onions, and herbs."
+    ],
+    "howToStart": {
+      "need": "Flour (all-purpose is fine), instant yeast, salt, olive oil, and water.",
+      "firstThing": "Learn that yeast needs warm (not hot!) water to wake up.",
+      "firstProject": "Find a 'no-knead overnight focaccia' recipe. Mix the dough in a bowl, let it sit in the fridge overnight. The next day, press it into an oiled pan, dimple it with your fingers, and bake.",
+      "next": "Experiment with different toppings and infused oils."
+    },
+    "cost": {
+      "starting": "₹100 - ₹300",
+      "typical": "Basic pantry ingredients.",
+      "household": "Yes, mostly.",
+      "optional": "High-quality extra virgin olive oil and flaky sea salt (₹1000+)."
+    },
+    "time": "Several hours",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Origami",
+    "category": "🧶 Crafts & DIY",
+    "oneLiner": "Transform a flat square of paper into a 3D sculpture.",
+    "whatIsIt": "The traditional Japanese art of paper folding. By following a sequence of precise folds, you can create animals, boxes, and geometric shapes without cutting or gluing.",
+    "whyTryIt": [
+      "It teaches extreme patience and precision.",
+      "It is highly meditative and keeps your hands busy.",
+      "You can do it anywhere you can find a piece of paper."
+    ],
+    "examples": [
+      "The classic origami crane.",
+      "A jumping frog that actually hops.",
+      "A modular origami star made from multiple pieces."
+    ],
+    "howToStart": {
+      "need": "Square paper.",
+      "firstThing": "Learn the standard symbols in origami diagrams (valley fold vs. mountain fold).",
+      "firstProject": "Start with an origami paper boat or a simple box. You can use printer paper cut into a square. Watch a YouTube video rather than reading diagrams for your first try.",
+      "next": "Try the iconic origami crane (Orizuru)."
+    },
+    "cost": {
+      "starting": "₹0 - ₹150",
+      "typical": "Any paper cut into a square.",
+      "household": "Yes, printer paper or old magazines work well.",
+      "optional": "Authentic Kami (origami paper) with beautiful patterns (₹500+)."
+    },
+    "time": "15–30 minutes",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Lockpicking",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Solve mechanical puzzles by picking padlocks.",
+    "whatIsIt": "The sport of opening locks without the original key, using specialized picks to manipulate the pins inside the lock cylinder.",
+    "whyTryIt": [
+      "It's a fascinating puzzle that requires touch and spatial awareness.",
+      "It gives you a deep understanding of how everyday security works.",
+      "It feels incredibly rewarding (and a little bit mischievous) when the lock clicks open."
+    ],
+    "examples": [
+      "Opening a clear acrylic practice lock.",
+      "Picking a cheap brass padlock.",
+      "Understanding how different types of pins work."
+    ],
+    "howToStart": {
+      "need": "A basic lockpick set and a practice lock (or a very cheap padlock).",
+      "firstThing": "Understand the 'binding defect'—how applying tension allows you to set one pin at a time.",
+      "firstProject": "Use a tension wrench and a hook pick on a clear practice lock. Watch the pins as you lift them to the sheer line.",
+      "next": "Try picking a real (but cheap) padlock while blindfolded to rely entirely on feel."
+    },
+    "cost": {
+      "starting": "₹800 - ₹2000",
+      "typical": "A beginner pick set and a clear practice lock.",
+      "household": "No, you need the specialized tools (using bobby pins is much harder than movies make it look!).",
+      "optional": "High-end picks and high-security practice locks (₹5000+)."
+    },
+    "time": "15–30 minutes",
+    "difficulty": 4,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Cloud Spotting",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Look up and learn the names and shapes of the sky.",
+    "whatIsIt": "The mindful practice of observing the sky, identifying different types of clouds (cumulus, cirrus, stratus), and understanding what they indicate about the weather.",
+    "whyTryIt": [
+      "It forces you to look up and away from your screens.",
+      "It's completely free and available every single day.",
+      "It connects you to the natural world and weather patterns."
+    ],
+    "examples": [
+      "Identifying a towering Cumulonimbus before a storm.",
+      "Spotting high, wispy Cirrus clouds on a sunny day.",
+      "Looking for pareidolia (seeing shapes/faces in the clouds)."
+    ],
+    "howToStart": {
+      "need": "Your eyes and a view of the sky.",
+      "firstThing": "Learn the three main categories: Cirrus (high/wispy), Cumulus (puffy/cotton), and Stratus (flat/layered).",
+      "firstProject": "Go outside, lie on your back, and just watch the clouds move for 10 minutes. Try to identify their basic type.",
+      "next": "Look up the 'Cloud Appreciation Society' and learn about rare formations like lenticular clouds."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "Nothing.",
+      "household": "Yes.",
+      "optional": "A good pair of sunglasses or a field guide to clouds (₹500+)."
+    },
+    "time": "5–15 minutes",
+    "difficulty": 1,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Indoor Propagating",
+    "category": "🌱 Gardening & Nature",
+    "oneLiner": "Clone your houseplants using just a pair of scissors and water.",
+    "whatIsIt": "Taking a cutting from an existing houseplant (like a Pothos or Monstera) and growing a completely new root system to create a new plant.",
+    "whyTryIt": [
+      "It feels like magic to watch roots grow out of a stem.",
+      "It's the cheapest way to get more houseplants.",
+      "You can easily give the new plants away as gifts."
+    ],
+    "examples": [
+      "Propagating a Golden Pothos vine in a glass jar.",
+      "Growing a new Succulent from a single fallen leaf.",
+      "Dividing a large Snake Plant into smaller pots."
+    ],
+    "howToStart": {
+      "need": "An existing plant (Pothos is best), scissors, and a glass of water.",
+      "firstThing": "Learn what a 'node' is (the little bump on the stem where roots and leaves grow).",
+      "firstProject": "Cut a vine from a Pothos plant, making sure the cutting has at least one node. Place the stem in water (keeping the node submerged but leaves dry). Put it in a bright spot.",
+      "next": "Wait a few weeks, watch the roots grow, and then plant it in soil."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "Scissors, water, and an empty glass jar.",
+      "household": "Yes, assuming you or a friend has a houseplant.",
+      "optional": "Aesthetic glass propagation stations and rooting hormone (₹600+)."
+    },
+    "time": "5–15 minutes",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Geocaching",
+    "category": "🗺️ Travel & Outdoors",
+    "oneLiner": "Join the world's largest real-life treasure hunt.",
+    "whatIsIt": "Using a GPS app to find hidden containers (caches) left by other people in your city, in parks, or out in nature.",
+    "whyTryIt": [
+      "It turns a normal walk into an adventure.",
+      "It takes you to places in your own city you never knew existed.",
+      "It's a great activity to do with friends or kids."
+    ],
+    "examples": [
+      "Finding a magnetic micro-cache hidden behind a street sign.",
+      "Hiking to find a large ammo box filled with tradable trinkets.",
+      "Solving a multi-stage puzzle cache."
+    ],
+    "howToStart": {
+      "need": "A smartphone and a pen.",
+      "firstThing": "Download the official Geocaching app and create a free account.",
+      "firstProject": "Look at the map to find a cache near you with a low difficulty rating. Walk to the location, search the area (look for things out of place!), sign the logbook inside, and put it back exactly as you found it.",
+      "next": "Bring small trinkets to trade for items in larger caches."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "A smartphone with GPS.",
+      "household": "Yes.",
+      "optional": "A Premium Geocaching subscription to unlock more complex caches (₹2500/year)."
+    },
+    "time": "30–60 minutes",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Language Etymology",
+    "category": "🗣️ Languages & Communication",
+    "oneLiner": "Trace the fascinating origins and history of everyday words.",
+    "whatIsIt": "Instead of learning to speak a new language, you study how words in your own language evolved, where they came from, and how their meanings changed over centuries.",
+    "whyTryIt": [
+      "It changes how you see and use the words you speak every day.",
+      "You'll learn interesting trivia to share in conversations.",
+      "It reveals the hidden connections between different languages."
+    ],
+    "examples": [
+      "Discovering that 'salary' comes from the Latin word for salt.",
+      "Learning how 'awful' used to mean 'worthy of awe'.",
+      "Tracing words shared across Indo-European languages."
+    ],
+    "howToStart": {
+      "need": "Internet access.",
+      "firstThing": "Learn the concept of 'cognates' (words in different languages that share a common ancestor).",
+      "firstProject": "Think of 5 random words you used today. Go to etymonline.com and look up their origins. Write down the most surprising one.",
+      "next": "Listen to an etymology podcast like 'The Allusionist' or 'A Way with Words'."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "Internet connection.",
+      "household": "Yes.",
+      "optional": "Books on etymology like 'The Etymologicon' (₹600+)."
+    },
+    "time": "15–30 minutes",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Knots & Paracord Tying",
+    "category": "🛠️ Making & Building",
+    "oneLiner": "Learn useful, strong knots for survival, camping, or crafting.",
+    "whatIsIt": "The practice of tying different types of knots (hitches, bends, loops) using rope or paracord. It blends practicality with geometric satisfaction.",
+    "whyTryIt": [
+      "It is a highly practical skill you will use for the rest of your life.",
+      "Tying and untying knots is very therapeutic and tactile.",
+      "You can make useful items like survival bracelets or lanyards."
+    ],
+    "examples": [
+      "Learning the Bowline (the 'king of knots').",
+      "Tying a taut-line hitch to secure a tent.",
+      "Weaving a cobra-weave paracord bracelet."
+    ],
+    "howToStart": {
+      "need": "A piece of rope, shoelace, or paracord.",
+      "firstThing": "Learn the difference between the working end and the standing part of the rope.",
+      "firstProject": "Use a shoelace to learn the Square Knot (Right over left, left over right) and understand why it's better than the 'granny knot'.",
+      "next": "Download an animated knots app (like Knots 3D) and learn the Bowline."
+    },
+    "cost": {
+      "starting": "₹0 - ₹200",
+      "typical": "A spare shoelace or a bundle of 550 paracord.",
+      "household": "Yes, shoelaces work perfectly for practice.",
+      "optional": "Different colors of paracord, buckles, and specialized knot-tying books (₹1000+)."
+    },
+    "time": "15–30 minutes",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Wood carving",
+    "category": "🛠️ Making & Building",
+    "oneLiner": "Carve objects from wood.",
+    "whatIsIt": "Shaping wood using knives or chisels.",
+    "whyTryIt": [
+      "Relaxing process",
+      "Create durable items"
+    ],
+    "examples": [
+      "Spoons",
+      "Small figures"
+    ],
+    "howToStart": {
+      "need": "Whittling knife and soft wood",
+      "firstThing": "Learn basic cuts",
+      "firstProject": "A simple wooden spoon",
+      "next": "Try detailed figures"
+    },
+    "cost": {
+      "starting": "₹500",
+      "typical": "₹1000",
+      "household": "No",
+      "optional": "Better carving tools"
+    },
+    "time": "1-2 hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Aluminium wire shaping",
+    "category": "🧶 Crafts & DIY",
+    "oneLiner": "Bend wire into art.",
+    "whatIsIt": "Creating sculptures or jewelry from soft wire.",
+    "whyTryIt": [
+      "Inexpensive",
+      "Easy to correct mistakes"
+    ],
+    "examples": [
+      "Wire trees",
+      "Name pendants"
+    ],
+    "howToStart": {
+      "need": "Aluminium wire and pliers",
+      "firstThing": "Practice bending",
+      "firstProject": "A basic wire ring",
+      "next": "3D sculptures"
+    },
+    "cost": {
+      "starting": "₹200",
+      "typical": "₹500",
+      "household": "No",
+      "optional": "Different wire gauges"
+    },
+    "time": "1 hour",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Clay sculpting",
+    "category": "🧶 Crafts & DIY",
+    "oneLiner": "Mold clay into shapes.",
+    "whatIsIt": "Forming figures using air-dry or polymer clay.",
+    "whyTryIt": [
+      "Tactile experience",
+      "Highly expressive"
+    ],
+    "examples": [
+      "Miniature animals",
+      "Decorative bowls"
+    ],
+    "howToStart": {
+      "need": "Air-dry clay",
+      "firstThing": "Knead the clay",
+      "firstProject": "A small pinch pot",
+      "next": "Paint your creations"
+    },
+    "cost": {
+      "starting": "₹300",
+      "typical": "₹600",
+      "household": "No",
+      "optional": "Sculpting tools"
+    },
+    "time": "2 hours",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Pottery",
+    "category": "🧶 Crafts & DIY",
+    "oneLiner": "Create ceramic wares.",
+    "whatIsIt": "Making vessels using a pottery wheel or hand-building.",
+    "whyTryIt": [
+      "Meditative",
+      "Useful end products"
+    ],
+    "examples": [
+      "Mugs",
+      "Vases"
+    ],
+    "howToStart": {
+      "need": "Clay and a local studio",
+      "firstThing": "Take a beginner class",
+      "firstProject": "A simple bowl",
+      "next": "Learn glazing"
+    },
+    "cost": {
+      "starting": "₹2000",
+      "typical": "₹5000",
+      "household": "No",
+      "optional": "Own pottery wheel"
+    },
+    "time": "2-3 hours",
+    "difficulty": 4,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Origami",
+    "category": "🧶 Crafts & DIY",
+    "oneLiner": "The art of paper folding.",
+    "whatIsIt": "Folding paper to create intricate shapes.",
+    "whyTryIt": [
+      "Needs only paper",
+      "Improves focus"
+    ],
+    "examples": [
+      "Paper cranes",
+      "Frogs"
+    ],
+    "howToStart": {
+      "need": "Square paper",
+      "firstThing": "Learn basic folds",
+      "firstProject": "A paper crane",
+      "next": "Modular origami"
+    },
+    "cost": {
+      "starting": "₹100",
+      "typical": "₹300",
+      "household": "Yes",
+      "optional": "Special origami paper"
+    },
+    "time": "30 mins",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Paper quilling",
+    "category": "🧶 Crafts & DIY",
+    "oneLiner": "Roll paper strips into art.",
+    "whatIsIt": "Using rolled paper strips to create designs.",
+    "whyTryIt": [
+      "Beautiful results",
+      "Low cost"
+    ],
+    "examples": [
+      "Greeting cards",
+      "Wall art"
+    ],
+    "howToStart": {
+      "need": "Paper strips and quilling tool",
+      "firstThing": "Learn basic coils",
+      "firstProject": "A simple flower",
+      "next": "Complex mandalas"
+    },
+    "cost": {
+      "starting": "₹200",
+      "typical": "₹500",
+      "household": "No",
+      "optional": "More colors"
+    },
+    "time": "1-2 hours",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Embroidery",
+    "category": "🧶 Crafts & DIY",
+    "oneLiner": "Stitch designs on fabric.",
+    "whatIsIt": "Decorating fabric with needle and colorful thread.",
+    "whyTryIt": [
+      "Relaxing",
+      "Personalizes clothes"
+    ],
+    "examples": [
+      "Floral hoops",
+      "Custom shirts"
+    ],
+    "howToStart": {
+      "need": "Hoop, needle, thread, fabric",
+      "firstThing": "Learn basic stitches",
+      "firstProject": "A simple leaf pattern",
+      "next": "Detailed portraits"
+    },
+    "cost": {
+      "starting": "₹300",
+      "typical": "₹800",
+      "household": "No",
+      "optional": "More thread colors"
+    },
+    "time": "2-3 hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Crochet",
+    "category": "🧶 Crafts & DIY",
+    "oneLiner": "Create fabric with a hooked needle.",
+    "whatIsIt": "Interlocking loops of yarn using a crochet hook.",
+    "whyTryIt": [
+      "Very portable",
+      "Make wearables"
+    ],
+    "examples": [
+      "Scarves",
+      "Amigurumi toys"
+    ],
+    "howToStart": {
+      "need": "Yarn and a crochet hook",
+      "firstThing": "Learn the chain stitch",
+      "firstProject": "A simple dishcloth",
+      "next": "Make a beanie"
+    },
+    "cost": {
+      "starting": "₹200",
+      "typical": "₹600",
+      "household": "No",
+      "optional": "Different yarn types"
+    },
+    "time": "2+ hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Knitting",
+    "category": "🧶 Crafts & DIY",
+    "oneLiner": "Create fabric with two needles.",
+    "whatIsIt": "Forming loops of yarn with knitting needles.",
+    "whyTryIt": [
+      "Cozy results",
+      "Calming rhythm"
+    ],
+    "examples": [
+      "Sweaters",
+      "Socks"
+    ],
+    "howToStart": {
+      "need": "Yarn and two needles",
+      "firstThing": "Learn to cast on",
+      "firstProject": "A simple scarf",
+      "next": "Knit a hat"
+    },
+    "cost": {
+      "starting": "₹300",
+      "typical": "₹800",
+      "household": "No",
+      "optional": "Circular needles"
+    },
+    "time": "2+ hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Friendship bracelet making",
+    "category": "🧶 Crafts & DIY",
+    "oneLiner": "Knot threads into bracelets.",
+    "whatIsIt": "Tying embroidery floss into colorful patterns.",
+    "whyTryIt": [
+      "Fun to share",
+      "Easy to learn"
+    ],
+    "examples": [
+      "Chevron pattern",
+      "Candy stripe"
+    ],
+    "howToStart": {
+      "need": "Embroidery floss",
+      "firstThing": "Learn basic knots",
+      "firstProject": "A candy stripe bracelet",
+      "next": "Alpha patterns"
+    },
+    "cost": {
+      "starting": "₹100",
+      "typical": "₹300",
+      "household": "No",
+      "optional": "Beads"
+    },
+    "time": "1 hour",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Beaded jewellery making",
+    "category": "🧶 Crafts & DIY",
+    "oneLiner": "String beads into accessories.",
+    "whatIsIt": "Creating necklaces and bracelets with beads.",
+    "whyTryIt": [
+      "Wearable art",
+      "Highly customizable"
+    ],
+    "examples": [
+      "Pearl necklaces",
+      "Charm bracelets"
+    ],
+    "howToStart": {
+      "need": "Beads and elastic string",
+      "firstThing": "Plan a pattern",
+      "firstProject": "An elastic bracelet",
+      "next": "Use clasps and wire"
+    },
+    "cost": {
+      "starting": "₹300",
+      "typical": "₹1000",
+      "household": "No",
+      "optional": "Glass or stone beads"
+    },
+    "time": "1 hour",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Resin art",
+    "category": "🎨 Arts & Drawing",
+    "oneLiner": "Pour resin to make shiny crafts.",
+    "whatIsIt": "Mixing epoxy resin to create solid, glossy objects.",
+    "whyTryIt": [
+      "Professional look",
+      "Endless possibilities"
+    ],
+    "examples": [
+      "Coasters",
+      "Keychains"
+    ],
+    "howToStart": {
+      "need": "Epoxy resin kit and molds",
+      "firstThing": "Read safety instructions",
+      "firstProject": "A clear coaster",
+      "next": "Add flowers or glitter"
+    },
+    "cost": {
+      "starting": "₹1000",
+      "typical": "₹2000",
+      "household": "No",
+      "optional": "Different molds"
+    },
+    "time": "1 hour prep, 24 hour cure",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Candle making",
+    "category": "🧶 Crafts & DIY",
+    "oneLiner": "Make your own scented candles.",
+    "whatIsIt": "Melting wax and adding fragrance to create candles.",
+    "whyTryIt": [
+      "Makes great gifts",
+      "Aromatherapy"
+    ],
+    "examples": [
+      "Soy jar candles",
+      "Pillar candles"
+    ],
+    "howToStart": {
+      "need": "Wax, wicks, and a jar",
+      "firstThing": "Melt wax safely",
+      "firstProject": "A basic jar candle",
+      "next": "Mix custom scents"
+    },
+    "cost": {
+      "starting": "₹800",
+      "typical": "₹1500",
+      "household": "No",
+      "optional": "Essential oils"
+    },
+    "time": "1 hour",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Soap making",
+    "category": "🧶 Crafts & DIY",
+    "oneLiner": "Create custom artisan soaps.",
+    "whatIsIt": "Using melt-and-pour or lye to craft soap bars.",
+    "whyTryIt": [
+      "Useful everyday",
+      "Skin-friendly ingredients"
+    ],
+    "examples": [
+      "Oatmeal soap",
+      "Floral soap"
+    ],
+    "howToStart": {
+      "need": "Melt-and-pour soap base",
+      "firstThing": "Melt the base",
+      "firstProject": "A simple scented bar",
+      "next": "Try cold process soap"
+    },
+    "cost": {
+      "starting": "₹500",
+      "typical": "₹1200",
+      "household": "No",
+      "optional": "Botanical add-ins"
+    },
+    "time": "1-2 hours",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Tie-dyeing",
+    "category": "🧶 Crafts & DIY",
+    "oneLiner": "Add colorful patterns to fabric.",
+    "whatIsIt": "Tying and dyeing clothes for vibrant designs.",
+    "whyTryIt": [
+      "Fun and messy",
+      "Revamp old clothes"
+    ],
+    "examples": [
+      "Spiral t-shirts",
+      "Tote bags"
+    ],
+    "howToStart": {
+      "need": "Fabric dye and rubber bands",
+      "firstThing": "Prep your workspace",
+      "firstProject": "A spiral t-shirt",
+      "next": "Try ice dyeing"
+    },
+    "cost": {
+      "starting": "₹400",
+      "typical": "₹800",
+      "household": "No",
+      "optional": "Various dye colors"
+    },
+    "time": "1 hour prep, overnight wait",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Glass painting",
+    "category": "🎨 Arts & Drawing",
+    "oneLiner": "Paint designs on glass.",
+    "whatIsIt": "Using special paints to decorate glass surfaces.",
+    "whyTryIt": [
+      "Looks like stained glass",
+      "Beautiful in sunlight"
+    ],
+    "examples": [
+      "Painted jars",
+      "Window suncatchers"
+    ],
+    "howToStart": {
+      "need": "Glass liner and paints",
+      "firstThing": "Clean the glass",
+      "firstProject": "A simple flat glass piece",
+      "next": "Paint a curved vase"
+    },
+    "cost": {
+      "starting": "₹300",
+      "typical": "₹700",
+      "household": "No",
+      "optional": "High-end glass paints"
+    },
+    "time": "1-2 hours",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Rock painting",
+    "category": "🎨 Arts & Drawing",
+    "oneLiner": "Turn stones into mini canvases.",
+    "whatIsIt": "Painting small, flat rocks with acrylics.",
+    "whyTryIt": [
+      "Very cheap",
+      "Fun to hide for others"
+    ],
+    "examples": [
+      "Mandala stones",
+      "Ladybug rocks"
+    ],
+    "howToStart": {
+      "need": "Smooth rocks and acrylic paint",
+      "firstThing": "Wash the rocks",
+      "firstProject": "A painted ladybug",
+      "next": "Intricate mandalas"
+    },
+    "cost": {
+      "starting": "₹200",
+      "typical": "₹500",
+      "household": "Yes",
+      "optional": "Paint pens"
+    },
+    "time": "1 hour",
+    "difficulty": 1,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Terrarium making",
+    "category": "🌱 Gardening & Nature",
+    "oneLiner": "Build mini indoor gardens.",
+    "whatIsIt": "Creating small ecosystems inside glass containers.",
+    "whyTryIt": [
+      "Brings nature indoors",
+      "Low maintenance"
+    ],
+    "examples": [
+      "Moss terrarium",
+      "Succulent bowl"
+    ],
+    "howToStart": {
+      "need": "Glass jar, pebbles, soil, small plants",
+      "firstThing": "Layer drainage and soil",
+      "firstProject": "A simple moss jar",
+      "next": "Add miniature figures"
+    },
+    "cost": {
+      "starting": "₹500",
+      "typical": "₹1000",
+      "household": "No",
+      "optional": "Exotic plants"
+    },
+    "time": "1 hour",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Miniature making",
+    "category": "🧶 Crafts & DIY",
+    "oneLiner": "Craft tiny versions of things.",
+    "whatIsIt": "Building very small models of everyday items.",
+    "whyTryIt": [
+      "Highly detailed",
+      "Fascinating scale"
+    ],
+    "examples": [
+      "Tiny food",
+      "Miniature rooms"
+    ],
+    "howToStart": {
+      "need": "Tweezers, glue, cardboard",
+      "firstThing": "Study scale",
+      "firstProject": "A tiny book",
+      "next": "A complete mini room"
+    },
+    "cost": {
+      "starting": "₹300",
+      "typical": "₹1500",
+      "household": "Yes",
+      "optional": "Kits"
+    },
+    "time": "2-3 hours",
+    "difficulty": 4,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Diorama building",
+    "category": "🛠️ Making & Building",
+    "oneLiner": "Create 3D miniature scenes.",
+    "whatIsIt": "Constructing small-scale scenes with figures and landscapes.",
+    "whyTryIt": [
+      "Tells a story",
+      "Combines multiple crafts"
+    ],
+    "examples": [
+      "Nature scenes",
+      "Historical battles"
+    ],
+    "howToStart": {
+      "need": "A box, craft materials",
+      "firstThing": "Plan your scene",
+      "firstProject": "A simple shoe-box habitat",
+      "next": "Use realistic fake foliage"
+    },
+    "cost": {
+      "starting": "₹400",
+      "typical": "₹1200",
+      "household": "Yes",
+      "optional": "Model figures"
+    },
+    "time": "3+ hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Model building",
+    "category": "🛠️ Making & Building",
+    "oneLiner": "Assemble scale models.",
+    "whatIsIt": "Putting together kits of cars, planes, or ships.",
+    "whyTryIt": [
+      "Rewarding to finish",
+      "Historical appreciation"
+    ],
+    "examples": [
+      "Model airplanes",
+      "Gundam figures"
+    ],
+    "howToStart": {
+      "need": "A beginner model kit",
+      "firstThing": "Read the instructions",
+      "firstProject": "A snap-together kit",
+      "next": "Glue and paint a detailed model"
+    },
+    "cost": {
+      "starting": "₹800",
+      "typical": "₹2500",
+      "household": "No",
+      "optional": "Airbrush kits"
+    },
+    "time": "3+ hours",
+    "difficulty": 4,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "LEGO building",
+    "category": "🛠️ Making & Building",
+    "oneLiner": "Build with plastic bricks.",
+    "whatIsIt": "Following instructions or free-building with LEGO.",
+    "whyTryIt": [
+      "Nostalgic",
+      "Endless replay value"
+    ],
+    "examples": [
+      "Architecture sets",
+      "Custom spaceships"
+    ],
+    "howToStart": {
+      "need": "A LEGO set",
+      "firstThing": "Sort the pieces",
+      "firstProject": "A small basic set",
+      "next": "Try custom MOCs"
+    },
+    "cost": {
+      "starting": "₹1000",
+      "typical": "₹4000",
+      "household": "No",
+      "optional": "Large collector sets"
+    },
+    "time": "1-4 hours",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Scrapbooking",
+    "category": "✍️ Writing & Creative Expression",
+    "oneLiner": "Preserve memories creatively.",
+    "whatIsIt": "Decorating photo albums with paper and embellishments.",
+    "whyTryIt": [
+      "Keepsake item",
+      "Creative journaling"
+    ],
+    "examples": [
+      "Travel scrapbooks",
+      "Baby books"
+    ],
+    "howToStart": {
+      "need": "Album, photos, glue, paper",
+      "firstThing": "Print some photos",
+      "firstProject": "A one-page layout",
+      "next": "Add 3D embellishments"
+    },
+    "cost": {
+      "starting": "₹500",
+      "typical": "₹1500",
+      "household": "Yes",
+      "optional": "Specialty paper"
+    },
+    "time": "1-2 hours",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Collage making",
+    "category": "🎨 Arts & Drawing",
+    "oneLiner": "Create art from paper cutouts.",
+    "whatIsIt": "Assembling different images and textures into one artwork.",
+    "whyTryIt": [
+      "Very forgiving art",
+      "Uses old materials"
+    ],
+    "examples": [
+      "Magazine collages",
+      "Mixed media art"
+    ],
+    "howToStart": {
+      "need": "Old magazines, scissors, glue",
+      "firstThing": "Cut out interesting images",
+      "firstProject": "A vision board",
+      "next": "Abstract compositions"
+    },
+    "cost": {
+      "starting": "₹100",
+      "typical": "₹300",
+      "household": "Yes",
+      "optional": "Mod Podge"
+    },
+    "time": "1-2 hours",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Pressed flower art",
+    "category": "🎨 Arts & Drawing",
+    "oneLiner": "Preserve nature's beauty.",
+    "whatIsIt": "Flattening and drying flowers to create art.",
+    "whyTryIt": [
+      "Connects with nature",
+      "Elegant results"
+    ],
+    "examples": [
+      "Framed florals",
+      "Bookmarks"
+    ],
+    "howToStart": {
+      "need": "Fresh flowers and heavy books",
+      "firstThing": "Pick small flowers",
+      "firstProject": "A pressed flower bookmark",
+      "next": "Frame a large arrangement"
+    },
+    "cost": {
+      "starting": "₹100",
+      "typical": "₹300",
+      "household": "Yes",
+      "optional": "A dedicated flower press"
+    },
+    "time": "30 mins prep, weeks to dry",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Flower arranging",
+    "category": "🌱 Gardening & Nature",
+    "oneLiner": "Design floral displays.",
+    "whatIsIt": "Arranging cut flowers into pleasing compositions.",
+    "whyTryIt": [
+      "Brightens up a room",
+      "Teaches color theory"
+    ],
+    "examples": [
+      "Centerpieces",
+      "Bouquets"
+    ],
+    "howToStart": {
+      "need": "Flowers, vase, shears",
+      "firstThing": "Trim the stems",
+      "firstProject": "A simple vase arrangement",
+      "next": "Try Ikebana styles"
+    },
+    "cost": {
+      "starting": "₹500",
+      "typical": "₹1500",
+      "household": "No",
+      "optional": "Floral foam or frogs"
+    },
+    "time": "1 hour",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Making bookmarks",
+    "category": "✍️ Writing & Creative Expression",
+    "oneLiner": "Craft custom page holders.",
+    "whatIsIt": "Creating personalized bookmarks using paper, watercolor, or crafts.",
+    "whyTryIt": [
+      "Quick projects",
+      "Great for readers"
+    ],
+    "examples": [
+      "Watercolor bookmarks",
+      "Tasseled bookmarks"
+    ],
+    "howToStart": {
+      "need": "Thick paper and art supplies",
+      "firstThing": "Cut paper to size",
+      "firstProject": "A simple painted bookmark",
+      "next": "Laminate them"
+    },
+    "cost": {
+      "starting": "₹100",
+      "typical": "₹300",
+      "household": "Yes",
+      "optional": "Laminator"
+    },
+    "time": "30 mins",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Making greeting cards",
+    "category": "🧶 Crafts & DIY",
+    "oneLiner": "Create handmade cards.",
+    "whatIsIt": "Designing personal cards for birthdays and holidays.",
+    "whyTryIt": [
+      "Very personal",
+      "Cheaper than store-bought"
+    ],
+    "examples": [
+      "Pop-up cards",
+      "Watercolor cards"
+    ],
+    "howToStart": {
+      "need": "Cardstock, markers, glue",
+      "firstThing": "Fold the cardstock",
+      "firstProject": "A simple birthday card",
+      "next": "Learn pop-up mechanics"
+    },
+    "cost": {
+      "starting": "₹200",
+      "typical": "₹500",
+      "household": "Yes",
+      "optional": "Stamps and ink"
+    },
+    "time": "1 hour",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "DIY room décor",
+    "category": "🧶 Crafts & DIY",
+    "oneLiner": "Craft items for your home.",
+    "whatIsIt": "Creating personal decorations for your living space.",
+    "whyTryIt": [
+      "Customizes your space",
+      "Saves money"
+    ],
+    "examples": [
+      "Macrame wall hangings",
+      "Painted mirrors"
+    ],
+    "howToStart": {
+      "need": "Basic craft supplies",
+      "firstThing": "Identify an empty space",
+      "firstProject": "A photo hanging display",
+      "next": "Build small shelves"
+    },
+    "cost": {
+      "starting": "₹300",
+      "typical": "₹1000",
+      "household": "Yes",
+      "optional": "Power tools"
+    },
+    "time": "2-4 hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Furniture upcycling",
+    "category": "🗺️ Travel & Outdoors",
+    "oneLiner": "Give old furniture new life.",
+    "whatIsIt": "Refinishing or repainting old or used furniture.",
+    "whyTryIt": [
+      "Eco-friendly",
+      "Very satisfying transformations"
+    ],
+    "examples": [
+      "Chalk painted dressers",
+      "Reupholstered chairs"
+    ],
+    "howToStart": {
+      "need": "Sandpaper and paint",
+      "firstThing": "Find a cheap old piece",
+      "firstProject": "Repaint a small side table",
+      "next": "Try reupholstering"
+    },
+    "cost": {
+      "starting": "₹1000",
+      "typical": "₹3000",
+      "household": "No",
+      "optional": "Orbital sander"
+    },
+    "time": "4+ hours",
+    "difficulty": 4,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Decorating your room",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Personalise your living space to reflect your style.",
+    "whatIsIt": "Choosing and arranging decor items to enhance a room's aesthetic.",
+    "whyTryIt": [
+      "Boosts your mood",
+      "Expresses your creativity"
+    ],
+    "examples": [
+      "Hanging posters",
+      "Adding fairy lights"
+    ],
+    "howToStart": {
+      "need": "Inspiration, basic decor items",
+      "firstThing": "Pick a theme or colour palette",
+      "firstProject": "Decorate a single wall or shelf",
+      "next": "Tackle larger areas like bedding or rugs"
+    },
+    "cost": {
+      "starting": "₹500",
+      "typical": "Variable",
+      "household": "Yes",
+      "optional": "Premium decor pieces"
+    },
+    "time": "A few hours to days",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Rearranging furniture",
+    "category": "🛠️ Making & Building",
+    "oneLiner": "Change the layout of your room for a fresh feel.",
+    "whatIsIt": "Moving existing furniture to optimise space and flow.",
+    "whyTryIt": [
+      "Refreshes the space instantly",
+      "Costs nothing"
+    ],
+    "examples": [
+      "Moving the bed",
+      "Creating an open center"
+    ],
+    "howToStart": {
+      "need": "Measuring tape, muscle",
+      "firstThing": "Measure your room and furniture",
+      "firstProject": "Sketch a new layout plan",
+      "next": "Execute the move safely"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "None"
+    },
+    "time": "A few hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Together"
+  },
+  {
+    "name": "Building a cosy reading corner",
+    "category": "✍️ Writing & Creative Expression",
+    "oneLiner": "Create a dedicated, comfortable spot just for reading.",
+    "whatIsIt": "Assembling seating, lighting, and books in a quiet nook.",
+    "whyTryIt": [
+      "Encourages more reading",
+      "Provides a relaxing escape"
+    ],
+    "examples": [
+      "Window seat nook",
+      "Bean bag corner"
+    ],
+    "howToStart": {
+      "need": "Comfortable chair, good light",
+      "firstThing": "Find a quiet corner",
+      "firstProject": "Set up a chair and a lamp",
+      "next": "Add cushions and a small side table"
+    },
+    "cost": {
+      "starting": "₹1000",
+      "typical": "₹3000",
+      "household": "Yes",
+      "optional": "Expensive armchair"
+    },
+    "time": "An afternoon",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Making a vision board",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Visualise your goals using images and quotes.",
+    "whatIsIt": "A collage of inspiring images that represent your aspirations.",
+    "whyTryIt": [
+      "Clarifies your goals",
+      "Serves as daily motivation"
+    ],
+    "examples": [
+      "Career goals board",
+      "Travel aspirations board"
+    ],
+    "howToStart": {
+      "need": "Board, magazines/printouts, glue",
+      "firstThing": "Define your goals",
+      "firstProject": "Create a board for the upcoming year",
+      "next": "Update it periodically"
+    },
+    "cost": {
+      "starting": "₹200",
+      "typical": "₹500",
+      "household": "Yes",
+      "optional": "Premium board"
+    },
+    "time": "A few hours",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Creating a personal cookbook",
+    "category": "✍️ Writing & Creative Expression",
+    "oneLiner": "Compile your favourite recipes into one custom book.",
+    "whatIsIt": "Writing down and organising recipes you love to cook.",
+    "whyTryIt": [
+      "Preserves family recipes",
+      "Makes meal planning easier"
+    ],
+    "examples": [
+      "Digital recipe Notion page",
+      "Handwritten notebook"
+    ],
+    "howToStart": {
+      "need": "Notebook or digital app",
+      "firstThing": "Gather your go-to recipes",
+      "firstProject": "Write down top 10 meals",
+      "next": "Add photos and categorise them"
+    },
+    "cost": {
+      "starting": "₹100",
+      "typical": "₹300",
+      "household": "Yes",
+      "optional": "Custom printed book"
+    },
+    "time": "Ongoing",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Organising a bookshelf",
+    "category": "✍️ Writing & Creative Expression",
+    "oneLiner": "Arrange your books systematically or aesthetically.",
+    "whatIsIt": "Sorting books by colour, genre, or author for better access and looks.",
+    "whyTryIt": [
+      "Makes finding books easier",
+      "Beautifies the room"
+    ],
+    "examples": [
+      "Rainbow colour coding",
+      "Alphabetical by author"
+    ],
+    "howToStart": {
+      "need": "Books, a shelf",
+      "firstThing": "Take all books off the shelf",
+      "firstProject": "Sort them into your chosen categories",
+      "next": "Restack them neatly"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "New bookends"
+    },
+    "time": "An afternoon",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Bullet journalling",
+    "category": "✍️ Writing & Creative Expression",
+    "oneLiner": "Organise your life with a customisable dot-grid notebook.",
+    "whatIsIt": "A system for tracking tasks, habits, and thoughts in one place.",
+    "whyTryIt": [
+      "Improves productivity",
+      "Encourages mindfulness"
+    ],
+    "examples": [
+      "Habit tracking",
+      "Daily logging"
+    ],
+    "howToStart": {
+      "need": "Notebook, pen",
+      "firstThing": "Learn the basic symbols (keys)",
+      "firstProject": "Set up your first monthly log",
+      "next": "Experiment with weekly spreads"
+    },
+    "cost": {
+      "starting": "₹300",
+      "typical": "₹800",
+      "household": "Yes",
+      "optional": "Specialty markers"
+    },
+    "time": "Daily 15 mins",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Making a commonplace book",
+    "category": "✍️ Writing & Creative Expression",
+    "oneLiner": "Compile quotes, ideas, and observations into a single journal.",
+    "whatIsIt": "A central repository for ideas, quotes, and knowledge you want to remember.",
+    "whyTryIt": [
+      "Fosters deep thinking",
+      "Great reference for writing"
+    ],
+    "examples": [
+      "Quotes collection",
+      "Reading notes"
+    ],
+    "howToStart": {
+      "need": "Notebook, pen",
+      "firstThing": "Start reading with a pen in hand",
+      "firstProject": "Copy a meaningful quote",
+      "next": "Index your entries by topic"
+    },
+    "cost": {
+      "starting": "₹100",
+      "typical": "₹300",
+      "household": "Yes",
+      "optional": "High-quality leather journal"
+    },
+    "time": "Ongoing",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Creating a personal archive",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Organise and preserve your digital and physical memories.",
+    "whatIsIt": "Systematically storing photos, documents, and mementos.",
+    "whyTryIt": [
+      "Safeguards memories",
+      "Makes finding old files easy"
+    ],
+    "examples": [
+      "Digital photo backup",
+      "Memory box for letters"
+    ],
+    "howToStart": {
+      "need": "Hard drive or storage boxes",
+      "firstThing": "Gather items in one place",
+      "firstProject": "Organise digital photos by year",
+      "next": "Create a physical keepsake box"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹2000",
+      "household": "Yes",
+      "optional": "Large external hard drives"
+    },
+    "time": "Weeks to months",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Collecting interesting objects",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Curate a collection of items that fascinate you.",
+    "whatIsIt": "Gathering and displaying specific items like stamps, rocks, or vintage cameras.",
+    "whyTryIt": [
+      "Provides the thrill of the hunt",
+      "Reflects personal interests"
+    ],
+    "examples": [
+      "Coin collecting",
+      "Seaglass gathering"
+    ],
+    "howToStart": {
+      "need": "Storage/display space",
+      "firstThing": "Decide what you want to collect",
+      "firstProject": "Find your first three items",
+      "next": "Research item history and values"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "Variable",
+      "household": "Yes",
+      "optional": "Rare collector items"
+    },
+    "time": "Ongoing",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Making playlists",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Curate music collections for different moods and occasions.",
+    "whatIsIt": "Selecting and ordering songs on platforms like Spotify or Apple Music.",
+    "whyTryIt": [
+      "Sets the perfect vibe",
+      "Discovers new artists"
+    ],
+    "examples": [
+      "Workout mix",
+      "Rainy day jazz"
+    ],
+    "howToStart": {
+      "need": "Music streaming app",
+      "firstThing": "Pick a theme or mood",
+      "firstProject": "Create a 20-song playlist",
+      "next": "Design custom cover art"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹100/mo",
+      "household": "Yes",
+      "optional": "Premium subscription"
+    },
+    "time": "A few hours",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Curating a movie list",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Compile and track films you want to watch or have loved.",
+    "whatIsIt": "Creating structured lists of movies using apps like Letterboxd or a notebook.",
+    "whyTryIt": [
+      "Solves the 'what to watch' problem",
+      "Deepens film appreciation"
+    ],
+    "examples": [
+      "80s Sci-Fi classics",
+      "Best coming-of-age films"
+    ],
+    "howToStart": {
+      "need": "App (Letterboxd) or notebook",
+      "firstThing": "List your all-time favourites",
+      "firstProject": "Make a watchlist for the month",
+      "next": "Write short reviews for each"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Streaming subscriptions"
+    },
+    "time": "Ongoing",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Creating themed Pinterest boards",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Visually organise ideas and inspiration online.",
+    "whatIsIt": "Pinning images to categorised boards for future reference or aesthetics.",
+    "whyTryIt": [
+      "Sparks creativity",
+      "Helps plan projects visually"
+    ],
+    "examples": [
+      "Dream kitchen ideas",
+      "Autumn fashion"
+    ],
+    "howToStart": {
+      "need": "Pinterest account",
+      "firstThing": "Think of a topic you love",
+      "firstProject": "Create a board and add 50 pins",
+      "next": "Organise into sections"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "None"
+    },
+    "time": "Ongoing",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Learning interior styling",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Study how to make spaces look cohesive and beautiful.",
+    "whatIsIt": "Understanding design principles like scale, colour, and texture.",
+    "whyTryIt": [
+      "Transforms your living space",
+      "Develops a keen eye for design"
+    ],
+    "examples": [
+      "Styling a coffee table",
+      "Mastering colour theory in a room"
+    ],
+    "howToStart": {
+      "need": "Design blogs/books",
+      "firstThing": "Identify your design style",
+      "firstProject": "Style a single surface (like a mantle)",
+      "next": "Plan a room makeover on paper"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹1000",
+      "household": "Yes",
+      "optional": "Design courses"
+    },
+    "time": "Ongoing",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Thrift flipping",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Upcycle second-hand items into something new and trendy.",
+    "whatIsIt": "Buying cheap thrifted goods and modifying them to improve their value or look.",
+    "whyTryIt": [
+      "Eco-friendly",
+      "Highly creative and potentially profitable"
+    ],
+    "examples": [
+      "Painting old furniture",
+      "Tailoring an oversized shirt"
+    ],
+    "howToStart": {
+      "need": "Thrifted item, basic tools",
+      "firstThing": "Visit a local thrift store",
+      "firstProject": "Flip a small item like a picture frame",
+      "next": "Tackle a piece of furniture"
+    },
+    "cost": {
+      "starting": "₹500",
+      "typical": "₹1500",
+      "household": "No",
+      "optional": "Power tools"
+    },
+    "time": "A few hours to days",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Clothing customisation",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Personalise your clothes with embroidery, paint, or patches.",
+    "whatIsIt": "Adding unique touches to existing garments to make them your own.",
+    "whyTryIt": [
+      "Revives old clothes",
+      "Ensures your style is unique"
+    ],
+    "examples": [
+      "Painting denim jackets",
+      "Embroidering a t-shirt"
+    ],
+    "howToStart": {
+      "need": "Old clothes, fabric paint/needle",
+      "firstThing": "Decide on a simple design",
+      "firstProject": "Iron-on patches to a jacket",
+      "next": "Try basic embroidery on a pocket"
+    },
+    "cost": {
+      "starting": "₹200",
+      "typical": "₹500",
+      "household": "Yes",
+      "optional": "High-end fabric paints"
+    },
+    "time": "A few hours",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Sewing your own clothes",
+    "category": "🧶 Crafts & DIY",
+    "oneLiner": "Create garments from scratch using fabric and patterns.",
+    "whatIsIt": "Measuring, cutting, and stitching fabric to make wearable clothing.",
+    "whyTryIt": [
+      "Perfect custom fit",
+      "Reduces fast fashion reliance"
+    ],
+    "examples": [
+      "Making a simple skirt",
+      "Sewing a tote bag"
+    ],
+    "howToStart": {
+      "need": "Sewing machine, fabric, thread",
+      "firstThing": "Learn to thread the machine",
+      "firstProject": "Sew a basic square pillowcase",
+      "next": "Follow a simple clothing pattern"
+    },
+    "cost": {
+      "starting": "₹5000",
+      "typical": "₹10000",
+      "household": "No",
+      "optional": "Expensive fabrics"
+    },
+    "time": "Several hours per project",
+    "difficulty": 4,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Making a capsule wardrobe",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Curate a minimalist closet of versatile, matching items.",
+    "whatIsIt": "Selecting a small number of essential clothing items that all work together.",
+    "whyTryIt": [
+      "Makes getting dressed easier",
+      "Reduces clothing clutter"
+    ],
+    "examples": [
+      "A 30-piece seasonal wardrobe",
+      "All-neutral work outfits"
+    ],
+    "howToStart": {
+      "need": "Your existing clothes",
+      "firstThing": "Declutter unworn items",
+      "firstProject": "Pick a base colour palette",
+      "next": "Identify and buy missing essentials"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹5000",
+      "household": "Yes",
+      "optional": "High-quality staple pieces"
+    },
+    "time": "A weekend",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "DIY storage projects",
+    "category": "🧶 Crafts & DIY",
+    "oneLiner": "Build or craft your own practical storage solutions.",
+    "whatIsIt": "Creating boxes, shelves, or organisers to tidy up your space.",
+    "whyTryIt": [
+      "Maximises space",
+      "Custom-fit for your needs"
+    ],
+    "examples": [
+      "Making cardboard drawer dividers",
+      "Building a simple wooden crate"
+    ],
+    "howToStart": {
+      "need": "Cardboard, glue, or basic wood tools",
+      "firstThing": "Identify a messy area",
+      "firstProject": "Make drawer dividers from old boxes",
+      "next": "Build a small floating shelf"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹1000",
+      "household": "Yes",
+      "optional": "Woodworking tools"
+    },
+    "time": "An afternoon",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Making a photo wall",
+    "category": "🎨 Arts & Drawing",
+    "oneLiner": "Create a visual display of printed photos and art.",
+    "whatIsIt": "Curating and arranging photos on a wall in an aesthetic layout.",
+    "whyTryIt": [
+      "Personalises your room",
+      "Surrounds you with good memories"
+    ],
+    "examples": [
+      "Grid of polaroids",
+      "Eclectic gallery wall of frames"
+    ],
+    "howToStart": {
+      "need": "Printed photos, blu-tack or frames",
+      "firstThing": "Select your favourite images",
+      "firstProject": "Arrange a small grid above your desk",
+      "next": "Plan a complex gallery wall"
+    },
+    "cost": {
+      "starting": "₹200",
+      "typical": "₹1500",
+      "household": "Yes",
+      "optional": "Custom framing"
+    },
+    "time": "A few hours",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Singing",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Use your voice as an instrument.",
+    "whatIsIt": "Creating musical sounds with your vocal cords.",
+    "whyTryIt": [
+      "Improves breathing",
+      "Expresses emotion naturally"
+    ],
+    "examples": [
+      "Choir",
+      "Shower singing"
+    ],
+    "howToStart": {
+      "need": "Your voice",
+      "firstThing": "Sing along to a favorite song",
+      "firstProject": "Learn one song perfectly",
+      "next": "Join a local choir"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Vocal lessons"
+    },
+    "time": "Anytime",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Dancing",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Move your body to the rhythm.",
+    "whatIsIt": "Expressive physical movement to music.",
+    "whyTryIt": [
+      "Great cardio",
+      "Boosts mood"
+    ],
+    "examples": [
+      "Hip hop",
+      "Salsa"
+    ],
+    "howToStart": {
+      "need": "Comfortable clothes",
+      "firstThing": "Follow a YouTube dance tutorial",
+      "firstProject": "Learn a short routine",
+      "next": "Take a local class"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Dance shoes"
+    },
+    "time": "20-60 mins",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Zumba",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Dance fitness to energetic music.",
+    "whatIsIt": "Aerobic workout mixing Latin and international music with dance moves.",
+    "whyTryIt": [
+      "Fun way to burn calories",
+      "No partner needed"
+    ],
+    "examples": [
+      "Home workouts",
+      "Gym classes"
+    ],
+    "howToStart": {
+      "need": "Sneakers",
+      "firstThing": "Try a free Zumba video online",
+      "firstProject": "Complete a 30-minute session",
+      "next": "Join a weekly class"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹500-1500/month",
+      "household": "Yes",
+      "optional": "Gym membership"
+    },
+    "time": "45-60 mins",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Learning guitar",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Play the world's most popular string instrument.",
+    "whatIsIt": "Plucking or strumming strings to create melodies and chords.",
+    "whyTryIt": [
+      "Highly versatile",
+      "Easy to sing along with"
+    ],
+    "examples": [
+      "Acoustic",
+      "Electric"
+    ],
+    "howToStart": {
+      "need": "A guitar",
+      "firstThing": "Learn your first 3 chords",
+      "firstProject": "Play a simple song",
+      "next": "Learn fingerpicking"
+    },
+    "cost": {
+      "starting": "₹3000",
+      "typical": "₹0",
+      "household": "No",
+      "optional": "Picks, strings, lessons"
+    },
+    "time": "30 mins/day",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Learning keyboard",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Master melodies and harmonies on keys.",
+    "whatIsIt": "Playing music by pressing black and white keys.",
+    "whyTryIt": [
+      "Foundation for all music",
+      "Can sound like any instrument"
+    ],
+    "examples": [
+      "Piano",
+      "Synthesizer"
+    ],
+    "howToStart": {
+      "need": "A keyboard",
+      "firstThing": "Learn the C major scale",
+      "firstProject": "Play 'Ode to Joy'",
+      "next": "Learn chords"
+    },
+    "cost": {
+      "starting": "₹4000",
+      "typical": "₹0",
+      "household": "No",
+      "optional": "Stand, sustain pedal"
+    },
+    "time": "30 mins/day",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Learning drums",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Be the heartbeat of the music.",
+    "whatIsIt": "Striking drums and cymbals to maintain rhythm.",
+    "whyTryIt": [
+      "Great stress relief",
+      "Improves coordination"
+    ],
+    "examples": [
+      "Drum kit",
+      "Hand drums"
+    ],
+    "howToStart": {
+      "need": "Drumsticks",
+      "firstThing": "Learn a basic rock beat",
+      "firstProject": "Play along to a simple song",
+      "next": "Learn drum fills"
+    },
+    "cost": {
+      "starting": "₹500",
+      "typical": "₹0",
+      "household": "No",
+      "optional": "Electronic drum kit"
+    },
+    "time": "30 mins/day",
+    "difficulty": 4,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Learning ukulele",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Play cheerful tunes on a tiny guitar.",
+    "whatIsIt": "Strumming a small, four-stringed Hawaiian instrument.",
+    "whyTryIt": [
+      "Easier than guitar",
+      "Highly portable"
+    ],
+    "examples": [
+      "Soprano uke",
+      "Concert uke"
+    ],
+    "howToStart": {
+      "need": "A ukulele",
+      "firstThing": "Learn the C, F, and G chords",
+      "firstProject": "Play 'Somewhere Over the Rainbow'",
+      "next": "Learn different strumming patterns"
+    },
+    "cost": {
+      "starting": "₹1500",
+      "typical": "₹0",
+      "household": "No",
+      "optional": "Tuner, case"
+    },
+    "time": "20 mins/day",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Learning music theory",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Understand the language of music.",
+    "whatIsIt": "Studying how music works, including scales, chords, and rhythm.",
+    "whyTryIt": [
+      "Improves playing",
+      "Helps in composing"
+    ],
+    "examples": [
+      "Reading sheet music",
+      "Chord progressions"
+    ],
+    "howToStart": {
+      "need": "Notebook and piano app",
+      "firstThing": "Learn the notes on a piano",
+      "firstProject": "Write a simple melody",
+      "next": "Analyze your favorite song"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Textbooks"
+    },
+    "time": "20-40 mins",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Making beats",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Produce your own instrumental tracks.",
+    "whatIsIt": "Using software to arrange drums, bass, and melodies.",
+    "whyTryIt": [
+      "Creative freedom",
+      "No physical instruments needed"
+    ],
+    "examples": [
+      "Hip hop beats",
+      "EDM production"
+    ],
+    "howToStart": {
+      "need": "Computer and DAW software",
+      "firstThing": "Program a basic drum loop",
+      "firstProject": "Create a 1-minute beat",
+      "next": "Add a bassline"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "MIDI controller, sample packs"
+    },
+    "time": "1-2 hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "DJing",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Mix tracks to keep the party moving.",
+    "whatIsIt": "Blending recorded music seamlessly for an audience.",
+    "whyTryIt": [
+      "Discover new music",
+      "Great for parties"
+    ],
+    "examples": [
+      "Club mixing",
+      "Turntablism"
+    ],
+    "howToStart": {
+      "need": "Laptop and DJ software",
+      "firstThing": "Learn to beatmatch two songs",
+      "firstProject": "Record a 15-minute mix",
+      "next": "Perform for friends"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "DJ controller, headphones"
+    },
+    "time": "1-2 hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Writing songs",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Turn your thoughts into lyrics and melodies.",
+    "whatIsIt": "Composing the words and music for a song.",
+    "whyTryIt": [
+      "Emotional outlet",
+      "Highly creative"
+    ],
+    "examples": [
+      "Singer-songwriter",
+      "Rap lyrics"
+    ],
+    "howToStart": {
+      "need": "Pen and paper",
+      "firstThing": "Write a 4-line chorus",
+      "firstProject": "Complete a song with verse and chorus",
+      "next": "Record a demo on your phone"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Instrument, recording gear"
+    },
+    "time": "30-60 mins",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Karaoke",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Sing your heart out to popular backing tracks.",
+    "whatIsIt": "Singing along to recorded music with lyrics on screen.",
+    "whyTryIt": [
+      "Great social activity",
+      "Builds confidence"
+    ],
+    "examples": [
+      "Karaoke bars",
+      "Home karaoke apps"
+    ],
+    "howToStart": {
+      "need": "Smartphone or computer",
+      "firstThing": "Sing a song on YouTube",
+      "firstProject": "Host a home karaoke night",
+      "next": "Go to a karaoke bar"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹500/night",
+      "household": "Yes",
+      "optional": "Home karaoke machine"
+    },
+    "time": "1-2 hours",
+    "difficulty": 1,
+    "aloneOrTogether": "Together"
+  },
+  {
+    "name": "Acting",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Step into someone else's shoes.",
+    "whatIsIt": "Performing as a character in plays, films, or sketches.",
+    "whyTryIt": [
+      "Builds empathy",
+      "Improves public speaking"
+    ],
+    "examples": [
+      "Community theater",
+      "Short films"
+    ],
+    "howToStart": {
+      "need": "A script",
+      "firstThing": "Memorize a short monologue",
+      "firstProject": "Perform for a camera",
+      "next": "Audition for a local play"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Acting classes"
+    },
+    "time": "1-2 hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Improv theatre",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Make up scenes on the spot.",
+    "whatIsIt": "Unscripted acting where the plot is created in the moment.",
+    "whyTryIt": [
+      "Boosts quick thinking",
+      "Lots of laughs"
+    ],
+    "examples": [
+      "Comedy games",
+      "Long-form scenes"
+    ],
+    "howToStart": {
+      "need": "A partner or group",
+      "firstThing": "Play the 'Yes, and...' game",
+      "firstProject": "Do a 2-minute unscripted scene",
+      "next": "Take an improv workshop"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Workshops or class fees"
+    },
+    "time": "1-2 hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Together"
+  },
+  {
+    "name": "Stand-up comedy",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Make an audience laugh with your jokes.",
+    "whatIsIt": "Performing comedic routines live on stage.",
+    "whyTryIt": [
+      "Builds immense confidence",
+      "Helps process life humorously"
+    ],
+    "examples": [
+      "Open mics",
+      "Writing jokes"
+    ],
+    "howToStart": {
+      "need": "Notebook",
+      "firstThing": "Write down a funny observation",
+      "firstProject": "Write a 3-minute set",
+      "next": "Perform at an open mic"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Travel to venues"
+    },
+    "time": "1-2 hours",
+    "difficulty": 4,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Learning magic tricks",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Amaze people with illusions.",
+    "whatIsIt": "Performing sleight of hand or psychological tricks.",
+    "whyTryIt": [
+      "Great icebreaker",
+      "Improves dexterity"
+    ],
+    "examples": [
+      "Card tricks",
+      "Coin vanishes"
+    ],
+    "howToStart": {
+      "need": "Deck of cards",
+      "firstThing": "Learn a basic card force",
+      "firstProject": "Perform one trick smoothly for a friend",
+      "next": "Learn a coin trick"
+    },
+    "cost": {
+      "starting": "₹100",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Prop kits, books"
+    },
+    "time": "30-60 mins",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Puppetry",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Bring inanimate objects to life.",
+    "whatIsIt": "Manipulating puppets to tell a story or entertain.",
+    "whyTryIt": [
+      "Fun for kids",
+      "Sparks imagination"
+    ],
+    "examples": [
+      "Sock puppets",
+      "Shadow puppets"
+    ],
+    "howToStart": {
+      "need": "A sock or paper bag",
+      "firstThing": "Make a simple hand puppet",
+      "firstProject": "Put on a 5-minute show",
+      "next": "Build a small puppet theater"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Professional puppets"
+    },
+    "time": "1-2 hours",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Whistling",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Make music with your lips.",
+    "whatIsIt": "Producing musical notes by forcing breath through a small opening.",
+    "whyTryIt": [
+      "Can do it anywhere",
+      "Requires zero equipment"
+    ],
+    "examples": [
+      "Lip whistling",
+      "Finger whistling"
+    ],
+    "howToStart": {
+      "need": "Your mouth",
+      "firstThing": "Learn to pucker and blow to make a sound",
+      "firstProject": "Whistle a simple melody",
+      "next": "Learn to whistle with your fingers"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "None"
+    },
+    "time": "Anytime",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Beatboxing",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Be a human drum machine.",
+    "whatIsIt": "Using your vocal tract to mimic drum beats and rhythms.",
+    "whyTryIt": [
+      "Impressive party trick",
+      "Develops rhythmic timing"
+    ],
+    "examples": [
+      "Drum mimicry",
+      "Vocal scratching"
+    ],
+    "howToStart": {
+      "need": "Your mouth",
+      "firstThing": "Learn the basic kick, hi-hat, and snare sounds",
+      "firstProject": "Hold a basic 4/4 beat",
+      "next": "Incorporate humming while beatboxing"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Microphone"
+    },
+    "time": "Anytime",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Learning sign language",
+    "category": "🎵 Music & Singing",
+    "oneLiner": "Communicate using hand gestures.",
+    "whatIsIt": "Using visual-manual modality to convey meaning.",
+    "whyTryIt": [
+      "Connect with the Deaf community",
+      "Beautiful expressive language"
+    ],
+    "examples": [
+      "ASL",
+      "ISL"
+    ],
+    "howToStart": {
+      "need": "Online video tutorials",
+      "firstThing": "Learn the alphabet",
+      "firstProject": "Introduce yourself in sign language",
+      "next": "Learn basic conversational phrases"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Formal classes"
+    },
+    "time": "30 mins/day",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Rubik's Cube",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Solve a 3D combination puzzle.",
+    "whatIsIt": "A mechanical puzzle cube with six twisting colored faces.",
+    "whyTryIt": [
+      "Improves spatial awareness.",
+      "Enhances memory."
+    ],
+    "examples": [
+      "Standard 3x3",
+      "Speedcubing"
+    ],
+    "howToStart": {
+      "need": "A Rubik's cube.",
+      "firstThing": "Learn the beginner's method.",
+      "firstProject": "Solve one face.",
+      "next": "Learn advanced algorithms."
+    },
+    "cost": {
+      "starting": "₹300",
+      "typical": "₹500",
+      "household": "No",
+      "optional": "Lubricant"
+    },
+    "time": "10-30 mins per session",
+    "difficulty": 4,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Brain teasers",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Solve short, challenging puzzles.",
+    "whatIsIt": "Problems designed to challenge logic and lateral thinking.",
+    "whyTryIt": [
+      "Keeps mind sharp.",
+      "Fun mental workout."
+    ],
+    "examples": [
+      "Metal ring puzzles",
+      "Wooden knot puzzles"
+    ],
+    "howToStart": {
+      "need": "Puzzle books or apps.",
+      "firstThing": "Try a beginner puzzle.",
+      "firstProject": "Solve a metal disentanglement puzzle.",
+      "next": "Try harder variations."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹200",
+      "household": "Yes",
+      "optional": "Premium apps"
+    },
+    "time": "5-15 mins",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Chess",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Play a strategic board game.",
+    "whatIsIt": "A two-player strategy game played on an 8x8 checkered board.",
+    "whyTryIt": [
+      "Improves strategic thinking.",
+      "Boosts foresight."
+    ],
+    "examples": [
+      "Online blitz",
+      "Classical chess"
+    ],
+    "howToStart": {
+      "need": "A chessboard or app.",
+      "firstThing": "Learn piece movements.",
+      "firstProject": "Play a full game against a beginner.",
+      "next": "Learn basic openings."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹500",
+      "household": "No",
+      "optional": "Chess clock"
+    },
+    "time": "15-60 mins per game",
+    "difficulty": 5,
+    "aloneOrTogether": "Together"
+  },
+  {
+    "name": "Sudoku",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Fill a grid with numbers logically.",
+    "whatIsIt": "A logic-based number-placement puzzle.",
+    "whyTryIt": [
+      "Enhances concentration.",
+      "Improves logical deduction."
+    ],
+    "examples": [
+      "Daily newspaper Sudoku",
+      "Killer Sudoku"
+    ],
+    "howToStart": {
+      "need": "Pen and paper or app.",
+      "firstThing": "Learn the rules.",
+      "firstProject": "Solve an easy grid.",
+      "next": "Try medium difficulty."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹100",
+      "household": "Yes",
+      "optional": "Puzzle books"
+    },
+    "time": "10-20 mins",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Crossword puzzles",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Fill a grid with words from clues.",
+    "whatIsIt": "A word puzzle where answers intersect on a grid.",
+    "whyTryIt": [
+      "Expands vocabulary.",
+      "Tests general knowledge."
+    ],
+    "examples": [
+      "NYT Crossword",
+      "Cryptic crosswords"
+    ],
+    "howToStart": {
+      "need": "Newspaper or app.",
+      "firstThing": "Understand the clue format.",
+      "firstProject": "Complete a Monday crossword.",
+      "next": "Try cryptic crosswords."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹100",
+      "household": "Yes",
+      "optional": "Subscriptions"
+    },
+    "time": "15-30 mins",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Nonograms",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Reveal a picture using logic and numbers.",
+    "whatIsIt": "Picture logic puzzles where cells are colored based on grid numbers.",
+    "whyTryIt": [
+      "Relaxing.",
+      "Rewarding visual result."
+    ],
+    "examples": [
+      "Picross",
+      "Griddlers"
+    ],
+    "howToStart": {
+      "need": "App or book.",
+      "firstThing": "Learn how the numbers work.",
+      "firstProject": "Solve a 5x5 grid.",
+      "next": "Try 10x10 grids."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹100",
+      "household": "No",
+      "optional": "Puzzle books"
+    },
+    "time": "10-30 mins",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Jigsaw puzzles",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Assemble interlocking pieces to form a picture.",
+    "whatIsIt": "A tiling puzzle requiring the assembly of oddly shaped interlocking pieces.",
+    "whyTryIt": [
+      "Relieves stress.",
+      "Improves visual-spatial reasoning."
+    ],
+    "examples": [
+      "500-piece landscape",
+      "3D puzzles"
+    ],
+    "howToStart": {
+      "need": "A puzzle box.",
+      "firstThing": "Sort the edge pieces.",
+      "firstProject": "Complete the border.",
+      "next": "Fill in the distinct colors."
+    },
+    "cost": {
+      "starting": "₹300",
+      "typical": "₹1000",
+      "household": "No",
+      "optional": "Puzzle mat"
+    },
+    "time": "Hours to days",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Logic puzzles",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Solve scenarios using deductive reasoning.",
+    "whatIsIt": "Puzzles that require sequential logical deduction to find a solution.",
+    "whyTryIt": [
+      "Sharpens critical thinking.",
+      "Highly satisfying to solve."
+    ],
+    "examples": [
+      "Zebra puzzle",
+      "Grid logic puzzles"
+    ],
+    "howToStart": {
+      "need": "Pen and paper or app.",
+      "firstThing": "Read the clues carefully.",
+      "firstProject": "Solve a 3x3 grid puzzle.",
+      "next": "Try multi-layered scenarios."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹150",
+      "household": "Yes",
+      "optional": "Puzzle magazines"
+    },
+    "time": "15-45 mins",
+    "difficulty": 4,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Word games",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Play games involving vocabulary and spelling.",
+    "whatIsIt": "Games like Scrabble or Wordle that test language skills.",
+    "whyTryIt": [
+      "Improves spelling.",
+      "Expands vocabulary playfully."
+    ],
+    "examples": [
+      "Scrabble",
+      "Bananagrams"
+    ],
+    "howToStart": {
+      "need": "Board game or app.",
+      "firstThing": "Learn basic two-letter words.",
+      "firstProject": "Play a match against a friend.",
+      "next": "Learn high-scoring words."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹500",
+      "household": "Yes",
+      "optional": "Dictionary"
+    },
+    "time": "15-60 mins",
+    "difficulty": 2,
+    "aloneOrTogether": "Together"
+  },
+  {
+    "name": "Memory challenges",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Train your brain to remember more.",
+    "whatIsIt": "Techniques and games to improve short and long-term memory.",
+    "whyTryIt": [
+      "Useful in daily life.",
+      "Prevents cognitive decline."
+    ],
+    "examples": [
+      "Memory palace",
+      "Card memorization"
+    ],
+    "howToStart": {
+      "need": "Just your mind or a deck of cards.",
+      "firstThing": "Learn the peg system.",
+      "firstProject": "Memorize a grocery list.",
+      "next": "Try a whole deck of cards."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Books on memory"
+    },
+    "time": "10-20 mins daily",
+    "difficulty": 4,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Speed typing",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Type as fast and accurately as possible.",
+    "whatIsIt": "Practicing to increase words-per-minute (WPM) on a keyboard.",
+    "whyTryIt": [
+      "Boosts productivity.",
+      "Improves hand-eye coordination."
+    ],
+    "examples": [
+      "Monkeytype",
+      "TypeRacer"
+    ],
+    "howToStart": {
+      "need": "A computer keyboard.",
+      "firstThing": "Find a typing test site.",
+      "firstProject": "Hit 40 WPM.",
+      "next": "Aim for 60 WPM."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Mechanical keyboard"
+    },
+    "time": "10 mins daily",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Learning touch typing",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Type without looking at the keys.",
+    "whatIsIt": "A method of typing using muscle memory instead of sight.",
+    "whyTryIt": [
+      "Reduces neck strain.",
+      "Makes computer work effortless."
+    ],
+    "examples": [
+      "Home row method",
+      "Dvorak layout"
+    ],
+    "howToStart": {
+      "need": "Keyboard.",
+      "firstThing": "Learn the home row.",
+      "firstProject": "Type a paragraph blind.",
+      "next": "Practice symbols."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Typing software"
+    },
+    "time": "15 mins daily",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Mental maths",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Calculate mathematical problems in your head.",
+    "whatIsIt": "The practice of doing calculations without external tools.",
+    "whyTryIt": [
+      "Speeds up daily calculations.",
+      "Keeps the brain active."
+    ],
+    "examples": [
+      "Vedic math",
+      "Trachtenberg system"
+    ],
+    "howToStart": {
+      "need": "Nothing.",
+      "firstThing": "Learn quick addition tricks.",
+      "firstProject": "Calculate grocery totals mentally.",
+      "next": "Learn multiplication shortcuts."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Math trick books"
+    },
+    "time": "5-10 mins",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Solving riddles",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Figure out clever questions or statements.",
+    "whatIsIt": "Word puzzles requiring lateral thinking to find the answer.",
+    "whyTryIt": [
+      "Encourages creative thinking.",
+      "Fun party trick."
+    ],
+    "examples": [
+      "Classic riddles",
+      "Lateral thinking puzzles"
+    ],
+    "howToStart": {
+      "need": "Internet or book.",
+      "firstThing": "Read a classic riddle.",
+      "firstProject": "Solve five riddles.",
+      "next": "Create your own."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Riddle books"
+    },
+    "time": "5-15 mins",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Escape-room puzzles",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Solve interconnected puzzles to 'escape'.",
+    "whatIsIt": "Physical or digital games where players solve clues to progress.",
+    "whyTryIt": [
+      "Great team-building.",
+      "Immersive experience."
+    ],
+    "examples": [
+      "Exit: The Game",
+      "Digital escape rooms"
+    ],
+    "howToStart": {
+      "need": "A tabletop game or app.",
+      "firstThing": "Understand the scenario.",
+      "firstProject": "Solve the first clue.",
+      "next": "Complete a full room."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹1500",
+      "household": "No",
+      "optional": "In-person rooms"
+    },
+    "time": "1-2 hours",
+    "difficulty": 4,
+    "aloneOrTogether": "Together"
+  },
+  {
+    "name": "Solitaire",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Play single-player card games.",
+    "whatIsIt": "Card games played by a single person to sort a deck by suit.",
+    "whyTryIt": [
+      "Relaxing.",
+      "Passes time productively."
+    ],
+    "examples": [
+      "Klondike",
+      "Spider"
+    ],
+    "howToStart": {
+      "need": "A deck of cards or app.",
+      "firstThing": "Learn the setup.",
+      "firstProject": "Win a game of Klondike.",
+      "next": "Try Spider Solitaire."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹100",
+      "household": "Yes",
+      "optional": "Premium cards"
+    },
+    "time": "10-20 mins",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Board games",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Play tabletop games with rules and components.",
+    "whatIsIt": "Tabletop games that often involve strategy, luck, and social interaction.",
+    "whyTryIt": [
+      "Great social activity.",
+      "Endless variety."
+    ],
+    "examples": [
+      "Catan",
+      "Ticket to Ride"
+    ],
+    "howToStart": {
+      "need": "A board game.",
+      "firstThing": "Read the rulebook.",
+      "firstProject": "Play a starter game with friends.",
+      "next": "Try heavier strategy games."
+    },
+    "cost": {
+      "starting": "₹500",
+      "typical": "₹2500",
+      "household": "No",
+      "optional": "Expansions"
+    },
+    "time": "1-3 hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Together"
+  },
+  {
+    "name": "Card games",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Play traditional or custom card games.",
+    "whatIsIt": "Games played with a standard deck or custom cards.",
+    "whyTryIt": [
+      "Portable.",
+      "Easy to teach."
+    ],
+    "examples": [
+      "Poker",
+      "Rummy"
+    ],
+    "howToStart": {
+      "need": "A standard deck of cards.",
+      "firstThing": "Learn rules for one game.",
+      "firstProject": "Play Rummy with family.",
+      "next": "Learn a trick-taking game."
+    },
+    "cost": {
+      "starting": "₹50",
+      "typical": "₹200",
+      "household": "Yes",
+      "optional": "Custom decks"
+    },
+    "time": "15-45 mins",
+    "difficulty": 2,
+    "aloneOrTogether": "Together"
+  },
+  {
+    "name": "Learning Morse code",
+    "category": "🗣️ Languages & Communication",
+    "oneLiner": "Learn to communicate with dots and dashes.",
+    "whatIsIt": "A method of transmitting text information as a series of on-off tones.",
+    "whyTryIt": [
+      "Useful survival skill.",
+      "Engages auditory memory."
+    ],
+    "examples": [
+      "CW radio",
+      "Tapping codes"
+    ],
+    "howToStart": {
+      "need": "A chart or app.",
+      "firstThing": "Learn SOS.",
+      "firstProject": "Tap out your name.",
+      "next": "Learn the full alphabet."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Telegraph key"
+    },
+    "time": "10-20 mins daily",
+    "difficulty": 4,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Learning semaphore",
+    "category": "🗣️ Languages & Communication",
+    "oneLiner": "Communicate using flag positions.",
+    "whatIsIt": "A telegraphy system conveying information through visual signals with hand-held flags.",
+    "whyTryIt": [
+      "Unique physical skill.",
+      "Good for outdoor communication."
+    ],
+    "examples": [
+      "Naval flags",
+      "Scouting semaphore"
+    ],
+    "howToStart": {
+      "need": "Two flags or just arms.",
+      "firstThing": "Learn the basic alphabet positions.",
+      "firstProject": "Signal a short word.",
+      "next": "Practice fluid movements."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹200",
+      "household": "Yes",
+      "optional": "Proper flags"
+    },
+    "time": "15 mins daily",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Reading books",
+    "category": "✍️ Writing & Creative Expression",
+    "oneLiner": "Immerse yourself in stories and knowledge through books.",
+    "whatIsIt": "Consuming written text in book format for pleasure or learning.",
+    "whyTryIt": [
+      "Expand your imagination.",
+      "Learn new concepts deeply."
+    ],
+    "examples": [
+      "Fiction",
+      "Non-fiction",
+      "Biographies"
+    ],
+    "howToStart": {
+      "need": "A book or e-reader.",
+      "firstThing": "Pick a topic of interest.",
+      "firstProject": "Read 10 pages a day.",
+      "next": "Join a book club."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹300/book",
+      "household": "Yes",
+      "optional": "E-reader"
+    },
+    "time": "Flexible",
+    "difficulty": 1,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Reading newspapers",
+    "category": "✍️ Writing & Creative Expression",
+    "oneLiner": "Stay informed about current events.",
+    "whatIsIt": "Daily habit of reading local or global news.",
+    "whyTryIt": [
+      "Stay updated.",
+      "Understand worldly matters better."
+    ],
+    "examples": [
+      "The Hindu",
+      "The New York Times",
+      "Local dailies"
+    ],
+    "howToStart": {
+      "need": "Newspaper subscription or app.",
+      "firstThing": "Read the headlines.",
+      "firstProject": "Read one full article daily.",
+      "next": "Explore editorial sections."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹250/month",
+      "household": "Yes",
+      "optional": "Premium subscriptions"
+    },
+    "time": "20 mins",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Reading magazines",
+    "category": "✍️ Writing & Creative Expression",
+    "oneLiner": "Explore niche topics through periodic publications.",
+    "whatIsIt": "Reading specialized periodic publications.",
+    "whyTryIt": [
+      "Discover niche interests.",
+      "Enjoy visual and textual storytelling."
+    ],
+    "examples": [
+      "National Geographic",
+      "Vogue",
+      "TechCrunch"
+    ],
+    "howToStart": {
+      "need": "A magazine.",
+      "firstThing": "Find a magazine on your hobby.",
+      "firstProject": "Read the cover story.",
+      "next": "Subscribe annually."
+    },
+    "cost": {
+      "starting": "₹100",
+      "typical": "₹100-300/issue",
+      "household": "Yes",
+      "optional": "Digital access"
+    },
+    "time": "Flexible",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Reading old newspapers",
+    "category": "✍️ Writing & Creative Expression",
+    "oneLiner": "Travel back in time through archived news.",
+    "whatIsIt": "Reading historical newspapers to understand the past.",
+    "whyTryIt": [
+      "Experience history firsthand.",
+      "See how perspectives change over time."
+    ],
+    "examples": [
+      "WWII headlines",
+      "Pre-independence Indian news"
+    ],
+    "howToStart": {
+      "need": "Internet access or library.",
+      "firstThing": "Visit a newspaper archive online.",
+      "firstProject": "Read news from your birth year.",
+      "next": "Research a historical event."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Paid archive access"
+    },
+    "time": "Flexible",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Learning a language",
+    "category": "🗣️ Languages & Communication",
+    "oneLiner": "Master a new tongue and culture.",
+    "whatIsIt": "Acquiring the ability to speak and understand a foreign language.",
+    "whyTryIt": [
+      "Communicate with more people.",
+      "Keep your brain sharp."
+    ],
+    "examples": [
+      "Spanish",
+      "Japanese",
+      "French"
+    ],
+    "howToStart": {
+      "need": "Language app or book.",
+      "firstThing": "Learn greetings.",
+      "firstProject": "Have a basic introduction conversation.",
+      "next": "Watch a movie in that language."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹500/month",
+      "household": "Yes",
+      "optional": "Tutor"
+    },
+    "time": "15 mins daily",
+    "difficulty": 4,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Learning Kannada",
+    "category": "🗣️ Languages & Communication",
+    "oneLiner": "Connect with the culture of Karnataka.",
+    "whatIsIt": "Learning to speak, read, and write Kannada.",
+    "whyTryIt": [
+      "Navigate Bangalore easily.",
+      "Connect with locals."
+    ],
+    "examples": [
+      "Conversational Kannada",
+      "Reading Kannada script"
+    ],
+    "howToStart": {
+      "need": "A learning app or local friends.",
+      "firstThing": "Learn basic pleasantries.",
+      "firstProject": "Order food in Kannada.",
+      "next": "Learn the alphabet."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Language classes"
+    },
+    "time": "15 mins daily",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Learning etymology",
+    "category": "🗣️ Languages & Communication",
+    "oneLiner": "Discover the hidden history of words.",
+    "whatIsIt": "Studying the origin of words and how their meanings changed.",
+    "whyTryIt": [
+      "Improve vocabulary.",
+      "Understand language connections."
+    ],
+    "examples": [
+      "Greek roots",
+      "Latin prefixes"
+    ],
+    "howToStart": {
+      "need": "Etymology dictionary or app.",
+      "firstThing": "Look up a common word.",
+      "firstProject": "Trace the origin of 5 favorite words.",
+      "next": "Read an etymology book."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Books"
+    },
+    "time": "Flexible",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Learning mythology",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Explore the epic tales of ancient gods and heroes.",
+    "whatIsIt": "Studying the myths and legends of different cultures.",
+    "whyTryIt": [
+      "Understand cultural archetypes.",
+      "Enjoy fascinating stories."
+    ],
+    "examples": [
+      "Greek mythology",
+      "Hindu epics",
+      "Norse sagas"
+    ],
+    "howToStart": {
+      "need": "A book or podcast.",
+      "firstThing": "Listen to a myth story.",
+      "firstProject": "Read a summary of the Mahabharata.",
+      "next": "Explore a lesser-known mythology."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹300/book",
+      "household": "Yes",
+      "optional": "Courses"
+    },
+    "time": "Flexible",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Studying ancient civilisations",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Uncover the secrets of our ancestors.",
+    "whatIsIt": "Learning about ancient societies, their cultures, and ruins.",
+    "whyTryIt": [
+      "Gain historical perspective.",
+      "Marvel at ancient engineering."
+    ],
+    "examples": [
+      "Ancient Egypt",
+      "Indus Valley",
+      "Mayan Empire"
+    ],
+    "howToStart": {
+      "need": "Documentaries or books.",
+      "firstThing": "Watch a documentary.",
+      "firstProject": "Read about the Pyramids.",
+      "next": "Visit a museum."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Museum tickets"
+    },
+    "time": "Flexible",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Genealogy",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Trace your family tree.",
+    "whatIsIt": "Researching your ancestry and family history.",
+    "whyTryIt": [
+      "Discover your roots.",
+      "Connect with distant relatives."
+    ],
+    "examples": [
+      "Building a family tree",
+      "DNA testing"
+    ],
+    "howToStart": {
+      "need": "Note pad and relatives.",
+      "firstThing": "Ask grandparents about their parents.",
+      "firstProject": "Draw a 3-generation tree.",
+      "next": "Use online genealogy tools."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹1000/DNA test",
+      "household": "Yes",
+      "optional": "Premium software"
+    },
+    "time": "Flexible",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Map exploration",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Travel the world from your screen.",
+    "whatIsIt": "Exploring maps, satellite imagery, and Street View.",
+    "whyTryIt": [
+      "Satisfy wanderlust safely.",
+      "Discover obscure locations."
+    ],
+    "examples": [
+      "Google Earth",
+      "Historical maps"
+    ],
+    "howToStart": {
+      "need": "Internet access.",
+      "firstThing": "Open Google Maps.",
+      "firstProject": "Virtually explore your childhood neighborhood.",
+      "next": "Find a remote island on satellite view."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Physical atlases"
+    },
+    "time": "Flexible",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Flag collecting/learning",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Learn the symbols of nations (Vexillology).",
+    "whatIsIt": "Studying or collecting flags of different countries and states.",
+    "whyTryIt": [
+      "Improve geographical knowledge.",
+      "Understand national symbolism."
+    ],
+    "examples": [
+      "Identifying country flags",
+      "Learning flag history"
+    ],
+    "howToStart": {
+      "need": "Flag chart or app.",
+      "firstThing": "Memorize 5 new flags.",
+      "firstProject": "Identify all flags of South America.",
+      "next": "Start a physical collection."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹200/flag",
+      "household": "Yes",
+      "optional": "Physical flags"
+    },
+    "time": "Flexible",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Learning about space",
+    "category": "🔬 Science & Experiments",
+    "oneLiner": "Explore the vastness of the universe.",
+    "whatIsIt": "Studying astronomy, astrophysics, and space exploration.",
+    "whyTryIt": [
+      "Gain cosmic perspective.",
+      "Understand how the universe works."
+    ],
+    "examples": [
+      "Planetary science",
+      "Black holes",
+      "Space missions"
+    ],
+    "howToStart": {
+      "need": "Documentaries or apps.",
+      "firstThing": "Watch a video on the solar system.",
+      "firstProject": "Learn the names of the planets in order.",
+      "next": "Follow NASA news."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Books"
+    },
+    "time": "Flexible",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Stargazing",
+    "category": "🔬 Science & Experiments",
+    "oneLiner": "Observe the wonders of the night sky.",
+    "whatIsIt": "Looking at stars, planets, and celestial events.",
+    "whyTryIt": [
+      "Find peace and awe.",
+      "Connect with nature visually."
+    ],
+    "examples": [
+      "Spotting planets",
+      "Watching meteor showers"
+    ],
+    "howToStart": {
+      "need": "Clear night sky.",
+      "firstThing": "Look up on a clear night.",
+      "firstProject": "Identify the moon phase.",
+      "next": "Buy binoculars."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Telescope"
+    },
+    "time": "Night time",
+    "difficulty": 1,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Cloud watching",
+    "category": "🌱 Gardening & Nature",
+    "oneLiner": "Find shapes in the sky.",
+    "whatIsIt": "Observing cloud formations for relaxation or weather prediction.",
+    "whyTryIt": [
+      "Highly relaxing.",
+      "Learn basic meteorology."
+    ],
+    "examples": [
+      "Identifying cumulus clouds",
+      "Finding shapes"
+    ],
+    "howToStart": {
+      "need": "A view of the sky.",
+      "firstThing": "Look out the window.",
+      "firstProject": "Identify 3 different cloud types.",
+      "next": "Learn how clouds predict weather."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "None"
+    },
+    "time": "Day time",
+    "difficulty": 1,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Identifying constellations",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Map the stars like ancient navigators.",
+    "whatIsIt": "Learning to recognize star patterns in the night sky.",
+    "whyTryIt": [
+      "Navigate by stars.",
+      "Learn stellar mythology."
+    ],
+    "examples": [
+      "Finding Orion",
+      "Locating the Big Dipper"
+    ],
+    "howToStart": {
+      "need": "Stargazing app.",
+      "firstThing": "Download a star map app.",
+      "firstProject": "Find the North Star.",
+      "next": "Identify a zodiac constellation."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "None"
+    },
+    "time": "Night time",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Learning geography",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Understand the map of our world.",
+    "whatIsIt": "Studying places, terrains, and human populations.",
+    "whyTryIt": [
+      "Better understand global news.",
+      "Win trivia games."
+    ],
+    "examples": [
+      "Memorizing capitals",
+      "Understanding topographies"
+    ],
+    "howToStart": {
+      "need": "Map or quiz app.",
+      "firstThing": "Look at a world map.",
+      "firstProject": "Memorize the continents and oceans.",
+      "next": "Play a geography quiz game."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Globe"
+    },
+    "time": "Flexible",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Learning psychology",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Understand how the human mind works.",
+    "whatIsIt": "Studying human behavior, thought processes, and emotions.",
+    "whyTryIt": [
+      "Improve self-awareness.",
+      "Understand others better."
+    ],
+    "examples": [
+      "Cognitive biases",
+      "Behavioral psychology"
+    ],
+    "howToStart": {
+      "need": "Books or online courses.",
+      "firstThing": "Read a beginner article.",
+      "firstProject": "Learn about one cognitive bias.",
+      "next": "Read a popular psychology book."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹300/book",
+      "household": "Yes",
+      "optional": "Courses"
+    },
+    "time": "Flexible",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Philosophy discussions",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Debate the big questions of life.",
+    "whatIsIt": "Engaging in deep conversations about ethics, existence, and knowledge.",
+    "whyTryIt": [
+      "Challenge your beliefs.",
+      "Improve critical thinking."
+    ],
+    "examples": [
+      "Discussing ethics",
+      "Exploring existentialism"
+    ],
+    "howToStart": {
+      "need": "A curious mind.",
+      "firstThing": "Read a short philosophical paradox.",
+      "firstProject": "Discuss a moral dilemma with a friend.",
+      "next": "Join a philosophy forum."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Books"
+    },
+    "time": "Flexible",
+    "difficulty": 4,
+    "aloneOrTogether": "Together"
+  },
+  {
+    "name": "Learning about architecture",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Appreciate the design of buildings.",
+    "whatIsIt": "Studying the history and styles of building design.",
+    "whyTryIt": [
+      "Appreciate your surroundings.",
+      "Understand historical engineering."
+    ],
+    "examples": [
+      "Gothic architecture",
+      "Modernist buildings"
+    ],
+    "howToStart": {
+      "need": "Internet or books.",
+      "firstThing": "Look up your local architectural style.",
+      "firstProject": "Identify 3 architectural styles in your city.",
+      "next": "Watch a documentary on famous buildings."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Walking tours"
+    },
+    "time": "Flexible",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Coding",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Writing instructions for computers to follow.",
+    "whatIsIt": "Creating software, scripts, or programs using programming languages.",
+    "whyTryIt": [
+      "Solves complex problems",
+      "Builds logical thinking skills"
+    ],
+    "examples": [
+      "Writing a Python script",
+      "Automating a daily task"
+    ],
+    "howToStart": {
+      "need": "A computer and internet access",
+      "firstThing": "Learn basic syntax in Python",
+      "firstProject": "A simple calculator program",
+      "next": "Build a text-based game"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Paid courses"
+    },
+    "time": "Hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Building websites",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Creating functional and visual web pages.",
+    "whatIsIt": "Using HTML, CSS, and JS to build sites accessible via the internet.",
+    "whyTryIt": [
+      "Allows creative expression",
+      "Highly useful skill"
+    ],
+    "examples": [
+      "A personal portfolio",
+      "A blog"
+    ],
+    "howToStart": {
+      "need": "A computer and a text editor",
+      "firstThing": "Learn HTML structure",
+      "firstProject": "A simple static about-me page",
+      "next": "Add CSS styling"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Domain name and hosting"
+    },
+    "time": "Hours",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Making small games",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Designing and programming interactive games.",
+    "whatIsIt": "Using game engines to create playable digital experiences.",
+    "whyTryIt": [
+      "Combines art and logic",
+      "Fun to share with friends"
+    ],
+    "examples": [
+      "A 2D platformer",
+      "A puzzle game"
+    ],
+    "howToStart": {
+      "need": "A computer and game engine like Godot",
+      "firstThing": "Follow a beginner tutorial",
+      "firstProject": "A Pong clone",
+      "next": "Make a simple platformer"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Paid assets or software"
+    },
+    "time": "Days",
+    "difficulty": 4,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "App development",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Creating software applications for mobile devices.",
+    "whatIsIt": "Writing code specifically tailored for iOS or Android platforms.",
+    "whyTryIt": [
+      "Creates useful daily tools",
+      "Great career building skill"
+    ],
+    "examples": [
+      "A to-do list app",
+      "A habit tracker"
+    ],
+    "howToStart": {
+      "need": "A computer and an SDK",
+      "firstThing": "Set up a development environment",
+      "firstProject": "A simple counter app",
+      "next": "Build a weather app using an API"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Developer account fees"
+    },
+    "time": "Weeks",
+    "difficulty": 4,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Digital animation",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Bringing digital art to life through motion.",
+    "whatIsIt": "Creating moving images using software.",
+    "whyTryIt": [
+      "Expresses dynamic stories",
+      "Highly creative"
+    ],
+    "examples": [
+      "A bouncing ball",
+      "A character walk cycle"
+    ],
+    "howToStart": {
+      "need": "A computer and animation software",
+      "firstThing": "Learn the principles of animation",
+      "firstProject": "Animate a bouncing ball",
+      "next": "Create a short looping GIF"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Drawing tablet"
+    },
+    "time": "Hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "3D modelling",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Creating three-dimensional digital representations of objects.",
+    "whatIsIt": "Using software to sculpt or build 3D assets.",
+    "whyTryIt": [
+      "Visualizes complex ideas",
+      "Used in games and movies"
+    ],
+    "examples": [
+      "Modelling a coffee cup",
+      "Sculpting a character"
+    ],
+    "howToStart": {
+      "need": "A computer and Blender",
+      "firstThing": "Learn basic navigation and shapes",
+      "firstProject": "Model a simple doughnut",
+      "next": "Model a low-poly room"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Paid tutorials or add-ons"
+    },
+    "time": "Hours",
+    "difficulty": 4,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "3D printing",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Turning digital 3D models into physical objects.",
+    "whatIsIt": "Using a machine to layer material into a physical shape.",
+    "whyTryIt": [
+      "Brings digital creations to life",
+      "Useful for making custom parts"
+    ],
+    "examples": [
+      "Printing a phone stand",
+      "Creating a custom figurine"
+    ],
+    "howToStart": {
+      "need": "A 3D printer and filament",
+      "firstThing": "Set up the printer and level the bed",
+      "firstProject": "Print a calibration cube",
+      "next": "Print a functional household item"
+    },
+    "cost": {
+      "starting": "₹15000",
+      "typical": "₹25000",
+      "household": "No",
+      "optional": "Specialty filaments"
+    },
+    "time": "Hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Electronics projects",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Building circuits and hardware devices.",
+    "whatIsIt": "Connecting electronic components to create functional gadgets.",
+    "whyTryIt": [
+      "Demystifies how hardware works",
+      "Hands-on and practical"
+    ],
+    "examples": [
+      "A blinking LED circuit",
+      "A simple radio"
+    ],
+    "howToStart": {
+      "need": "A basic electronics kit",
+      "firstThing": "Learn how a breadboard works",
+      "firstProject": "Light up an LED using a battery",
+      "next": "Build a simple logic gate circuit"
+    },
+    "cost": {
+      "starting": "₹1000",
+      "typical": "₹3000",
+      "household": "No",
+      "optional": "Soldering iron"
+    },
+    "time": "Hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Arduino projects",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Programming microcontrollers to interact with the real world.",
+    "whatIsIt": "Using an Arduino board to read sensors and control outputs.",
+    "whyTryIt": [
+      "Combines hardware and coding",
+      "Endless automation possibilities"
+    ],
+    "examples": [
+      "A temperature sensor display",
+      "A motorized robot car"
+    ],
+    "howToStart": {
+      "need": "An Arduino starter kit",
+      "firstThing": "Install the Arduino IDE",
+      "firstProject": "Make the onboard LED blink",
+      "next": "Read input from a button"
+    },
+    "cost": {
+      "starting": "₹2000",
+      "typical": "₹4000",
+      "household": "No",
+      "optional": "Extra sensors and motors"
+    },
+    "time": "Hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Robotics",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Designing and building programmable machines.",
+    "whatIsIt": "Integrating mechanics, electronics, and coding to build robots.",
+    "whyTryIt": [
+      "Fascinating interdisciplinary challenge",
+      "Results are tangible and fun"
+    ],
+    "examples": [
+      "A line-following robot",
+      "A robotic arm"
+    ],
+    "howToStart": {
+      "need": "A robotics kit",
+      "firstThing": "Assemble the basic chassis",
+      "firstProject": "Program a robot to move forward",
+      "next": "Add obstacle avoidance sensors"
+    },
+    "cost": {
+      "starting": "₹3000",
+      "typical": "₹6000",
+      "household": "No",
+      "optional": "Advanced microcontrollers"
+    },
+    "time": "Days",
+    "difficulty": 4,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Raspberry Pi projects",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Using a tiny computer for dedicated tasks.",
+    "whatIsIt": "Setting up a mini-computer for projects like servers or retro gaming.",
+    "whyTryIt": [
+      "Learn Linux and networking",
+      "Very versatile hardware"
+    ],
+    "examples": [
+      "A network ad-blocker",
+      "A retro gaming console"
+    ],
+    "howToStart": {
+      "need": "A Raspberry Pi and SD card",
+      "firstThing": "Flash an operating system",
+      "firstProject": "Set up a basic web server",
+      "next": "Install Pi-hole to block ads"
+    },
+    "cost": {
+      "starting": "₹4000",
+      "typical": "₹7000",
+      "household": "No",
+      "optional": "Cases and cooling fans"
+    },
+    "time": "Hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Pixel art",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Creating art block by block.",
+    "whatIsIt": "Drawing digital images using a limited palette and pixel-level precision.",
+    "whyTryIt": [
+      "Nostalgic aesthetic",
+      "Accessible entry to digital art"
+    ],
+    "examples": [
+      "A retro game character",
+      "A tiny landscape"
+    ],
+    "howToStart": {
+      "need": "A computer and pixel art software",
+      "firstThing": "Understand grid and limited colors",
+      "firstProject": "Draw a simple item like an apple",
+      "next": "Animate a basic character"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Paid software like Aseprite"
+    },
+    "time": "Hours",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Video editing",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Assembling and polishing video clips into a final product.",
+    "whatIsIt": "Cutting, arranging, and adding effects to raw video footage.",
+    "whyTryIt": [
+      "Essential skill for content creation",
+      "Highly rewarding storytelling"
+    ],
+    "examples": [
+      "A travel vlog montage",
+      "A short film"
+    ],
+    "howToStart": {
+      "need": "A computer and editing software",
+      "firstThing": "Learn how to cut and trim clips",
+      "firstProject": "Edit a 1-minute compilation of phone videos",
+      "next": "Add background music and transitions"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Professional software subscriptions"
+    },
+    "time": "Hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Photo editing",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Enhancing and manipulating digital images.",
+    "whatIsIt": "Using software to adjust colors, lighting, and composition of photos.",
+    "whyTryIt": [
+      "Improves visual aesthetics",
+      "Useful for personal and professional tasks"
+    ],
+    "examples": [
+      "Color correcting a portrait",
+      "Removing a photobomber"
+    ],
+    "howToStart": {
+      "need": "A computer or phone and editing app",
+      "firstThing": "Learn basic exposure and contrast tweaks",
+      "firstProject": "Enhance a dark phone picture",
+      "next": "Experiment with color grading"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Premium tools like Lightroom"
+    },
+    "time": "Minutes",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Making memes",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Creating humorous internet content.",
+    "whatIsIt": "Combining text and images to create relatable online jokes.",
+    "whyTryIt": [
+      "Fun and culturally relevant",
+      "Requires minimal setup"
+    ],
+    "examples": [
+      "A reaction image",
+      "A topical joke template"
+    ],
+    "howToStart": {
+      "need": "A computer or smartphone",
+      "firstThing": "Find a popular meme template",
+      "firstProject": "Caption a relatable scenario",
+      "next": "Create an original meme format"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "None"
+    },
+    "time": "Minutes",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Creating digital stickers",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Designing small, expressive digital illustrations.",
+    "whatIsIt": "Drawing artwork specifically meant to be used as digital stickers in chats.",
+    "whyTryIt": [
+      "Personalizes digital communication",
+      "Fun and quick to make"
+    ],
+    "examples": [
+      "A custom emoji pack",
+      "Animated chat stickers"
+    ],
+    "howToStart": {
+      "need": "A drawing app",
+      "firstThing": "Sketch a simple character expression",
+      "firstProject": "A happy face sticker",
+      "next": "Create a themed pack of 5 stickers"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Drawing tablet"
+    },
+    "time": "Hours",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Building Notion systems",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Organizing life and work through databases and pages.",
+    "whatIsIt": "Designing custom productivity workspaces in Notion.",
+    "whyTryIt": [
+      "Dramatically improves organization",
+      "Satisfying to build"
+    ],
+    "examples": [
+      "A personal dashboard",
+      "A project tracker"
+    ],
+    "howToStart": {
+      "need": "A computer and a Notion account",
+      "firstThing": "Understand pages and blocks",
+      "firstProject": "Build a simple to-do list page",
+      "next": "Create a linked database system"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Paid templates"
+    },
+    "time": "Hours",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Learning keyboard shortcuts",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Mastering efficient computer navigation.",
+    "whatIsIt": "Memorizing and using key combinations to speed up digital tasks.",
+    "whyTryIt": [
+      "Saves massive amounts of time",
+      "Makes computing feel frictionless"
+    ],
+    "examples": [
+      "Navigating browser tabs quickly",
+      "Text editing without a mouse"
+    ],
+    "howToStart": {
+      "need": "A computer keyboard",
+      "firstThing": "Learn standard copy, paste, and undo",
+      "firstProject": "Navigate your OS for 10 minutes without a mouse",
+      "next": "Learn shortcuts for your most-used app"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "None"
+    },
+    "time": "Minutes",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Creating digital art",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Painting and drawing on a digital canvas.",
+    "whatIsIt": "Using software and drawing tablets to create illustrations.",
+    "whyTryIt": [
+      "Endless undo and tools",
+      "No mess to clean up"
+    ],
+    "examples": [
+      "A digital landscape painting",
+      "Character concept art"
+    ],
+    "howToStart": {
+      "need": "A computer/tablet and drawing software",
+      "firstThing": "Get used to the digital pen feel",
+      "firstProject": "Sketch a simple object from reference",
+      "next": "Color a basic line art drawing"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹5000",
+      "household": "Yes",
+      "optional": "High-end drawing tablets"
+    },
+    "time": "Hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Reverse engineering",
+    "category": "💻 Technology & Coding",
+    "oneLiner": "Deconstructing software or hardware to see how it works.",
+    "whatIsIt": "Analyzing systems to understand their inner mechanisms.",
+    "whyTryIt": [
+      "Deepens technical understanding",
+      "Satisfies intense curiosity"
+    ],
+    "examples": [
+      "Decompiling an old game",
+      "Analyzing a malware sample safely"
+    ],
+    "howToStart": {
+      "need": "A computer and basic coding knowledge",
+      "firstThing": "Learn how executable files are structured",
+      "firstProject": "Inspect the code of a simple open-source program",
+      "next": "Use a hex editor to examine a file"
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Advanced analysis tools"
+    },
+    "time": "Days",
+    "difficulty": 5,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Cooking a New Cuisine",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Explore global flavors from your own kitchen.",
+    "whatIsIt": "Preparing dishes from a culture different from your own.",
+    "whyTryIt": [
+      "Discover new tastes.",
+      "Learn about different cultures."
+    ],
+    "examples": [
+      "Making Thai green curry.",
+      "Rolling sushi at home."
+    ],
+    "howToStart": {
+      "need": "Basic kitchen tools and specialty ingredients.",
+      "firstThing": "Pick an accessible recipe.",
+      "firstProject": "Cook a single main dish.",
+      "next": "Try a full multi-course meal."
+    },
+    "cost": {
+      "starting": "₹500",
+      "typical": "₹1000",
+      "household": "Yes",
+      "optional": "Specialty spices"
+    },
+    "time": "1-3 hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Baking",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Turn simple ingredients into sweet or savory treats.",
+    "whatIsIt": "Cooking food, often flour-based, in an oven.",
+    "whyTryIt": [
+      "Enjoy fresh baked goods.",
+      "It can be very relaxing."
+    ],
+    "examples": [
+      "Baking chocolate chip cookies.",
+      "Making a savory pie."
+    ],
+    "howToStart": {
+      "need": "Oven, measuring cups, mixing bowls.",
+      "firstThing": "Learn basic measurements.",
+      "firstProject": "Bake simple drop cookies.",
+      "next": "Try a layered cake."
+    },
+    "cost": {
+      "starting": "₹300",
+      "typical": "₹500",
+      "household": "Yes",
+      "optional": "Stand mixer"
+    },
+    "time": "1-2 hours",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Making Pasta from Scratch",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Create fresh, tender noodles using just flour and eggs.",
+    "whatIsIt": "Mixing and rolling dough to form fresh pasta shapes.",
+    "whyTryIt": [
+      "Tastes better than dried pasta.",
+      "Fun tactile experience."
+    ],
+    "examples": [
+      "Rolling fettuccine.",
+      "Making stuffed ravioli."
+    ],
+    "howToStart": {
+      "need": "Flour, eggs, rolling pin.",
+      "firstThing": "Make a simple egg dough.",
+      "firstProject": "Hand-cut pappardelle.",
+      "next": "Invest in a pasta machine."
+    },
+    "cost": {
+      "starting": "₹100",
+      "typical": "₹200",
+      "household": "Yes",
+      "optional": "Pasta machine"
+    },
+    "time": "2 hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Bread Making",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Bake fresh, aromatic loaves of bread at home.",
+    "whatIsIt": "Mixing flour, water, and yeast to bake bread.",
+    "whyTryIt": [
+      "The smell of fresh bread is amazing.",
+      "Cost-effective."
+    ],
+    "examples": [
+      "Baking a simple white loaf.",
+      "Making a sourdough boule."
+    ],
+    "howToStart": {
+      "need": "Flour, yeast, salt, water.",
+      "firstThing": "Learn to knead dough.",
+      "firstProject": "Bake a basic yeasted loaf.",
+      "next": "Start a sourdough starter."
+    },
+    "cost": {
+      "starting": "₹200",
+      "typical": "₹300",
+      "household": "Yes",
+      "optional": "Dutch oven"
+    },
+    "time": "3-4 hours",
+    "difficulty": 4,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Cake Decorating",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Turn plain cakes into edible works of art.",
+    "whatIsIt": "Applying frosting and edible decorations to cakes.",
+    "whyTryIt": [
+      "Unleash your creativity.",
+      "Impress friends at parties."
+    ],
+    "examples": [
+      "Piping buttercream flowers.",
+      "Working with fondant."
+    ],
+    "howToStart": {
+      "need": "A baked cake, frosting, piping bags.",
+      "firstThing": "Learn to apply a crumb coat.",
+      "firstProject": "Decorate a simple round cake.",
+      "next": "Try tiered cakes."
+    },
+    "cost": {
+      "starting": "₹500",
+      "typical": "₹1000",
+      "household": "Yes",
+      "optional": "Turntable"
+    },
+    "time": "2-4 hours",
+    "difficulty": 4,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Chocolate Making",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Craft homemade chocolate bars and truffles.",
+    "whatIsIt": "Melting, tempering, and molding chocolate into treats.",
+    "whyTryIt": [
+      "Makes great gifts.",
+      "Endless flavor combinations."
+    ],
+    "examples": [
+      "Making dark chocolate truffles.",
+      "Molding chocolate bars."
+    ],
+    "howToStart": {
+      "need": "Good quality chocolate, molds, thermometer.",
+      "firstThing": "Learn to temper chocolate.",
+      "firstProject": "Make simple chocolate bark.",
+      "next": "Make filled bonbons."
+    },
+    "cost": {
+      "starting": "₹800",
+      "typical": "₹1500",
+      "household": "No",
+      "optional": "Polycarbonate molds"
+    },
+    "time": "2-3 hours",
+    "difficulty": 4,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Pickling",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Preserve vegetables using vinegar and spices.",
+    "whatIsIt": "Submerging food in an acidic brine to preserve and flavor it.",
+    "whyTryIt": [
+      "Reduces food waste.",
+      "Adds tang to your meals."
+    ],
+    "examples": [
+      "Pickling cucumbers.",
+      "Making pickled red onions."
+    ],
+    "howToStart": {
+      "need": "Vegetables, vinegar, salt, jars.",
+      "firstThing": "Sterilize your jars.",
+      "firstProject": "Make quick pickled onions.",
+      "next": "Try canning for long-term storage."
+    },
+    "cost": {
+      "starting": "₹200",
+      "typical": "₹300",
+      "household": "Yes",
+      "optional": "Canning kit"
+    },
+    "time": "1 hour",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Fermentation",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Transform foods using beneficial bacteria and yeast.",
+    "whatIsIt": "A natural process where microorganisms break down food.",
+    "whyTryIt": [
+      "Great for gut health.",
+      "Creates complex flavors."
+    ],
+    "examples": [
+      "Making homemade kimchi.",
+      "Brewing kombucha."
+    ],
+    "howToStart": {
+      "need": "Vegetables/tea, salt/sugar, glass jars.",
+      "firstThing": "Understand basic food safety.",
+      "firstProject": "Make simple sauerkraut.",
+      "next": "Brew your own kombucha."
+    },
+    "cost": {
+      "starting": "₹300",
+      "typical": "₹400",
+      "household": "Yes",
+      "optional": "Fermentation weights"
+    },
+    "time": "1 hour prep",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Making Homemade Sauces",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Elevate your meals with custom-made sauces.",
+    "whatIsIt": "Blending or cooking ingredients to create flavorful liquid condiments.",
+    "whyTryIt": [
+      "Control your ingredients.",
+      "Better flavor than store-bought."
+    ],
+    "examples": [
+      "Whipping up fresh pesto.",
+      "Simmering tomato marinara."
+    ],
+    "howToStart": {
+      "need": "Blender or saucepan, basic ingredients.",
+      "firstThing": "Balance salt, fat, acid, and heat.",
+      "firstProject": "Make a classic vinaigrette.",
+      "next": "Make a complex mole sauce."
+    },
+    "cost": {
+      "starting": "₹200",
+      "typical": "₹300",
+      "household": "Yes",
+      "optional": "High-speed blender"
+    },
+    "time": "30-60 mins",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Making Spice Blends",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Create custom flavor profiles by mixing dry spices.",
+    "whatIsIt": "Toasting and grinding whole spices into custom mixes.",
+    "whyTryIt": [
+      "Fresher flavors.",
+      "Cheaper than buying pre-mixed."
+    ],
+    "examples": [
+      "Blending garam masala.",
+      "Making taco seasoning."
+    ],
+    "howToStart": {
+      "need": "Whole spices, spice grinder or mortar.",
+      "firstThing": "Learn to toast whole spices.",
+      "firstProject": "Make a basic curry powder.",
+      "next": "Create a signature meat rub."
+    },
+    "cost": {
+      "starting": "₹500",
+      "typical": "₹200",
+      "household": "Yes",
+      "optional": "Electric spice grinder"
+    },
+    "time": "30 mins",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Tea Tasting",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Explore the nuanced flavors of global teas.",
+    "whatIsIt": "Brewing and mindfully evaluating different types of tea.",
+    "whyTryIt": [
+      "Relaxing mindfulness practice.",
+      "Discover new flavor profiles."
+    ],
+    "examples": [
+      "Tasting oolong versus green tea.",
+      "Hosting a matcha ceremony."
+    ],
+    "howToStart": {
+      "need": "Assorted loose leaf teas, teapot, cups.",
+      "firstThing": "Learn proper water temperatures.",
+      "firstProject": "Compare three different black teas.",
+      "next": "Invest in a gaiwan for gongfu brewing."
+    },
+    "cost": {
+      "starting": "₹1000",
+      "typical": "₹500",
+      "household": "Yes",
+      "optional": "Specialty teaware"
+    },
+    "time": "30-60 mins",
+    "difficulty": 1,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Coffee Brewing",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Master the art of extracting the perfect cup of coffee.",
+    "whatIsIt": "Using different methods to brew freshly roasted coffee beans.",
+    "whyTryIt": [
+      "Better morning routine.",
+      "Save money on cafes."
+    ],
+    "examples": [
+      "Making pour-over coffee.",
+      "Pulling espresso shots."
+    ],
+    "howToStart": {
+      "need": "Coffee beans, grinder, brewing device.",
+      "firstThing": "Buy freshly roasted whole beans.",
+      "firstProject": "Master the French press.",
+      "next": "Try a pour-over V60 method."
+    },
+    "cost": {
+      "starting": "₹1500",
+      "typical": "₹800",
+      "household": "Yes",
+      "optional": "Espresso machine"
+    },
+    "time": "15 mins",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Mocktail Making",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Craft complex, non-alcoholic mixed drinks.",
+    "whatIsIt": "Mixing juices, syrups, and herbs for sophisticated beverages.",
+    "whyTryIt": [
+      "Healthier alternative to alcohol.",
+      "Fun for all ages."
+    ],
+    "examples": [
+      "Shaking a virgin mojito.",
+      "Mixing a complex shrub drink."
+    ],
+    "howToStart": {
+      "need": "Shaker, ice, fresh juices, syrups.",
+      "firstThing": "Learn to balance sweet and sour.",
+      "firstProject": "Make a simple fruit spritzer.",
+      "next": "Create your own infused syrups."
+    },
+    "cost": {
+      "starting": "₹500",
+      "typical": "₹300",
+      "household": "Yes",
+      "optional": "Bar tool set"
+    },
+    "time": "15 mins",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Food Plating",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Present your meals like a fine-dining chef.",
+    "whatIsIt": "The art of arranging food aesthetically on a plate.",
+    "whyTryIt": [
+      "Makes everyday meals feel special.",
+      "Enhances the dining experience."
+    ],
+    "examples": [
+      "Using tweezers for garnish.",
+      "Swiping purees on a plate."
+    ],
+    "howToStart": {
+      "need": "Large plates, squeeze bottles, basic tools.",
+      "firstThing": "Embrace negative space.",
+      "firstProject": "Plate a simple dessert elegantly.",
+      "next": "Practice complex sauce swooshes."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Plating tweezers"
+    },
+    "time": "10 mins extra",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Food Photography",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Capture mouth-watering images of culinary creations.",
+    "whatIsIt": "Styling and photographing food to look its absolute best.",
+    "whyTryIt": [
+      "Document your cooking journey.",
+      "Share art on social media."
+    ],
+    "examples": [
+      "Shooting overhead table scenes.",
+      "Capturing steam from a hot bowl."
+    ],
+    "howToStart": {
+      "need": "Camera or smartphone, good lighting.",
+      "firstThing": "Shoot using natural window light.",
+      "firstProject": "Photograph your breakfast.",
+      "next": "Experiment with props and backdrops."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Lighting equipment"
+    },
+    "time": "30-60 mins",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Trying One New Fruit",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Expand your palate by tasting exotic fruits.",
+    "whatIsIt": "Seeking out and tasting fruits you have never tried before.",
+    "whyTryIt": [
+      "Discover new healthy snacks.",
+      "Learn about global agriculture."
+    ],
+    "examples": [
+      "Eating a dragon fruit.",
+      "Trying a durian."
+    ],
+    "howToStart": {
+      "need": "Access to diverse grocery stores or markets.",
+      "firstThing": "Visit an international market.",
+      "firstProject": "Buy and taste one unfamiliar fruit.",
+      "next": "Incorporate exotic fruits into recipes."
+    },
+    "cost": {
+      "starting": "₹200",
+      "typical": "₹200",
+      "household": "Yes",
+      "optional": "None"
+    },
+    "time": "15 mins",
+    "difficulty": 1,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Recreating Restaurant Dishes",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Cook your favorite restaurant meals at home.",
+    "whatIsIt": "Reverse-engineering or finding copycat recipes for menu items.",
+    "whyTryIt": [
+      "Save money on eating out.",
+      "Impress your family."
+    ],
+    "examples": [
+      "Making a fast-food style burger.",
+      "Cooking a fancy steakhouse dinner."
+    ],
+    "howToStart": {
+      "need": "Standard kitchen equipment, internet access.",
+      "firstThing": "Find a reliable copycat recipe.",
+      "firstProject": "Recreate a simple fast-food item.",
+      "next": "Attempt a high-end signature dish."
+    },
+    "cost": {
+      "starting": "₹500",
+      "typical": "₹800",
+      "household": "Yes",
+      "optional": "Specialty ingredients"
+    },
+    "time": "1-3 hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Making Homemade Ice Cream",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Churn your own custom-flavored frozen desserts.",
+    "whatIsIt": "Creating an ice cream base and churning it while freezing.",
+    "whyTryIt": [
+      "Superior texture and flavor.",
+      "Control the sugar content."
+    ],
+    "examples": [
+      "Making classic vanilla bean.",
+      "Churning a dairy-free sorbet."
+    ],
+    "howToStart": {
+      "need": "Cream, milk, sugar, ice cream maker.",
+      "firstThing": "Make a simple sweet cream base.",
+      "firstProject": "Make vanilla ice cream.",
+      "next": "Experiment with complex mix-ins."
+    },
+    "cost": {
+      "starting": "₹500",
+      "typical": "₹400",
+      "household": "Yes",
+      "optional": "Ice cream machine"
+    },
+    "time": "1 hour prep",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Blind Taste Tests",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Challenge your palate by identifying foods blindfolded.",
+    "whatIsIt": "Tasting and comparing similar foods without seeing the brands.",
+    "whyTryIt": [
+      "Fun party activity.",
+      "Hones your tasting skills."
+    ],
+    "examples": [
+      "Comparing expensive vs cheap chocolate.",
+      "Tasting different cola brands."
+    ],
+    "howToStart": {
+      "need": "Blindfolds, varieties of a specific food.",
+      "firstThing": "Pick a food category.",
+      "firstProject": "Host a cheese tasting for friends.",
+      "next": "Try identifying obscure spices."
+    },
+    "cost": {
+      "starting": "₹500",
+      "typical": "₹500",
+      "household": "Yes",
+      "optional": "Specialty foods"
+    },
+    "time": "1 hour",
+    "difficulty": 1,
+    "aloneOrTogether": "Together"
+  },
+  {
+    "name": "Creating Your Own Recipes",
+    "category": "🍳 Cooking & Food",
+    "oneLiner": "Invent completely new dishes from scratch.",
+    "whatIsIt": "Using culinary knowledge to develop original food combinations.",
+    "whyTryIt": [
+      "Ultimate creative freedom.",
+      "Tailor food exactly to your taste."
+    ],
+    "examples": [
+      "Inventing a new pasta sauce.",
+      "Baking a unique muffin flavor."
+    ],
+    "howToStart": {
+      "need": "Notebook, kitchen basics, imagination.",
+      "firstThing": "Understand basic flavor pairings.",
+      "firstProject": "Tweak an existing recipe slightly.",
+      "next": "Develop a recipe entirely from scratch."
+    },
+    "cost": {
+      "starting": "₹500",
+      "typical": "₹800",
+      "household": "Yes",
+      "optional": "Flavor pairing books"
+    },
+    "time": "2-4 hours",
+    "difficulty": 4,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Running",
+    "category": "🗺️ Travel & Outdoors",
+    "oneLiner": "Moving rapidly on foot as a form of exercise.",
+    "whatIsIt": "A cardiovascular activity that involves continuous forward motion.",
+    "whyTryIt": [
+      "Improves stamina and health.",
+      "Requires minimal equipment."
+    ],
+    "examples": [
+      "Jogging in a park",
+      "Training for a 5k"
+    ],
+    "howToStart": {
+      "need": "Good running shoes.",
+      "firstThing": "Stretch properly.",
+      "firstProject": "Run for 10 minutes without stopping.",
+      "next": "Increase distance gradually."
+    },
+    "cost": {
+      "starting": "₹1500",
+      "typical": "₹0",
+      "household": "No",
+      "optional": "Fitness tracker"
+    },
+    "time": "30-60 mins",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Cycling",
+    "category": "🗺️ Travel & Outdoors",
+    "oneLiner": "Riding a bicycle for transport or recreation.",
+    "whatIsIt": "Pedaling a two-wheeled vehicle over various terrains.",
+    "whyTryIt": [
+      "Great for leg strength.",
+      "Allows you to explore your city faster."
+    ],
+    "examples": [
+      "Road cycling",
+      "Mountain biking"
+    ],
+    "howToStart": {
+      "need": "A bicycle and a helmet.",
+      "firstThing": "Learn to balance.",
+      "firstProject": "Ride around your neighborhood.",
+      "next": "Try a 10km trail."
+    },
+    "cost": {
+      "starting": "₹5000",
+      "typical": "₹500",
+      "household": "No",
+      "optional": "Cycling gear"
+    },
+    "time": "1-2 hours",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Hiking",
+    "category": "🗺️ Travel & Outdoors",
+    "oneLiner": "Walking in natural environments, often on trails.",
+    "whatIsIt": "A long, vigorous walk usually on trails or footpaths in the countryside.",
+    "whyTryIt": [
+      "Connects you with nature.",
+      "Excellent full-body workout."
+    ],
+    "examples": [
+      "Day hikes",
+      "Trekking"
+    ],
+    "howToStart": {
+      "need": "Sturdy shoes and water.",
+      "firstThing": "Find a local beginner trail.",
+      "firstProject": "Complete a 3km nature trail.",
+      "next": "Attempt a hill climb."
+    },
+    "cost": {
+      "starting": "₹2000",
+      "typical": "₹500",
+      "household": "No",
+      "optional": "Trekking poles"
+    },
+    "time": "2-5 hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Swimming",
+    "category": "🗺️ Travel & Outdoors",
+    "oneLiner": "Propelling yourself through water using your limbs.",
+    "whatIsIt": "A full-body exercise performed in pools or open water.",
+    "whyTryIt": [
+      "Low impact on joints.",
+      "Builds endurance and lung capacity."
+    ],
+    "examples": [
+      "Freestyle laps",
+      "Open water swimming"
+    ],
+    "howToStart": {
+      "need": "Swimwear and goggles.",
+      "firstThing": "Get comfortable floating.",
+      "firstProject": "Swim one full lap.",
+      "next": "Learn a new stroke."
+    },
+    "cost": {
+      "starting": "₹1000",
+      "typical": "₹2000",
+      "household": "No",
+      "optional": "Swim cap"
+    },
+    "time": "45-60 mins",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Badminton",
+    "category": "🗺️ Travel & Outdoors",
+    "oneLiner": "A racquet sport played with a shuttlecock across a net.",
+    "whatIsIt": "Hitting a lightweight shuttlecock back and forth over a high net.",
+    "whyTryIt": [
+      "Improves reflexes and agility.",
+      "Highly social and competitive."
+    ],
+    "examples": [
+      "Singles match",
+      "Doubles with friends"
+    ],
+    "howToStart": {
+      "need": "Racquet and shuttlecocks.",
+      "firstThing": "Learn the basic grip.",
+      "firstProject": "Rally for 10 hits without dropping.",
+      "next": "Learn to smash."
+    },
+    "cost": {
+      "starting": "₹1500",
+      "typical": "₹500",
+      "household": "No",
+      "optional": "Court shoes"
+    },
+    "time": "1-2 hours",
+    "difficulty": 2,
+    "aloneOrTogether": "Together"
+  },
+  {
+    "name": "Table tennis",
+    "category": "🗺️ Travel & Outdoors",
+    "oneLiner": "A fast-paced indoor/outdoor sport played on a table.",
+    "whatIsIt": "Hitting a lightweight ball back and forth across a table with small bats.",
+    "whyTryIt": [
+      "Enhances hand-eye coordination.",
+      "Can be played year-round."
+    ],
+    "examples": [
+      "Friendly rallies",
+      "Tournament play"
+    ],
+    "howToStart": {
+      "need": "Table tennis bat and balls.",
+      "firstThing": "Learn to serve.",
+      "firstProject": "Keep the ball in play for 20 shots.",
+      "next": "Practice spin shots."
+    },
+    "cost": {
+      "starting": "₹1000",
+      "typical": "₹300",
+      "household": "No",
+      "optional": "Custom bats"
+    },
+    "time": "30-60 mins",
+    "difficulty": 2,
+    "aloneOrTogether": "Together"
+  },
+  {
+    "name": "Skating",
+    "category": "🗺️ Travel & Outdoors",
+    "oneLiner": "Gliding on surfaces using skates.",
+    "whatIsIt": "Moving on wheels or blades attached to your feet.",
+    "whyTryIt": [
+      "Builds core strength and balance.",
+      "A fun way to travel short distances."
+    ],
+    "examples": [
+      "Rollerblading",
+      "Skateboarding"
+    ],
+    "howToStart": {
+      "need": "Skates and protective gear.",
+      "firstThing": "Learn to stand and balance.",
+      "firstProject": "Skate continuously for 100 meters.",
+      "next": "Learn to turn smoothly."
+    },
+    "cost": {
+      "starting": "₹3000",
+      "typical": "₹0",
+      "household": "No",
+      "optional": "Better bearings"
+    },
+    "time": "1-2 hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Rock climbing",
+    "category": "🗺️ Travel & Outdoors",
+    "oneLiner": "Scaling natural rock formations or artificial walls.",
+    "whatIsIt": "A physically and mentally demanding sport of climbing up or across rocks.",
+    "whyTryIt": [
+      "Builds immense upper body strength.",
+      "Excellent problem-solving exercise."
+    ],
+    "examples": [
+      "Bouldering",
+      "Top-rope climbing"
+    ],
+    "howToStart": {
+      "need": "Climbing shoes and chalk.",
+      "firstThing": "Visit a local climbing gym.",
+      "firstProject": "Complete a beginner bouldering route.",
+      "next": "Learn to belay."
+    },
+    "cost": {
+      "starting": "₹4000",
+      "typical": "₹2500",
+      "household": "No",
+      "optional": "Own harness"
+    },
+    "time": "2-3 hours",
+    "difficulty": 4,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Yoga",
+    "category": "🗺️ Travel & Outdoors",
+    "oneLiner": "A practice of physical postures, breathing, and meditation.",
+    "whatIsIt": "Connecting mind and body through a series of focused movements.",
+    "whyTryIt": [
+      "Increases flexibility.",
+      "Reduces stress significantly."
+    ],
+    "examples": [
+      "Hatha yoga in a park",
+      "Vinyasa flow"
+    ],
+    "howToStart": {
+      "need": "A yoga mat.",
+      "firstThing": "Learn basic breathing.",
+      "firstProject": "Complete a 15-minute guided routine.",
+      "next": "Master the Sun Salutation."
+    },
+    "cost": {
+      "starting": "₹500",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Yoga blocks"
+    },
+    "time": "30-60 mins",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Calisthenics",
+    "category": "🗺️ Travel & Outdoors",
+    "oneLiner": "Bodyweight training to build strength and flexibility.",
+    "whatIsIt": "Exercising using only your own body weight for resistance.",
+    "whyTryIt": [
+      "Requires almost zero equipment.",
+      "Builds functional, real-world strength."
+    ],
+    "examples": [
+      "Pull-ups at a park",
+      "Push-up variations"
+    ],
+    "howToStart": {
+      "need": "A pull-up bar (optional).",
+      "firstThing": "Master a basic push-up.",
+      "firstProject": "Perform a set of 10 push-ups and squats.",
+      "next": "Learn a pull-up."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Gymnastic rings"
+    },
+    "time": "45-60 mins",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Martial arts",
+    "category": "🎨 Arts & Drawing",
+    "oneLiner": "Practiced traditions of combat and self-defense.",
+    "whatIsIt": "Learning structured combat disciplines like Karate, Judo, or Taekwondo.",
+    "whyTryIt": [
+      "Teaches self-defense skills.",
+      "Instills discipline and focus."
+    ],
+    "examples": [
+      "Shadow boxing in the park",
+      "Sparring practice"
+    ],
+    "howToStart": {
+      "need": "Comfortable workout clothes.",
+      "firstThing": "Learn a basic stance and punch.",
+      "firstProject": "Attend your first beginner class.",
+      "next": "Learn a basic kick."
+    },
+    "cost": {
+      "starting": "₹1000",
+      "typical": "₹2000",
+      "household": "No",
+      "optional": "Sparring gear"
+    },
+    "time": "1-2 hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Archery",
+    "category": "🗺️ Travel & Outdoors",
+    "oneLiner": "The practice of using a bow to shoot arrows.",
+    "whatIsIt": "A sport of precision, aiming arrows at a stationary target.",
+    "whyTryIt": [
+      "Improves focus and patience.",
+      "A unique skill unlike modern sports."
+    ],
+    "examples": [
+      "Target practice",
+      "Field archery"
+    ],
+    "howToStart": {
+      "need": "Beginner bow and arrows.",
+      "firstThing": "Learn the proper stance.",
+      "firstProject": "Hit the target face from 10 meters.",
+      "next": "Group 3 arrows together."
+    },
+    "cost": {
+      "starting": "₹5000",
+      "typical": "₹1000",
+      "household": "No",
+      "optional": "Arm guard"
+    },
+    "time": "1-2 hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Geocaching",
+    "category": "🗺️ Travel & Outdoors",
+    "oneLiner": "A real-world outdoor treasure hunting game.",
+    "whatIsIt": "Using GPS coordinates to find hidden containers called geocaches.",
+    "whyTryIt": [
+      "Turns a walk into an adventure.",
+      "Fun way to discover hidden local spots."
+    ],
+    "examples": [
+      "Finding a city micro-cache",
+      "Forest cache hunting"
+    ],
+    "howToStart": {
+      "need": "A smartphone with GPS.",
+      "firstThing": "Download a geocaching app.",
+      "firstProject": "Find your first local cache.",
+      "next": "Hide your own cache."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "No",
+      "optional": "Premium app subscription"
+    },
+    "time": "1-3 hours",
+    "difficulty": 1,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Bird watching",
+    "category": "🌱 Gardening & Nature",
+    "oneLiner": "Observing birds in their natural habitats.",
+    "whatIsIt": "Identifying and studying different species of birds outdoors.",
+    "whyTryIt": [
+      "Encourages patience and quiet observation.",
+      "Deepens your connection to local wildlife."
+    ],
+    "examples": [
+      "Spotting migratory birds",
+      "Backyard birding"
+    ],
+    "howToStart": {
+      "need": "Binoculars and a field guide app.",
+      "firstThing": "Learn to use binoculars quickly.",
+      "firstProject": "Identify 3 common local birds.",
+      "next": "Visit a local wetland."
+    },
+    "cost": {
+      "starting": "₹2000",
+      "typical": "₹0",
+      "household": "No",
+      "optional": "Telephoto camera lens"
+    },
+    "time": "1-3 hours",
+    "difficulty": 1,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Nature walks",
+    "category": "🌱 Gardening & Nature",
+    "oneLiner": "Leisurely walks specifically to enjoy natural surroundings.",
+    "whatIsIt": "Taking time to walk slowly through parks, forests, or botanical gardens.",
+    "whyTryIt": [
+      "Highly relaxing and meditative.",
+      "Requires absolutely no special skills."
+    ],
+    "examples": [
+      "Walking through a botanical garden",
+      "Forest bathing"
+    ],
+    "howToStart": {
+      "need": "Comfortable walking shoes.",
+      "firstThing": "Find a local green space.",
+      "firstProject": "Take a 30-minute silent walk.",
+      "next": "Learn about local tree species."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Plant identification app"
+    },
+    "time": "30-90 mins",
+    "difficulty": 1,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Photography walks",
+    "category": "🎨 Arts & Drawing",
+    "oneLiner": "Walking with the specific intent of taking interesting photos.",
+    "whatIsIt": "Combining light exercise with the creative pursuit of photography.",
+    "whyTryIt": [
+      "Trains you to see the world differently.",
+      "Creates lasting memories and art."
+    ],
+    "examples": [
+      "Street photography",
+      "Nature macro photography"
+    ],
+    "howToStart": {
+      "need": "A smartphone camera.",
+      "firstThing": "Learn the rule of thirds.",
+      "firstProject": "Take 10 photos of interesting textures.",
+      "next": "Try taking photos during golden hour."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "DSLR camera"
+    },
+    "time": "1-2 hours",
+    "difficulty": 1,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Picnic planning",
+    "category": "🗺️ Travel & Outdoors",
+    "oneLiner": "Organizing and enjoying outdoor meals.",
+    "whatIsIt": "Curating food, location, and setup for a pleasant outdoor dining experience.",
+    "whyTryIt": [
+      "Combines culinary skills with outdoor relaxation.",
+      "Great for socializing."
+    ],
+    "examples": [
+      "Romantic sunset picnic",
+      "Family park gathering"
+    ],
+    "howToStart": {
+      "need": "A blanket and basic food.",
+      "firstThing": "Scout a good location.",
+      "firstProject": "Pack a simple sandwich lunch for the park.",
+      "next": "Plan a themed picnic menu."
+    },
+    "cost": {
+      "starting": "₹500",
+      "typical": "₹1000",
+      "household": "No",
+      "optional": "Picnic basket and cooler"
+    },
+    "time": "2-3 hours",
+    "difficulty": 1,
+    "aloneOrTogether": "Together"
+  },
+  {
+    "name": "Kite flying",
+    "category": "🗺️ Travel & Outdoors",
+    "oneLiner": "Flying tethered craft using the power of the wind.",
+    "whatIsIt": "An ancient recreational activity of keeping a kite airborne.",
+    "whyTryIt": [
+      "Relaxing and visually rewarding.",
+      "Gets you out into open spaces on breezy days."
+    ],
+    "examples": [
+      "Flying a single-line kite",
+      "Stunt kite flying"
+    ],
+    "howToStart": {
+      "need": "A simple delta kite.",
+      "firstThing": "Find a large open space away from trees.",
+      "firstProject": "Keep a kite airborne for 5 minutes.",
+      "next": "Learn to launch it solo."
+    },
+    "cost": {
+      "starting": "₹300",
+      "typical": "₹0",
+      "household": "No",
+      "optional": "Dual-line stunt kite"
+    },
+    "time": "1-2 hours",
+    "difficulty": 1,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Fishing",
+    "category": "🗺️ Travel & Outdoors",
+    "oneLiner": "The practice of catching fish from a body of water.",
+    "whatIsIt": "Using a rod, line, and bait to catch fish recreationally.",
+    "whyTryIt": [
+      "Teaches extreme patience.",
+      "A peaceful way to spend time near water."
+    ],
+    "examples": [
+      "Lake fishing from the shore",
+      "Fly fishing in a stream"
+    ],
+    "howToStart": {
+      "need": "Basic rod, reel, and bait.",
+      "firstThing": "Learn to tie a basic fishing knot.",
+      "firstProject": "Cast a line into the water successfully.",
+      "next": "Catch and release your first fish."
+    },
+    "cost": {
+      "starting": "₹2000",
+      "typical": "₹500",
+      "household": "No",
+      "optional": "Tackle box upgrades"
+    },
+    "time": "3-5 hours",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Camping",
+    "category": "🗺️ Travel & Outdoors",
+    "oneLiner": "Spending nights outdoors in a tent or shelter.",
+    "whatIsIt": "Living temporarily in nature, away from urban environments.",
+    "whyTryIt": [
+      "A complete escape from daily life.",
+      "Teaches basic survival and self-sufficiency."
+    ],
+    "examples": [
+      "Car camping at a managed site",
+      "Wilderness backpacking"
+    ],
+    "howToStart": {
+      "need": "Tent, sleeping bag, and flashlight.",
+      "firstThing": "Practice pitching the tent at home.",
+      "firstProject": "Spend one night at a designated campsite.",
+      "next": "Learn to cook over a campfire."
+    },
+    "cost": {
+      "starting": "₹5000",
+      "typical": "₹1500",
+      "household": "No",
+      "optional": "Camping stove"
+    },
+    "time": "1-2 days",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Coin collecting",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Gather and study fascinating coins from around the world.",
+    "whatIsIt": "Building a collection of interesting, old, or foreign currency.",
+    "whyTryIt": [
+      "Learn about history and geography.",
+      "Find hidden value in pocket change."
+    ],
+    "examples": [
+      "State quarters",
+      "Old pennies",
+      "Foreign coins"
+    ],
+    "howToStart": {
+      "need": "Magnifying glass and a coin folder.",
+      "firstThing": "Check your change for unique dates or designs.",
+      "firstProject": "Fill a basic state quarter map.",
+      "next": "Visit a local coin shop."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹100-₹500/month",
+      "household": "Yes",
+      "optional": "Buying rare coins or protective cases"
+    },
+    "time": "A few minutes whenever you get change",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Stamp collecting",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Collect miniature pieces of art and history used for postage.",
+    "whatIsIt": "Gathering and organizing postage stamps by theme, country, or era.",
+    "whyTryIt": [
+      "Appreciate tiny artworks.",
+      "Learn about different cultures."
+    ],
+    "examples": [
+      "Animal stamps",
+      "Historical figures",
+      "Vintage stamps"
+    ],
+    "howToStart": {
+      "need": "A stamp album and tweezers.",
+      "firstThing": "Save stamps from incoming mail.",
+      "firstProject": "Organize stamps by color or country.",
+      "next": "Buy a starter pack of mixed stamps online."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹100-₹500/month",
+      "household": "Yes",
+      "optional": "Purchasing specific uncirculated stamps"
+    },
+    "time": "1-2 hours on weekends",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Fossil hunting",
+    "category": "🔬 Science & Experiments",
+    "oneLiner": "Search for remnants of prehistoric life in rocks and riverbeds.",
+    "whatIsIt": "Finding and identifying ancient fossils preserved in nature.",
+    "whyTryIt": [
+      "Connect with ancient history.",
+      "Enjoy outdoor exploration."
+    ],
+    "examples": [
+      "Ammonites",
+      "Shark teeth",
+      "Plant imprints"
+    ],
+    "howToStart": {
+      "need": "A small hammer and safety goggles.",
+      "firstThing": "Research local areas where fossils are commonly found.",
+      "firstProject": "Find a simple shell imprint.",
+      "next": "Join a local geological society trip."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹500/trip",
+      "household": "No",
+      "optional": "Travel expenses and better digging tools"
+    },
+    "time": "Half a day per trip",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Rock collecting",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Gather interesting stones, minerals, and crystals.",
+    "whatIsIt": "Finding, cleaning, and categorizing various types of rocks.",
+    "whyTryIt": [
+      "Appreciate natural beauty.",
+      "Learn about geology."
+    ],
+    "examples": [
+      "Quartz crystals",
+      "Smooth river stones",
+      "Agates"
+    ],
+    "howToStart": {
+      "need": "A sturdy bag and a brush.",
+      "firstThing": "Pick up a unique rock on your next walk.",
+      "firstProject": "Start a display shelf of your favorites.",
+      "next": "Get a rock tumbler to polish them."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0-₹200/month",
+      "household": "Yes",
+      "optional": "Buying a rock tumbler"
+    },
+    "time": "Whenever you are outdoors",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Shell collecting",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Comb beaches for beautiful and unique seashells.",
+    "whatIsIt": "Finding and identifying empty shells washed ashore.",
+    "whyTryIt": [
+      "Enjoy relaxing beach walks.",
+      "Discover intricate natural patterns."
+    ],
+    "examples": [
+      "Conch shells",
+      "Scallop shells",
+      "Sea glass"
+    ],
+    "howToStart": {
+      "need": "A mesh bag and sunscreen.",
+      "firstThing": "Walk along a beach at low tide.",
+      "firstProject": "Sort your shells by shape or color.",
+      "next": "Create a decorative jar display."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Travel to different beaches"
+    },
+    "time": "1-2 hours per beach visit",
+    "difficulty": 1,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Thrift-store treasure hunting",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Search for hidden gems and valuable items in secondhand shops.",
+    "whatIsIt": "Scouring thrift stores and flea markets for unique or underpriced items.",
+    "whyTryIt": [
+      "The thrill of the hunt.",
+      "Find cool items cheaply."
+    ],
+    "examples": [
+      "Vintage clothing",
+      "Retro electronics",
+      "Antique decor"
+    ],
+    "howToStart": {
+      "need": "A keen eye and some pocket money.",
+      "firstThing": "Visit a local thrift store with no specific goal.",
+      "firstProject": "Find one item you absolutely love for under ₹500.",
+      "next": "Learn to identify valuable brands or materials."
+    },
+    "cost": {
+      "starting": "₹100",
+      "typical": "₹500-₹2000/month",
+      "household": "No",
+      "optional": "Buying more expensive antiques"
+    },
+    "time": "2-3 hours on weekends",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Metal detecting",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Unearth lost coins, jewelry, and relics using a metal detector.",
+    "whatIsIt": "Scanning the ground with a device that beeps when it finds metal.",
+    "whyTryIt": [
+      "Excitement of discovering lost items.",
+      "Great excuse to walk outdoors."
+    ],
+    "examples": [
+      "Finding dropped coins",
+      "Discovering old buttons",
+      "Unearthing lost rings"
+    ],
+    "howToStart": {
+      "need": "An entry-level metal detector and a small trowel.",
+      "firstThing": "Test the detector in your own backyard.",
+      "firstProject": "Search a local public beach or park (check laws).",
+      "next": "Join a metal detecting forum."
+    },
+    "cost": {
+      "starting": "₹5000",
+      "typical": "₹0 after initial gear",
+      "household": "No",
+      "optional": "Upgrading to a more sensitive detector"
+    },
+    "time": "2-4 hours per outing",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Urban exploration",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Explore abandoned buildings and hidden city spaces safely.",
+    "whatIsIt": "Visiting and photographing forgotten or off-limits urban structures.",
+    "whyTryIt": [
+      "Experience unique atmosphere.",
+      "Document decaying history."
+    ],
+    "examples": [
+      "Abandoned factories",
+      "Old hospitals",
+      "Forgotten railway lines"
+    ],
+    "howToStart": {
+      "need": "Good boots, a flashlight, and a camera.",
+      "firstThing": "Research safe, accessible abandoned spots nearby.",
+      "firstProject": "Visit an old, public ruin during the day.",
+      "next": "Learn about the history of the locations you visit."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "No",
+      "optional": "Better photography gear"
+    },
+    "time": "Half a day",
+    "difficulty": 3,
+    "aloneOrTogether": "Together"
+  },
+  {
+    "name": "People watching",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Observe people in public places and imagine their stories.",
+    "whatIsIt": "Sitting quietly in a busy area and mindfully watching human behavior.",
+    "whyTryIt": [
+      "Fascinating study of human nature.",
+      "Incredibly relaxing and free."
+    ],
+    "examples": [
+      "Sitting at a cafe",
+      "Waiting in a park",
+      "Airport lounges"
+    ],
+    "howToStart": {
+      "need": "A comfortable spot and free time.",
+      "firstThing": "Sit at a busy cafe for 30 minutes without your phone.",
+      "firstProject": "Try to guess the relationships between people you see.",
+      "next": "Sketch or write short stories based on strangers."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹100 (for coffee)",
+      "household": "No",
+      "optional": "Buying a notebook to jot down observations"
+    },
+    "time": "30 minutes to an hour",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Train spotting",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Observe and log different types of trains and locomotives.",
+    "whatIsIt": "Waiting at stations or trackside to see specific trains pass by.",
+    "whyTryIt": [
+      "Appreciate large machinery.",
+      "Enjoy the thrill of catching rare engines."
+    ],
+    "examples": [
+      "Freight trains",
+      "Historic steam engines",
+      "High-speed rail"
+    ],
+    "howToStart": {
+      "need": "A notebook and a timetable.",
+      "firstThing": "Go to a busy local train station.",
+      "firstProject": "Log the types of trains you see in one hour.",
+      "next": "Learn the different classes of locomotives."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "No",
+      "optional": "Camera equipment or travel to famous junctions"
+    },
+    "time": "1-3 hours",
+    "difficulty": 1,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Plane spotting",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Watch and photograph aircraft taking off and landing.",
+    "whatIsIt": "Identifying different commercial and military aircraft near airports.",
+    "whyTryIt": [
+      "Fascinating mix of technology and aviation.",
+      "Relaxing outdoor activity."
+    ],
+    "examples": [
+      "Identifying airlines",
+      "Spotting rare cargo planes",
+      "Watching military jets"
+    ],
+    "howToStart": {
+      "need": "A flight tracking app (like Flightradar24).",
+      "firstThing": "Find a safe viewing spot near a local airport.",
+      "firstProject": "Identify five different airlines.",
+      "next": "Get binoculars or a zoom lens camera."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "No",
+      "optional": "Binoculars or premium app subscriptions"
+    },
+    "time": "1-2 hours",
+    "difficulty": 1,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Watching sunrise",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Wake up early to witness the start of a new day.",
+    "whatIsIt": "Finding a good vantage point to watch the sun come up.",
+    "whyTryIt": [
+      "Peaceful start to the day.",
+      "Beautiful natural colors."
+    ],
+    "examples": [
+      "From a hilltop",
+      "At the beach",
+      "From your balcony"
+    ],
+    "howToStart": {
+      "need": "An alarm clock and warm clothes.",
+      "firstThing": "Check the exact sunrise time for tomorrow.",
+      "firstProject": "Wake up 30 minutes before sunrise and watch it with tea.",
+      "next": "Find a scenic location nearby for your next sunrise."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "None"
+    },
+    "time": "30 minutes early morning",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Watching sunset",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Take time each evening to watch the sun go down.",
+    "whatIsIt": "Appreciating the changing colors of the evening sky.",
+    "whyTryIt": [
+      "Great way to unwind.",
+      "Daily reminder of nature's beauty."
+    ],
+    "examples": [
+      "Over a lake",
+      "City skyline silhouettes",
+      "From a park bench"
+    ],
+    "howToStart": {
+      "need": "Just your eyes.",
+      "firstThing": "Step outside 15 minutes before sunset.",
+      "firstProject": "Watch the sunset three days in a row.",
+      "next": "Photograph the different colors each day."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "None"
+    },
+    "time": "30 minutes in the evening",
+    "difficulty": 1,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Cloud photography",
+    "category": "🎨 Arts & Drawing",
+    "oneLiner": "Capture interesting and dramatic cloud formations.",
+    "whatIsIt": "Looking up and photographing unique shapes and types of clouds.",
+    "whyTryIt": [
+      "Makes you appreciate the sky.",
+      "Requires no special location."
+    ],
+    "examples": [
+      "Cumulonimbus storms",
+      "Wispy cirrus clouds",
+      "Shapes resembling animals"
+    ],
+    "howToStart": {
+      "need": "A smartphone camera.",
+      "firstThing": "Take a picture of the sky today.",
+      "firstProject": "Create an album of 10 different interesting cloud photos.",
+      "next": "Learn the scientific names of the clouds you photograph."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "None"
+    },
+    "time": "A few minutes daily",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Photographing interesting doors",
+    "category": "🎨 Arts & Drawing",
+    "oneLiner": "Hunt for and photograph unique, colorful, or historic doors.",
+    "whatIsIt": "Curating a visual collection of interesting entryways in your area or travels.",
+    "whyTryIt": [
+      "Makes you notice architectural details.",
+      "Great for building a themed photo collection."
+    ],
+    "examples": [
+      "Brightly painted doors",
+      "Old wooden gates",
+      "Doors with ornate knockers"
+    ],
+    "howToStart": {
+      "need": "A smartphone camera.",
+      "firstThing": "Walk around your neighborhood looking only at doors.",
+      "firstProject": "Take photos of 5 colorful doors.",
+      "next": "Create an Instagram account dedicated to your finds."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "No",
+      "optional": "None"
+    },
+    "time": "During everyday walks",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Photographing signs",
+    "category": "🎨 Arts & Drawing",
+    "oneLiner": "Capture funny, vintage, or poorly translated signs.",
+    "whatIsIt": "Building a collection of interesting signage from the streets.",
+    "whyTryIt": [
+      "Find humor in everyday life.",
+      "Appreciate vintage typography."
+    ],
+    "examples": [
+      "Neon signs",
+      "Funny warnings",
+      "Old shop facades"
+    ],
+    "howToStart": {
+      "need": "A smartphone camera.",
+      "firstThing": "Keep an eye out for a funny sign on your commute.",
+      "firstProject": "Collect photos of neon signs at night.",
+      "next": "Organize them into a digital zine."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "No",
+      "optional": "None"
+    },
+    "time": "Whenever you are out",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Making a map of your neighbourhood",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Draw a personal, detailed map of the area around your home.",
+    "whatIsIt": "Creating a custom map highlighting personal landmarks and secret spots.",
+    "whyTryIt": [
+      "Connect deeply with your local area.",
+      "Fun mix of exploration and art."
+    ],
+    "examples": [
+      "Mapping local stray cats",
+      "Marking the best trees",
+      "Drawing shortcuts"
+    ],
+    "howToStart": {
+      "need": "Paper and a pen.",
+      "firstThing": "Draw the streets immediately surrounding your house.",
+      "firstProject": "Add your favorite local spots to the map.",
+      "next": "Walk down a street you've never been down to add it."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Buying nice art supplies"
+    },
+    "time": "A few hours over a weekend",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Learning to identify trees",
+    "category": "🌱 Gardening & Nature",
+    "oneLiner": "Learn the names and characteristics of local trees by their leaves and bark.",
+    "whatIsIt": "Studying botany casually to recognize the nature around you.",
+    "whyTryIt": [
+      "Turns every walk into an interactive experience.",
+      "Deepens nature appreciation."
+    ],
+    "examples": [
+      "Oak vs Maple",
+      "Identifying pine trees",
+      "Recognizing flowering trees"
+    ],
+    "howToStart": {
+      "need": "A tree identification app or field guide.",
+      "firstThing": "Identify the tree closest to your front door.",
+      "firstProject": "Identify 5 different trees in a local park.",
+      "next": "Learn how they change through the seasons."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Buying physical field guides"
+    },
+    "time": "10 minutes during walks",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Learning to identify birds by sound",
+    "category": "🌱 Gardening & Nature",
+    "oneLiner": "Recognize different bird species just by listening to their calls.",
+    "whatIsIt": "Training your ear to pick out and identify specific bird songs.",
+    "whyTryIt": [
+      "Feel more connected to nature without needing binoculars.",
+      "Great mindfulness practice."
+    ],
+    "examples": [
+      "Robin's morning song",
+      "The hoot of an owl",
+      "Crow caws"
+    ],
+    "howToStart": {
+      "need": "An app like Merlin Bird ID.",
+      "firstThing": "Record a bird singing outside your window using the app.",
+      "firstProject": "Learn the calls of the 3 most common birds in your area.",
+      "next": "Try identifying them without the app."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "None"
+    },
+    "time": "Whenever you hear birds",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Keeping a dream journal",
+    "category": "✍️ Writing & Creative Expression",
+    "oneLiner": "Write down your dreams every morning to remember them better.",
+    "whatIsIt": "Recording the strange and vivid things your brain does while you sleep.",
+    "whyTryIt": [
+      "Improves dream recall.",
+      "Fascinating look into your subconscious."
+    ],
+    "examples": [
+      "Writing down nightmares",
+      "Logging recurring dreams",
+      "Noticing dream patterns"
+    ],
+    "howToStart": {
+      "need": "A notebook and pen by your bed.",
+      "firstThing": "As soon as you wake up, write down any fragments you remember.",
+      "firstProject": "Keep the journal consistently for one week.",
+      "next": "Look for recurring themes or symbols."
+    },
+    "cost": {
+      "starting": "₹50",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "None"
+    },
+    "time": "5 minutes every morning",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Making a time capsule",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Gather current items to hide away for your future self or others to find.",
+    "whatIsIt": "Curating objects, photos, and letters that represent the present day.",
+    "whyTryIt": [
+      "A fun way to capture memories.",
+      "Creates a magical moment for the future."
+    ],
+    "examples": [
+      "Current newspapers",
+      "A list of current prices",
+      "Personal photos"
+    ],
+    "howToStart": {
+      "need": "A durable container.",
+      "firstThing": "Decide when the capsule should be opened (e.g., 10 years).",
+      "firstProject": "Fill a shoebox and hide it in the back of a closet.",
+      "next": "Make a weatherproof one to bury."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Buying a waterproof metal container"
+    },
+    "time": "An hour to assemble",
+    "difficulty": 1,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Writing letters to your future self",
+    "category": "✍️ Writing & Creative Expression",
+    "oneLiner": "Send emails or write physical letters to be read years later.",
+    "whatIsIt": "Documenting your current hopes, fears, and daily life for future you.",
+    "whyTryIt": [
+      "Great for self-reflection.",
+      "Amazing to read years down the line."
+    ],
+    "examples": [
+      "Using FutureMe.org",
+      "Sealing physical envelopes",
+      "Annual birthday letters"
+    ],
+    "howToStart": {
+      "need": "An internet connection or paper.",
+      "firstThing": "Write a short letter to yourself 1 year from now.",
+      "firstProject": "Use a service like FutureMe to schedule the email.",
+      "next": "Write a letter to yourself 5 or 10 years in the future."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "None"
+    },
+    "time": "30 minutes once a year",
+    "difficulty": 1,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Making your own board game",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Design rules, a board, and pieces for a brand new game.",
+    "whatIsIt": "Combining creativity and logic to invent a playable tabletop game.",
+    "whyTryIt": [
+      "Exercises creative thinking.",
+      "You get a unique game to play with friends."
+    ],
+    "examples": [
+      "A game about your family",
+      "A cooperative survival game",
+      "A simple race game"
+    ],
+    "howToStart": {
+      "need": "Cardboard, markers, and dice.",
+      "firstThing": "Brainstorm a simple theme and goal.",
+      "firstProject": "Draw a basic track on cardboard and test it.",
+      "next": "Refine the rules and make better looking components."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0-₹500/project",
+      "household": "Yes",
+      "optional": "Buying blank game boards or custom pieces"
+    },
+    "time": "A few hours to weeks",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Designing your own card game",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Invent mechanics and draw cards for a custom card game.",
+    "whatIsIt": "Creating a deck-based game from scratch.",
+    "whyTryIt": [
+      "Easier to prototype than board games.",
+      "Highly creative and iterative."
+    ],
+    "examples": [
+      "A party game",
+      "A strategic dueling game",
+      "A trick-taking game"
+    ],
+    "howToStart": {
+      "need": "Index cards and a pen.",
+      "firstThing": "Write down a core mechanic (e.g., matching colors).",
+      "firstProject": "Make a 20-card prototype and playtest it.",
+      "next": "Print nicer versions on thick cardstock."
+    },
+    "cost": {
+      "starting": "₹50",
+      "typical": "₹100/project",
+      "household": "Yes",
+      "optional": "Professional printing"
+    },
+    "time": "A few hours",
+    "difficulty": 3,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Creating a scavenger hunt",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Design a series of clues leading to a hidden prize for friends or family.",
+    "whatIsIt": "Writing riddles and hiding them around the house or town.",
+    "whyTryIt": [
+      "Brings joy to others.",
+      "Tests your cleverness in writing clues."
+    ],
+    "examples": [
+      "Birthday hunts",
+      "Neighborhood photo hunts",
+      "Indoor riddle trails"
+    ],
+    "howToStart": {
+      "need": "Paper and a prize.",
+      "firstThing": "Decide on the final hiding spot.",
+      "firstProject": "Write 5 simple clues leading around the house.",
+      "next": "Create a more complex hunt around your local park."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Cost of the hidden prize"
+    },
+    "time": "1-2 hours to prep",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone (to prep)"
+  },
+  {
+    "name": "Learning card tricks",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Master sleight of hand to perform magic with a standard deck of cards.",
+    "whatIsIt": "Practicing shuffles, forces, and misdirection to entertain.",
+    "whyTryIt": [
+      "Great party trick.",
+      "Improves dexterity and confidence."
+    ],
+    "examples": [
+      "Pick a card tricks",
+      "Color changes",
+      "Self-working tricks"
+    ],
+    "howToStart": {
+      "need": "A standard deck of playing cards.",
+      "firstThing": "Watch a beginner tutorial on YouTube.",
+      "firstProject": "Master one self-working card trick.",
+      "next": "Learn the 'double lift' technique."
+    },
+    "cost": {
+      "starting": "₹100",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Buying premium cards like Bicycles"
+    },
+    "time": "15 minutes of practice daily",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone (to practice)"
+  },
+  {
+    "name": "Learning juggling",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Keep three or more objects in the air continuously.",
+    "whatIsIt": "Practicing hand-eye coordination to toss and catch multiple items.",
+    "whyTryIt": [
+      "Excellent brain workout.",
+      "Impressive physical skill that requires zero setup."
+    ],
+    "examples": [
+      "Juggling 3 balls",
+      "Juggling rings",
+      "Juggling clubs"
+    ],
+    "howToStart": {
+      "need": "3 similar objects (rolled socks or oranges).",
+      "firstThing": "Practice tossing just one object in a perfect arc.",
+      "firstProject": "Successfully complete one cycle with 3 objects (the cascade).",
+      "next": "Buy proper juggling beanbags."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Buying professional juggling balls"
+    },
+    "time": "15 minutes daily",
+    "difficulty": 4,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Yo-yo tricks",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Master string tricks using a modern responsive or unresponsive yo-yo.",
+    "whatIsIt": "Learning physics-defying maneuvers with a spinning toy.",
+    "whyTryIt": [
+      "Very meditative and satisfying.",
+      "Highly portable hobby."
+    ],
+    "examples": [
+      "Walk the dog",
+      "Around the world",
+      "The trapeze"
+    ],
+    "howToStart": {
+      "need": "A responsive yo-yo.",
+      "firstThing": "Learn to throw a basic, strong 'sleeper'.",
+      "firstProject": "Master the 'Walk the Dog' trick.",
+      "next": "Upgrade to an unresponsive yo-yo for advanced tricks."
+    },
+    "cost": {
+      "starting": "₹300",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Buying high-end metal yo-yos"
+    },
+    "time": "10-20 minutes of practice daily",
+    "difficulty": 3,
+    "aloneOrTogether": "Alone"
+  },
+  {
+    "name": "Kite making",
+    "category": "🌟 Unusual / Experimental",
+    "oneLiner": "Construct and fly your own custom kites from basic materials.",
+    "whatIsIt": "Using paper, sticks, and string to build aerodynamic flying objects.",
+    "whyTryIt": [
+      "Combines crafting with outdoor activity.",
+      "Highly rewarding when it flies."
+    ],
+    "examples": [
+      "Simple diamond kites",
+      "Box kites",
+      "Sled kites"
+    ],
+    "howToStart": {
+      "need": "Newspaper, sticks, tape, and string.",
+      "firstThing": "Find a simple diamond kite template online.",
+      "firstProject": "Build and test fly a basic paper kite.",
+      "next": "Experiment with ripstop nylon for durability."
+    },
+    "cost": {
+      "starting": "₹50",
+      "typical": "₹100/kite",
+      "household": "Yes",
+      "optional": "Buying special fabrics and fiberglass rods"
+    },
+    "time": "1-2 hours to build",
+    "difficulty": 2,
+    "aloneOrTogether": "Either"
+  },
+  {
+    "name": "Building something from recycled materials",
+    "category": "🗺️ Travel & Outdoors",
+    "oneLiner": "Turn trash into treasure by crafting with discarded items.",
+    "whatIsIt": "Upcycling cardboard, plastic bottles, and tin cans into art or useful items.",
+    "whyTryIt": [
+      "Eco-friendly and sustainable.",
+      "Pushes your creative boundaries."
+    ],
+    "examples": [
+      "Cardboard forts",
+      "Plastic bottle planters",
+      "Tin can lanterns"
+    ],
+    "howToStart": {
+      "need": "Clean recycling and glue/tape.",
+      "firstThing": "Save a few clean boxes and bottles instead of throwing them away.",
+      "firstProject": "Turn a tin can into a pen holder.",
+      "next": "Build a complex sculpture or functional birdhouse."
+    },
+    "cost": {
+      "starting": "₹0",
+      "typical": "₹0",
+      "household": "Yes",
+      "optional": "Buying specialized glue or paint"
+    },
+    "time": "1-3 hours per project",
+    "difficulty": 2,
+    "aloneOrTogether": "Alone"
+  }
+]

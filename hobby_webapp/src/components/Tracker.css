@@ -1,0 +1,134 @@
+.tracker-container {
+  width: 100%;
+}
+
+.tracker-header {
+  margin-bottom: 30px;
+}
+
+.tracker-header h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.tracker-header p {
+  color: var(--text-secondary);
+  font-size: 16px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  background: var(--glass-bg);
+  border-radius: var(--radius-lg);
+  border: 1px dashed var(--glass-border);
+  color: var(--text-secondary);
+}
+
+.tracker-table-wrapper {
+  overflow-x: auto;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--glass-border);
+  background: var(--glass-bg);
+}
+
+.tracker-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.tracker-table th, 
+.tracker-table td {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.tracker-table th {
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+.tracker-table tr:last-child td {
+  border-bottom: none;
+}
+
+.tracker-table tr {
+  transition: var(--transition-fast);
+}
+
+.tracker-table tr:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.col-hobby {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.cat-badge {
+  font-size: 11px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+/* Status Dropdown */
+.status-select {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  width: 160px;
+}
+
+.status-select:focus {
+  border-color: var(--accent-primary);
+}
+
+/* Star Rating */
+.star-rating {
+  display: flex;
+  gap: 4px;
+}
+
+.star {
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 18px;
+  transition: var(--transition-fast);
+}
+
+.star.active {
+  color: #fbbf24;
+}
+
+.star:hover {
+  transform: scale(1.2);
+}
+
+/* Delete button */
+.delete-btn {
+  background: transparent;
+  color: var(--status-error);
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+  opacity: 0.6;
+  transition: var(--transition-fast);
+}
+
+.delete-btn:hover {
+  opacity: 1;
+  background: rgba(239, 68, 68, 0.1);
+}
