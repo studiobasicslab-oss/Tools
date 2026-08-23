@@ -5,77 +5,241 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curated Utilities | Basic Studio Labs</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
-        :root { --bg: #f5f4ef; }
-        body { font-family: 'Inter', sans-serif; background-color: var(--bg); color: #4a4a4a; }
-        .serif { font-family: 'Instrument Serif', serif; }
+        :root {
+            --bg-glow-1: rgba(99, 102, 241, 0.12);
+            --bg-glow-2: rgba(236, 72, 153, 0.10);
+            --bg-glow-3: rgba(6, 182, 212, 0.10);
+        }
         
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: #0c0e14;
+            color: #f1f5f9;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 15% 15%, var(--bg-glow-1) 0%, transparent 40%),
+                radial-gradient(circle at 85% 25%, var(--bg-glow-2) 0%, transparent 40%),
+                radial-gradient(circle at 50% 85%, var(--bg-glow-3) 0%, transparent 50%),
+                linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+            background-size: 100% 100%, 100% 100%, 100% 100%, 40px 40px, 40px 40px;
+        }
+
+        .serif { font-family: 'Instrument Serif', Georgia, serif; }
+        .mono { font-family: 'JetBrains Mono', monospace; }
+        
+        /* 3D Glassmorphic Tilt Card */
         .tool-card {
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            background: rgba(255, 255, 255, 0.6);
-            backdrop-filter: blur(8px);
+            position: relative;
+            background: rgba(18, 22, 34, 0.7);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-radius: 28px;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            overflow: hidden;
         }
+
+        .tool-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
         .tool-card:hover {
-            transform: scale(1.02);
-            background: rgba(255, 255, 255, 0.9);
-            box-shadow: 0 20px 40px -10px rgba(0,0,0,0.1);
+            transform: translateY(-6px) scale(1.015);
+            border-color: rgba(255, 255, 255, 0.22);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6), 0 0 35px -5px rgba(99, 102, 241, 0.2);
+            background: rgba(24, 29, 45, 0.85);
         }
-        .mascot-float { animation: float 4s ease-in-out infinite; }
-        @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+
+        .tool-card:hover::before {
+            opacity: 1;
+        }
+
+        /* Floating Orb Animations */
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-12px) rotate(2deg); }
+        }
+        .animate-float { animation: float 6s ease-in-out infinite; }
+
+        @keyframes pulseGlow {
+            0%, 100% { opacity: 0.4; }
+            50% { opacity: 0.8; }
+        }
+        .pulse-glow { animation: pulseGlow 4s ease-in-out infinite; }
     </style>
 </head>
-<body class="p-8 md:p-20">
+<body class="min-h-screen p-6 md:p-16 flex flex-col justify-between selection:bg-cyan-500 selection:text-slate-950">
 
-    <nav class="max-w-6xl mx-auto mb-16">
-        <a href="https://haris-lab.vercel.app/" class="text-stone-400 hover:text-stone-900 transition">&larr; Back to Studio</a>
+    <!-- Top Navigation Bar -->
+    <nav class="max-w-6xl w-full mx-auto mb-12 flex items-center justify-between">
+        <a href="https://haris-lab.vercel.app/" class="group flex items-center gap-2 text-sm text-slate-400 hover:text-white transition font-mono">
+            <span class="p-2 rounded-xl bg-slate-900/80 border border-slate-800 group-hover:border-slate-700 transition">&larr;</span>
+            <span>Back to Studio Labs</span>
+        </a>
+
+        <div class="flex items-center gap-2">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-mono bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
+                <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
+                LIVE LAB UTILITIES
+            </span>
+        </div>
     </nav>
 
-    <header class="max-w-6xl mx-auto mb-16">
-        <h1 class="serif text-6xl text-stone-900 mb-4">Curated Utilities</h1>
-        <p class="text-xl text-stone-500 italic">Precision instruments designed to optimize your workflow and sharpen your communication.</p>
+    <!-- Header Section -->
+    <header class="max-w-6xl w-full mx-auto mb-14 text-center md:text-left">
+        <div class="inline-block mb-3 px-3 py-1 rounded-xl bg-slate-900 border border-slate-800 text-xs text-slate-400 font-mono">
+            ENGINEERED SUITE • BASIC STUDIO
+        </div>
+        <h1 class="serif text-5xl md:text-7xl font-normal text-white mb-4 tracking-tight leading-none">
+            Curated <span class="italic text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-indigo-300 to-amber-300">Utilities</span>
+        </h1>
+        <p class="text-base md:text-xl text-slate-400 font-light max-w-2xl">
+            Precision web instruments engineered to heighten your focus, optimize daily workflows, and elevate cognitive performance.
+        </p>
     </header>
 
-    <main class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <!-- Tools Interactive Grid -->
+    <main class="max-w-6xl w-full mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
         
-        <!-- Corporate Translator Card -->
-        <div class="tool-card p-8 rounded-3xl border border-stone-200">
-            <div class="w-12 h-12 bg-stone-900 rounded-2xl mb-6 flex items-center justify-center">
-                <!-- Chat/Translate Icon SVG -->
-                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
-                </svg>
+        <!-- Cosmic Odyssey & Global Express Study Timer Card (FEATURED) -->
+        <div class="tool-card p-8 flex flex-col justify-between group relative border-cyan-500/30">
+            {/* Ambient Corner Glow */}
+            <div class="absolute -top-16 -right-16 w-36 h-36 bg-cyan-500/20 rounded-full blur-3xl group-hover:bg-cyan-500/30 transition-all duration-500"></div>
+
+            <div>
+                <div class="flex items-center justify-between mb-6">
+                    <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-cyan-500/20 via-indigo-500/20 to-amber-500/20 border border-cyan-500/30 flex items-center justify-center shadow-lg shadow-cyan-500/10 group-hover:scale-110 transition-transform">
+                        <!-- Rocket Icon SVG -->
+                        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="animate-float">
+                            <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/>
+                            <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/>
+                            <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/>
+                            <path d="M12 9V4s3.03.55 4 2c1.08 1.62 0 5 0 5"/>
+                        </svg>
+                    </div>
+                    <span class="px-2.5 py-1 rounded-full text-[10px] font-mono font-bold uppercase bg-gradient-to-r from-cyan-500/20 to-indigo-500/20 text-cyan-300 border border-cyan-500/30">
+                        NEW • DUAL THEME
+                    </span>
+                </div>
+
+                <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-cyan-300 transition-colors font-syne">
+                    Cosmic Odyssey
+                </h3>
+                <div class="text-xs font-mono text-cyan-400/80 mb-3">
+                    Deep Space & World Rail Study Timer
+                </div>
+                <p class="text-slate-400 text-sm leading-relaxed mb-6 font-light">
+                    Propel a rocket into deep space or embark on an around-the-world train journey with friends as you study. Persistent cross-day progress, celestial milestones, and ambient lofi audio.
+                </p>
             </div>
-            <h3 class="text-xl font-medium text-stone-800 mb-2">Corporate Translator</h3>
-            <p class="text-stone-500 mb-6 text-sm">Input your informal thoughts and let the translator refine them into polished, executive-level language.</p>
-            <a href="https://haris-lab.vercel.app/tools/corporate-translator" class="inline-block px-6 py-2 bg-stone-900 text-white rounded-full text-sm hover:bg-stone-700 transition">Try Now</a>
+
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+                <span class="text-xs font-mono text-slate-500">60 FPS • Web Audio</span>
+                <a href="./space_study_timer/dist/index.html" class="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-bold rounded-xl text-xs font-mono tracking-wider shadow-lg shadow-cyan-500/25 transition-all transform group-hover:scale-105">
+                    <span>Launch Expedition</span>
+                    <span>&rarr;</span>
+                </a>
+            </div>
         </div>
 
+        <!-- Corporate Translator Card -->
+        <div class="tool-card p-8 flex flex-col justify-between group relative">
+            <div class="absolute -top-16 -right-16 w-36 h-36 bg-purple-500/10 rounded-full blur-3xl group-hover:bg-purple-500/20 transition-all duration-500"></div>
+
+            <div>
+                <div class="flex items-center justify-between mb-6">
+                    <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-purple-500/30 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                        <!-- Chat/Translate Icon SVG -->
+                        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                        </svg>
+                    </div>
+                    <span class="px-2.5 py-1 rounded-full text-[10px] font-mono font-bold uppercase bg-slate-800 text-slate-400 border border-slate-700">
+                        AI UTILITY
+                    </span>
+                </div>
+
+                <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-purple-300 transition-colors">
+                    Corporate Translator
+                </h3>
+                <div class="text-xs font-mono text-purple-400/80 mb-3">
+                    Executive Communication Refiner
+                </div>
+                <p class="text-slate-400 text-sm leading-relaxed mb-6 font-light">
+                    Input candid informal thoughts and let the AI translator rephrase them into polished, diplomatic, and executive-level corporate communication.
+                </p>
+            </div>
+
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+                <span class="text-xs font-mono text-slate-500">AI Prompt Engine</span>
+                <a href="https://haris-lab.vercel.app/tools/corporate-translator" class="inline-flex items-center gap-2 px-5 py-2.5 bg-slate-800 hover:bg-slate-700 text-white font-semibold rounded-xl text-xs font-mono tracking-wider transition-all transform group-hover:scale-105 border border-slate-700">
+                    <span>Try Translator</span>
+                    <span>&rarr;</span>
+                </a>
+            </div>
+        </div>
 
         <!-- Hobbyist Card -->
-        <div class="tool-card p-8 rounded-3xl border border-stone-200">
-            <div class="w-12 h-12 bg-stone-900 rounded-2xl mb-6 flex items-center justify-center">
-                <!-- Hobby Icon SVG -->
-                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
-                    <polyline points="14 2 14 8 20 8"></polyline>
-                    <path d="M12 18v-6"></path>
-                    <path d="M9 15h6"></path>
-                </svg>
-            </div>
-            <h3 class="text-xl font-medium text-stone-800 mb-2">Hobbyist</h3>
-            <p class="text-stone-500 mb-6 text-sm">Discover new hobbies and track your progress as you try them out.</p>
-            <a href="./hobby_webapp/dist/index.html" class="inline-block px-6 py-2 bg-stone-900 text-white rounded-full text-sm hover:bg-stone-700 transition">Try Now</a>
-        </div>
+        <div class="tool-card p-8 flex flex-col justify-between group relative">
+            <div class="absolute -top-16 -right-16 w-36 h-36 bg-emerald-500/10 rounded-full blur-3xl group-hover:bg-emerald-500/20 transition-all duration-500"></div>
 
-        <!-- Empty State/Placeholder -->
-        <div class="p-8 rounded-3xl border-2 border-dashed border-stone-200 flex flex-col justify-center items-center text-center">
-            <span class="text-stone-300 text-4xl mb-4">+</span>
-            <p class="text-stone-400 text-sm">More Tools coming soon...</p>
+            <div>
+                <div class="flex items-center justify-between mb-6">
+                    <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 border border-emerald-500/30 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                        <!-- Hobby Icon SVG -->
+                        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <path d="M12 18v-6"></path>
+                            <path d="M9 15h6"></path>
+                        </svg>
+                    </div>
+                    <span class="px-2.5 py-1 rounded-full text-[10px] font-mono font-bold uppercase bg-slate-800 text-slate-400 border border-slate-700">
+                        LIFESTYLE
+                    </span>
+                </div>
+
+                <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-emerald-300 transition-colors">
+                    Hobbyist
+                </h3>
+                <div class="text-xs font-mono text-emerald-400/80 mb-3">
+                    Skill Discovery & Goal Tracker
+                </div>
+                <p class="text-slate-400 text-sm leading-relaxed mb-6 font-light">
+                    Explore curated passions, discover engaging new hobbies, and log your developmental milestones as you master creative disciplines.
+                </p>
+            </div>
+
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+                <span class="text-xs font-mono text-slate-500">Progress Tracker</span>
+                <a href="./hobby_webapp/dist/index.html" class="inline-flex items-center gap-2 px-5 py-2.5 bg-slate-800 hover:bg-slate-700 text-white font-semibold rounded-xl text-xs font-mono tracking-wider transition-all transform group-hover:scale-105 border border-slate-700">
+                    <span>Explore Hobbies</span>
+                    <span>&rarr;</span>
+                </a>
+            </div>
         </div>
 
     </main>
 
+    <!-- Footer -->
+    <footer class="max-w-6xl w-full mx-auto pt-8 border-t border-slate-800/60 flex flex-col md:flex-row items-center justify-between text-xs text-slate-500 font-mono gap-4">
+        <div>
+            &copy; 2026 Basic Studio Labs. All rights reserved.
+        </div>
+        <div class="flex items-center gap-6">
+            <span class="text-slate-400">Crafted with precision & passion</span>
+        </div>
+    </footer>
+
 </body>
 </html>
-
