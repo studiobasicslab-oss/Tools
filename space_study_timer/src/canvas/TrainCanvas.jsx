@@ -2,6 +2,11 @@ import React, { useEffect, useRef } from 'react';
 
 export default function TrainCanvas({ isRunning, totalSeconds, currentMilestone, nextMilestone, progressPercent }) {
   const canvasRef = useRef(null);
+  
+  const propsRef = useRef({ isRunning });
+  useEffect(() => {
+    propsRef.current = { isRunning };
+  }, [isRunning]);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -33,7 +38,7 @@ export default function TrainCanvas({ isRunning, totalSeconds, currentMilestone,
 
     const render = () => {
       // Speed smoothing
-      const targetSpeed = isRunning ? 4.2 : 0.4;
+      const targetSpeed = propsRef.current.isRunning ? 4.2 : 0.4;
       currentSpeed += (targetSpeed - currentSpeed) * 0.05;
 
       skyOffset += currentSpeed * 0.1;
@@ -42,7 +47,7 @@ export default function TrainCanvas({ isRunning, totalSeconds, currentMilestone,
       treeOffset += currentSpeed * 3.0;
       poleOffset += currentSpeed * 6.5;
 
-      trainBounce = isRunning ? Math.sin(Date.now() * 0.008) * 1.8 + Math.cos(Date.now() * 0.015) * 0.8 : 0;
+      trainBounce = propsRef.current.isRunning ? Math.sin(Date.now() * 0.008) * 1.8 + Math.cos(Date.now() * 0.015) * 0.8 : 0;
 
       // 1. Sky Gradient (Warm Golden Sunset / Twilight)
       const skyGrad = ctx.createLinearGradient(0, 0, 0, height * 0.65);
@@ -85,7 +90,7 @@ export default function TrainCanvas({ isRunning, totalSeconds, currentMilestone,
       drawPowerPoles(ctx, width, height, poleOffset);
 
       // 6. Cozy Train Cabin Interior (Window frame, Table, Friends Studying)
-      drawCozyTrainCabin(ctx, width, height, trainBounce, isRunning, steamParticles);
+      drawCozyTrainCabin(ctx, width, height, trainBounce, propsRef.current.isRunning, steamParticles);
 
       animationFrameId = requestAnimationFrame(render);
     };
@@ -96,7 +101,7 @@ export default function TrainCanvas({ isRunning, totalSeconds, currentMilestone,
       window.removeEventListener('resize', handleResize);
       cancelAnimationFrame(animationFrameId);
     };
-  }, [isRunning, totalSeconds, currentMilestone, nextMilestone, progressPercent]);
+  }, []);
 
   return (
     <canvas

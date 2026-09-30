@@ -26,6 +26,9 @@ class SpaceAudioEngine {
     if (this.ambientGain && this.ctx) {
       this.ambientGain.gain.setValueAtTime(this.isMuted ? 0 : this.volume * 0.25, this.ctx.currentTime);
     }
+    if (this.ambientNode && this.ambientNode.audio) {
+      this.ambientNode.audio.volume = this.isMuted ? 0 : this.volume * 0.5;
+    }
   }
 
   toggleMute() {
@@ -113,6 +116,61 @@ class SpaceAudioEngine {
       gain.connect(this.ctx.destination);
       osc.start(t);
       osc.stop(t + 1.6);
+    });
+  }
+
+  playCandleLight() {
+    if (this.isMuted) return;
+    this.init();
+    if (!this.ctx) return;
+
+    const t = this.ctx.currentTime;
+    // Match strike swoosh
+    const bufferSize = Math.floor(this.ctx.sampleRate * 0.4);
+    const buffer = this.ctx.createBuffer(1, bufferSize, this.ctx.sampleRate);
+    const data = buffer.getChannelData(0);
+    for (let i = 0; i < bufferSize; i++) {
+      data[i] = (Math.random() * 2 - 1) * Math.exp(-i / (bufferSize * 0.3));
+    }
+    const noise = this.ctx.createBufferSource();
+    noise.buffer = buffer;
+
+    const filter = this.ctx.createBiquadFilter();
+    filter.type = 'bandpass';
+    filter.frequency.setValueAtTime(1400, t);
+    filter.frequency.exponentialRampToValueAtTime(600, t + 0.3);
+
+    const gain = this.ctx.createGain();
+    gain.gain.setValueAtTime(0.2 * this.volume, t);
+    gain.gain.exponentialRampToValueAtTime(0.001, t + 0.35);
+
+    noise.connect(filter);
+    filter.connect(gain);
+    gain.connect(this.ctx.destination);
+    noise.start(t);
+  }
+
+  playIceChime() {
+    if (this.isMuted) return;
+    this.init();
+    if (!this.ctx) return;
+
+    // Glassy crystalline shimmer notes
+    const t = this.ctx.currentTime;
+    [1046.50, 1318.51, 1567.98, 2093.00].forEach((freq, idx) => {
+      const startTime = t + idx * 0.08;
+      const osc = this.ctx.createOscillator();
+      const gain = this.ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(freq, startTime);
+      gain.gain.setValueAtTime(0.001, startTime);
+      gain.gain.linearRampToValueAtTime(0.12 * this.volume, startTime + 0.02);
+      gain.gain.exponentialRampToValueAtTime(0.001, startTime + 1.2);
+
+      osc.connect(gain);
+      gain.connect(this.ctx.destination);
+      osc.start(startTime);
+      osc.stop(startTime + 1.2);
     });
   }
 
@@ -343,6 +401,169 @@ class SpaceAudioEngine {
 
         noise.start();
         this.ambientNode = { stop: () => { noise.stop(); } };
+
+      } else if (mode === 'brownnoise') {
+        const audio = new Audio('/audio/brown_noise.mp3');
+        audio.loop = true;
+        audio.volume = this.isMuted ? 0 : this.volume * 0.5;
+        audio.play().catch(e => console.warn(e));
+        this.ambientNode = { stop: () => { audio.pause(); audio.src = ''; }, audio };
+
+      } else if (mode === 'heavy_rain') {
+        const audio = new Audio('/audio/heavy_rain.mp3');
+        audio.loop = true;
+        audio.volume = this.isMuted ? 0 : this.volume * 0.5;
+        audio.play().catch(e => console.warn(e));
+        this.ambientNode = { stop: () => { audio.pause(); audio.src = ''; }, audio };
+
+      } else if (mode === 'stream') {
+        const audio = new Audio('/audio/stream.mp3');
+        audio.loop = true;
+        audio.volume = this.isMuted ? 0 : this.volume * 0.5;
+        audio.play().catch(e => console.warn(e));
+        this.ambientNode = { stop: () => { audio.pause(); audio.src = ''; }, audio };
+
+      } else if (mode === 'campfire_night') {
+        const audio = new Audio('/audio/campfire_night.mp3');
+        audio.loop = true;
+        audio.volume = this.isMuted ? 0 : this.volume * 0.5;
+        audio.play().catch(e => console.warn(e));
+        this.ambientNode = { stop: () => { audio.pause(); audio.src = ''; }, audio };
+
+      } else if (mode === 'coffee_shop') {
+        const audio = new Audio('/audio/coffee_shop.mp3');
+        audio.loop = true;
+        audio.volume = this.isMuted ? 0 : this.volume * 0.5;
+        audio.play().catch(e => console.warn(e));
+        this.ambientNode = { stop: () => { audio.pause(); audio.src = ''; }, audio };
+
+      } else if (mode === 'thunderstorm') {
+        const audio = new Audio('/audio/thunderstorm.mp3');
+        audio.loop = true;
+        audio.volume = this.isMuted ? 0 : this.volume * 0.5;
+        audio.play().catch(e => console.warn(e));
+        this.ambientNode = { stop: () => { audio.pause(); audio.src = ''; }, audio };
+
+      } else if (mode === 'waves') {
+        const audio = new Audio('/audio/waves.mp3');
+        audio.loop = true;
+        audio.volume = this.isMuted ? 0 : this.volume * 0.5;
+        audio.play().catch(e => console.warn(e));
+        this.ambientNode = { stop: () => { audio.pause(); audio.src = ''; }, audio };
+
+      } else if (mode === 'solfeggio_528') {
+        const osc = this.ctx.createOscillator();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(528, this.ctx.currentTime);
+        const subOsc = this.ctx.createOscillator();
+        subOsc.type = 'sine';
+        subOsc.frequency.setValueAtTime(264, this.ctx.currentTime);
+        osc.connect(this.ambientGain);
+        subOsc.connect(this.ambientGain);
+        osc.start();
+        subOsc.start();
+        this.ambientNode = { stop: () => { osc.stop(); subOsc.stop(); } };
+
+      } else if (mode === 'candle_crackle') {
+        // Cozy crackling wood wick & warm fireplace hum
+        const bufferSize = this.ctx.sampleRate * 2;
+        const buffer = this.ctx.createBuffer(1, bufferSize, this.ctx.sampleRate);
+        const data = buffer.getChannelData(0);
+        for (let i = 0; i < bufferSize; i++) {
+          // Sparse micro-sparks and low rumble
+          const isCrack = Math.random() < 0.003;
+          data[i] = isCrack 
+            ? (Math.random() * 2 - 1) * 0.85 
+            : (Math.random() * 2 - 1) * 0.08;
+        }
+
+        const noise = this.ctx.createBufferSource();
+        noise.buffer = buffer;
+        noise.loop = true;
+
+        const lowOsc = this.ctx.createOscillator();
+        lowOsc.type = 'sine';
+        lowOsc.frequency.setValueAtTime(62, this.ctx.currentTime);
+
+        const filter = this.ctx.createBiquadFilter();
+        filter.type = 'bandpass';
+        filter.frequency.setValueAtTime(1100, this.ctx.currentTime);
+        filter.Q.setValueAtTime(1.5, this.ctx.currentTime);
+
+        const lowFilter = this.ctx.createBiquadFilter();
+        lowFilter.type = 'lowpass';
+        lowFilter.frequency.setValueAtTime(120, this.ctx.currentTime);
+
+        noise.connect(filter);
+        filter.connect(this.ambientGain);
+
+        lowOsc.connect(lowFilter);
+        lowFilter.connect(this.ambientGain);
+
+        noise.start();
+        lowOsc.start();
+        this.ambientNode = { stop: () => { noise.stop(); lowOsc.stop(); } };
+
+      } else if (mode === 'ice_drip') {
+        // Sub-zero polar wind & gentle crystal melt water drops
+        const bufferSize = this.ctx.sampleRate * 2;
+        const buffer = this.ctx.createBuffer(1, bufferSize, this.ctx.sampleRate);
+        const data = buffer.getChannelData(0);
+        for (let i = 0; i < bufferSize; i++) {
+          data[i] = (Math.random() * 2 - 1) * 0.12;
+        }
+
+        const windSource = this.ctx.createBufferSource();
+        windSource.buffer = buffer;
+        windSource.loop = true;
+
+        const windFilter = this.ctx.createBiquadFilter();
+        windFilter.type = 'bandpass';
+        windFilter.frequency.setValueAtTime(320, this.ctx.currentTime);
+        windFilter.Q.setValueAtTime(3.0, this.ctx.currentTime);
+
+        // Wind LFO
+        const windLfo = this.ctx.createOscillator();
+        windLfo.type = 'sine';
+        windLfo.frequency.setValueAtTime(0.2, this.ctx.currentTime);
+        windLfo.connect(windFilter.frequency);
+
+        windSource.connect(windFilter);
+        windFilter.connect(this.ambientGain);
+
+        windSource.start();
+        windLfo.start();
+
+        // Rhythmic gentle water drop oscillator
+        let dropInterval = setInterval(() => {
+          if (!this.ctx || this.isMuted || this.currentMode !== 'ice_drip') return;
+          try {
+            const dropTime = this.ctx.currentTime;
+            const dropOsc = this.ctx.createOscillator();
+            const dropGain = this.ctx.createGain();
+            const dropFreq = 1600 + Math.random() * 800;
+
+            dropOsc.type = 'sine';
+            dropOsc.frequency.setValueAtTime(dropFreq, dropTime);
+            dropOsc.frequency.exponentialRampToValueAtTime(dropFreq * 0.5, dropTime + 0.08);
+
+            dropGain.gain.setValueAtTime(0.12 * this.volume, dropTime);
+            dropGain.gain.exponentialRampToValueAtTime(0.001, dropTime + 0.08);
+
+            dropOsc.connect(dropGain);
+            dropGain.connect(this.ctx.destination);
+            dropOsc.start(dropTime);
+            dropOsc.stop(dropTime + 0.08);
+          } catch (e) {}
+        }, 2200);
+
+        this.ambientNode = {
+          stop: () => {
+            windSource.stop();
+            windLfo.stop();
+            clearInterval(dropInterval);
+          }
+        };
       }
     } catch (e) {
       console.warn('Audio start error:', e);

@@ -1,16 +1,19 @@
 import { useState, useEffect, useCallback } from 'react';
 import { MILESTONES, getProgressToNextMilestone, formatDistance } from '../data/milestones';
 import { TRAIN_MILESTONES, getTrainProgressToNextMilestone, formatTrainDistance } from '../data/trainMilestones';
+import { ICE_STYLES, CANDLE_STYLES, getUnlockedIceStyles, getUnlockedCandleStyles } from '../data/iceCandleStyles';
 import { spaceAudio } from '../audio/spaceAudio';
 import confetti from 'canvas-confetti';
 
-const STORAGE_KEY = 'cosmic_odyssey_mission_state_v2';
+const STORAGE_KEY = 'cosmic_odyssey_mission_state_v3';
 
 const DEFAULT_STATE = {
-  theme: 'space', // 'space' | 'train'
+  theme: 'space', // 'space' | 'train' | 'ice' | 'candle'
   careerSeconds: 0,
   sessions: [],
   unlockedMilestoneIds: ['launchpad', 'tokyo_departure'],
+  selectedIceStyle: 'pure_glacier',
+  selectedCandleStyle: 'golden_beeswax',
   streakDays: 0,
   lastStudyDate: null,
   soundMode: 'drone',
@@ -26,6 +29,11 @@ export function useMissionStore() {
       const raw = localStorage.getItem(STORAGE_KEY);
       if (raw) {
         return { ...DEFAULT_STATE, ...JSON.parse(raw) };
+      }
+      // Migrate v2 if available
+      const oldRaw = localStorage.getItem('cosmic_odyssey_mission_state_v2');
+      if (oldRaw) {
+        return { ...DEFAULT_STATE, ...JSON.parse(oldRaw) };
       }
     } catch (e) {
       console.warn('Failed to load mission state:', e);
@@ -49,12 +57,24 @@ export function useMissionStore() {
   const [showMilestonesModal, setShowMilestonesModal] = useState(false);
   const [showGalleryModal, setShowGalleryModal] = useState(false);
   const [showSettingsModal, setShowSettingsModal] = useState(false);
+  const [showStylePickerModal, setShowStylePickerModal] = useState(false);
   const [activeDebriefData, setActiveDebriefData] = useState(null);
 
   const activeTheme = persisted.theme || 'space';
 
+  // Default sound for theme
+  const getDefaultSoundForTheme = (t) => {
+    switch (t) {
+      case 'space': return 'drone';
+      case 'train': return 'train_tracks';
+      case 'ice': return 'ice_drip';
+      case 'candle': return 'candle_crackle';
+      default: return 'drone';
+    }
+  };
+
   // Audio state
-  const [audioMode, setAudioMode] = useState(persisted.soundMode || (activeTheme === 'space' ? 'drone' : 'train_tracks'));
+  const [audioMode, setAudioMode] = useState(persisted.soundMode || getDefaultSoundForTheme(activeTheme));
   const [audioVolume, setAudioVolume] = useState(persisted.soundVolume || 0.35);
   const [isMuted, setIsMuted] = useState(persisted.isMuted || false);
 
@@ -72,12 +92,13 @@ export function useMissionStore() {
   }, []);
 
   const setTheme = (t) => {
+    const defaultSound = getDefaultSoundForTheme(t);
     savePersisted((prev) => ({
       ...prev,
       theme: t,
-      soundMode: t === 'space' ? 'drone' : 'train_tracks'
+      soundMode: defaultSound
     }));
-    setAudioMode(t === 'space' ? 'drone' : 'train_tracks');
+    setAudioMode(defaultSound);
   };
 
   // Update streak on date change
@@ -107,11 +128,11 @@ export function useMissionStore() {
   const currentTotalSeconds = persisted.careerSeconds + sessionSeconds;
   
   // Progress calculations according to active theme
-  const progressInfo = activeTheme === 'space' 
-    ? getProgressToNextMilestone(currentTotalSeconds)
-    : getTrainProgressToNextMilestone(currentTotalSeconds);
+  const progressInfo = activeTheme === 'train'
+    ? getTrainProgressToNextMilestone(currentTotalSeconds)
+    : getProgressToNextMilestone(currentTotalSeconds);
 
-  const activeMilestonesList = activeTheme === 'space' ? MILESTONES : TRAIN_MILESTONES;
+  const activeMilestonesList = activeTheme === 'train' ? TRAIN_MILESTONES : MILESTONES;
 
   // Timer Tick Engine
   useEffect(() => {
@@ -181,12 +202,16 @@ export function useMissionStore() {
     }
   }, [isFlying, isPaused, audioMode, audioVolume, isMuted]);
 
-  // Flight/Train Controls
+  // Flight/Study Controls
   const startFlight = (mode = sessionMode, targetMins = 0) => {
     if (activeTheme === 'space') {
       spaceAudio.playLaunchIgnition();
-    } else {
+    } else if (activeTheme === 'train') {
       spaceAudio.playTrainWhistle();
+    } else if (activeTheme === 'ice') {
+      spaceAudio.playIceChime();
+    } else if (activeTheme === 'candle') {
+      spaceAudio.playCandleLight();
     }
     setSessionMode(mode);
 
@@ -229,6 +254,15 @@ export function useMissionStore() {
 
     const today = new Date().toISOString().split('T')[0];
     const newMilestones = [...sessionMilestonesGained];
+    const totalCareerAfter = persisted.careerSeconds + finalSessionSeconds;
+
+    // Check newly unlocked ice styles & candle styles
+    const newlyUnlockedIceStyles = ICE_STYLES.filter(
+      (s) => persisted.careerSeconds < s.requiredSeconds && totalCareerAfter >= s.requiredSeconds
+    );
+    const newlyUnlockedCandleStyles = CANDLE_STYLES.filter(
+      (s) => persisted.careerSeconds < s.requiredSeconds && totalCareerAfter >= s.requiredSeconds
+    );
 
     const report = {
       id: 'session_' + Date.now(),
@@ -238,8 +272,10 @@ export function useMissionStore() {
       durationSeconds: finalSessionSeconds,
       subject: currentSubject,
       milestonesGained: newMilestones,
+      unlockedIceStylesGained: newlyUnlockedIceStyles,
+      unlockedCandleStylesGained: newlyUnlockedCandleStyles,
       careerSecondsBefore: persisted.careerSeconds,
-      careerSecondsAfter: persisted.careerSeconds + finalSessionSeconds
+      careerSecondsAfter: totalCareerAfter
     };
 
     savePersisted((prev) => {
@@ -249,7 +285,7 @@ export function useMissionStore() {
       }
       return {
         ...prev,
-        careerSeconds: prev.careerSeconds + finalSessionSeconds,
+        careerSeconds: totalCareerAfter,
         sessions: [report, ...prev.sessions],
         streakDays: streak,
         lastStudyDate: today
@@ -285,7 +321,7 @@ export function useMissionStore() {
   };
 
   const resetMissionProgress = () => {
-    if (window.confirm('Are you sure you want to reset all journey progress back to the departure station / launchpad? This cannot be undone.')) {
+    if (window.confirm('Are you sure you want to reset all study progress back to 0? This cannot be undone.')) {
       savePersisted(DEFAULT_STATE);
       setIsFlying(false);
       setIsPaused(false);
@@ -330,6 +366,10 @@ export function useMissionStore() {
     currentTotalSeconds,
     sessions: persisted.sessions,
     unlockedMilestoneIds: persisted.unlockedMilestoneIds,
+    selectedIceStyle: persisted.selectedIceStyle || 'pure_glacier',
+    setSelectedIceStyle: (id) => savePersisted((prev) => ({ ...prev, selectedIceStyle: id })),
+    selectedCandleStyle: persisted.selectedCandleStyle || 'golden_beeswax',
+    setSelectedCandleStyle: (id) => savePersisted((prev) => ({ ...prev, selectedCandleStyle: id })),
     streakDays: persisted.streakDays,
     lastStudyDate: persisted.lastStudyDate,
     pilotName: persisted.pilotName,
@@ -357,6 +397,8 @@ export function useMissionStore() {
     setShowGalleryModal,
     showSettingsModal,
     setShowSettingsModal,
+    showStylePickerModal,
+    setShowStylePickerModal,
     activeDebriefData,
 
     audioMode,

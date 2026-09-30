@@ -4,12 +4,15 @@ import Navbar from './components/Navbar';
 import TelemetryHUD from './components/TelemetryHUD';
 import SpaceCanvas from './canvas/SpaceCanvas';
 import TrainCanvas from './canvas/TrainCanvas';
+import IceCanvas from './canvas/IceCanvas';
+import CandleCanvas from './canvas/CandleCanvas';
 import SolarSystemMap from './components/SolarSystemMap';
 import DebriefModal from './components/DebriefModal';
 import LogbookModal from './components/LogbookModal';
 import MilestonesModal from './components/MilestonesModal';
 import DestinationGalleryModal from './components/DestinationGalleryModal';
 import AudioSettingsModal from './components/AudioSettingsModal';
+import StylePickerModal from './components/StylePickerModal';
 import { 
   Play, 
   Pause, 
@@ -18,7 +21,11 @@ import {
   Minimize2, 
   Focus, 
   X, 
-  Sparkles 
+  Sparkles,
+  Droplet,
+  Flame,
+  Rocket,
+  TrainTrack
 } from 'lucide-react';
 import { formatTimeDigital, formatDuration } from './data/milestones';
 
@@ -87,11 +94,25 @@ export default function App() {
     zenDisplayTime = '00:00';
   }
 
+  // Zen Mode Title
+  const getZenSubtitle = () => {
+    switch (store.theme) {
+      case 'ice':
+        return 'UNTIL ICE MELTS • GLACIAL FOCUS';
+      case 'candle':
+        return 'UNTIL CANDLE BURNS • SANCTUARY GLOW';
+      case 'train':
+        return `WORLD RAIL • ${store.progressInfo.currentMilestone.name}`;
+      default:
+        return `COSMIC ODYSSEY • ${store.progressInfo.currentMilestone.name}`;
+    }
+  };
+
   return (
     <div className="relative min-h-screen w-full bg-slate-950 text-slate-100 font-sans overflow-x-hidden selection:bg-amber-500 selection:text-slate-950">
       
-      {/* Dynamic 60FPS Canvas Visualizer */}
-      {store.theme === 'space' ? (
+      {/* Dynamic 60FPS Canvas Visualizer across 4 Themes */}
+      {store.theme === 'space' && (
         <SpaceCanvas
           isRunning={store.isFlying && !store.isPaused}
           totalSeconds={store.currentTotalSeconds}
@@ -99,13 +120,35 @@ export default function App() {
           nextMilestone={store.progressInfo.nextMilestone}
           progressPercent={store.progressInfo.progressPercent}
         />
-      ) : (
+      )}
+
+      {store.theme === 'train' && (
         <TrainCanvas
           isRunning={store.isFlying && !store.isPaused}
           totalSeconds={store.currentTotalSeconds}
           currentMilestone={store.progressInfo.currentMilestone}
           nextMilestone={store.progressInfo.nextMilestone}
           progressPercent={store.progressInfo.progressPercent}
+        />
+      )}
+
+      {store.theme === 'ice' && (
+        <IceCanvas
+          isRunning={store.isFlying && !store.isPaused}
+          sessionSeconds={store.sessionSeconds}
+          targetDurationSeconds={store.targetDurationSeconds}
+          currentTotalSeconds={store.currentTotalSeconds}
+          activeStyleId={store.selectedIceStyle}
+        />
+      )}
+
+      {store.theme === 'candle' && (
+        <CandleCanvas
+          isRunning={store.isFlying && !store.isPaused}
+          sessionSeconds={store.sessionSeconds}
+          targetDurationSeconds={store.targetDurationSeconds}
+          currentTotalSeconds={store.currentTotalSeconds}
+          activeStyleId={store.selectedCandleStyle}
         />
       )}
 
@@ -126,6 +169,7 @@ export default function App() {
             setShowMilestonesModal={store.setShowMilestonesModal}
             setShowGalleryModal={store.setShowGalleryModal}
             setShowSettingsModal={store.setShowSettingsModal}
+            setShowStylePickerModal={store.setShowStylePickerModal}
             isFlying={store.isFlying && !store.isPaused}
             isZenMode={isZenMode}
             setIsZenMode={setIsZenMode}
@@ -144,6 +188,9 @@ export default function App() {
                 progressInfo={store.progressInfo}
                 currentSubject={store.currentSubject}
                 setCurrentSubject={store.setCurrentSubject}
+                selectedIceStyle={store.selectedIceStyle}
+                selectedCandleStyle={store.selectedCandleStyle}
+                setShowStylePickerModal={store.setShowStylePickerModal}
                 startFlight={store.startFlight}
                 pauseFlight={store.pauseFlight}
                 resumeFlight={store.resumeFlight}
@@ -166,7 +213,7 @@ export default function App() {
           <div className="w-full flex items-center justify-between pointer-events-auto">
             <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-950/60 border border-slate-800 backdrop-blur-md text-xs font-mono text-slate-400">
               <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-              <span>ZEN FOCUS MODE • {store.progressInfo.currentMilestone.name}</span>
+              <span>ZEN FOCUS MODE • {getZenSubtitle()}</span>
             </div>
 
             <button
@@ -178,24 +225,45 @@ export default function App() {
             </button>
           </div>
 
-          {/* Center Minimalist Floating Clock */}
-          <div className="pointer-events-auto flex flex-col items-center my-auto">
-            <div className="text-7xl sm:text-8xl md:text-9xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-white via-slate-100 to-amber-300 font-mono drop-shadow-[0_0_40px_rgba(245,158,11,0.3)]">
+          {/* Visualizer Stage Spacer for Zen Mode */}
+          <div className="flex-1 w-full pointer-events-none" />
+
+          {/* Bottom Floating Minimalist Dock for Zen Mode */}
+          <div className="pointer-events-auto flex flex-col items-center mb-4 p-4 rounded-3xl bg-slate-950/50 backdrop-blur-md border border-slate-800/80 shadow-2xl">
+            <div className={`text-5xl sm:text-6xl md:text-7xl font-black tracking-tight text-transparent bg-clip-text font-mono ${
+              store.theme === 'ice'
+                ? 'bg-gradient-to-b from-white via-sky-100 to-sky-400 drop-shadow-[0_0_30px_rgba(56,189,248,0.3)]'
+                : store.theme === 'candle'
+                ? 'bg-gradient-to-b from-white via-amber-100 to-orange-400 drop-shadow-[0_0_30px_rgba(249,115,22,0.3)]'
+                : 'bg-gradient-to-b from-white via-slate-100 to-amber-300 drop-shadow-[0_0_30px_rgba(245,158,11,0.3)]'
+            }`}>
               {zenDisplayTime}
             </div>
 
-            <p className="text-xs font-mono text-amber-300/80 tracking-widest uppercase mt-2 mb-6">
+            <p className="text-[11px] font-mono text-amber-300/80 tracking-widest uppercase mt-1 mb-3">
               {store.isFlying 
-                ? (store.isPaused ? 'PAUSED' : 'STUDYING IN PROGRESS') 
-                : 'ENGINES IDLE'}
+                ? (store.isPaused 
+                    ? 'FOCUS PAUSED' 
+                    : store.theme === 'ice' 
+                    ? 'ICE MELTING • STUDY IN PROGRESS' 
+                    : store.theme === 'candle'
+                    ? 'CANDLE BURNING • SANCTUARY ACTIVE'
+                    : 'STUDYING IN PROGRESS') 
+                : 'READY TO BEGIN'}
             </p>
 
             {/* Quick Minimal Controls */}
-            <div className="flex items-center gap-3 bg-slate-950/60 p-2 rounded-2xl border border-slate-800/80 backdrop-blur-md">
+            <div className="flex items-center gap-3">
               {!store.isFlying ? (
                 <button
                   onClick={() => store.startFlight(store.sessionMode)}
-                  className="px-6 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs font-mono flex items-center gap-2 transition shadow-lg"
+                  className={`px-6 py-2 rounded-xl font-bold text-xs font-mono flex items-center gap-2 transition shadow-lg ${
+                    store.theme === 'ice'
+                      ? 'bg-sky-400 hover:bg-sky-300 text-slate-950 shadow-[0_0_20px_rgba(56,189,248,0.3)]'
+                      : store.theme === 'candle'
+                      ? 'bg-orange-500 hover:bg-orange-400 text-slate-950 shadow-[0_0_20px_rgba(249,115,22,0.3)]'
+                      : 'bg-amber-500 hover:bg-amber-400 text-slate-950 shadow-[0_0_20px_rgba(245,158,11,0.3)]'
+                  }`}
                 >
                   <Play className="w-4 h-4 fill-current" />
                   START FOCUS
@@ -205,7 +273,7 @@ export default function App() {
                   {store.isPaused ? (
                     <button
                       onClick={store.resumeFlight}
-                      className="px-4 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs font-mono flex items-center gap-1.5 transition"
+                      className="px-4 py-1.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs font-mono flex items-center gap-1.5 transition"
                     >
                       <Play className="w-3.5 h-3.5 fill-current" />
                       RESUME
@@ -213,7 +281,7 @@ export default function App() {
                   ) : (
                     <button
                       onClick={store.pauseFlight}
-                      className="px-4 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs font-mono flex items-center gap-1.5 transition"
+                      className="px-4 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs font-mono flex items-center gap-1.5 transition"
                     >
                       <Pause className="w-3.5 h-3.5 fill-current" />
                       PAUSE
@@ -222,7 +290,7 @@ export default function App() {
 
                   <button
                     onClick={store.concludeFlight}
-                    className="px-4 py-2 rounded-xl bg-rose-500/20 hover:bg-rose-500 text-rose-300 hover:text-white border border-rose-500/40 text-xs font-mono flex items-center gap-1.5 transition"
+                    className="px-4 py-1.5 rounded-xl bg-rose-500/20 hover:bg-rose-500 text-rose-300 hover:text-white border border-rose-500/40 text-xs font-mono flex items-center gap-1.5 transition"
                   >
                     <Square className="w-3.5 h-3.5 fill-current" />
                     CONCLUDE
@@ -240,6 +308,18 @@ export default function App() {
       )}
 
       {/* Modals */}
+      {store.showStylePickerModal && (
+        <StylePickerModal
+          currentTheme={store.theme}
+          careerSeconds={store.careerSeconds}
+          selectedIceStyle={store.selectedIceStyle}
+          setSelectedIceStyle={store.setSelectedIceStyle}
+          selectedCandleStyle={store.selectedCandleStyle}
+          setSelectedCandleStyle={store.setSelectedCandleStyle}
+          onClose={() => store.setShowStylePickerModal(false)}
+        />
+      )}
+
       {store.showDebriefModal && (
         <DebriefModal
           theme={store.theme}

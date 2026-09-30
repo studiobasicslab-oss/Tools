@@ -23,6 +23,62 @@ export default function AudioSettingsModal({
 }) {
   const soundModes = [
     {
+      id: 'candle_crackle',
+      name: 'Cozy Crackling Wick',
+      desc: 'Gentle wood wick crackle & warm soothing fireplace resonance.',
+      icon: Flame,
+      tag: 'Candle'
+    },
+    {
+      id: 'campfire_night',
+      name: 'Campfire & Crickets',
+      desc: 'Roaring outdoor campfire with relaxing night crickets.',
+      icon: Flame,
+      tag: 'Nature'
+    },
+    {
+      id: 'ice_drip',
+      name: 'Melting Ice Droplets',
+      desc: 'Sub-zero polar breeze and periodic crystal water drop resonance.',
+      icon: CloudRain,
+      tag: 'Ice'
+    },
+    {
+      id: 'heavy_rain',
+      name: 'Heavy Rainstorm',
+      desc: 'Immersive and continuous heavy rainfall pouring down.',
+      icon: CloudRain,
+      tag: 'Nature'
+    },
+    {
+      id: 'stream',
+      name: 'Bubbling Stream',
+      desc: 'Continuous bubbling forest stream over river rocks.',
+      icon: CloudRain,
+      tag: 'Nature'
+    },
+    {
+      id: 'thunderstorm',
+      name: 'Rolling Thunderstorm',
+      desc: 'Distant thunder rumbling through a heavy downpour.',
+      icon: CloudRain,
+      tag: 'Nature'
+    },
+    {
+      id: 'waves',
+      name: 'Ocean Waves',
+      desc: 'Calming waves crashing gently onto a sandy beach.',
+      icon: Wind,
+      tag: 'Nature'
+    },
+    {
+      id: 'coffee_shop',
+      name: 'Bustling Coffee Shop',
+      desc: 'Warm ambiance of a lively cafe with faint chatter and cups clinking.',
+      icon: Radio,
+      tag: 'Ambience'
+    },
+    {
       id: 'train_tracks',
       name: 'Rhythmic Train Tracks',
       desc: 'Authentic rhythmic wheel click-clack and low cabin rail rumble.',
@@ -58,9 +114,23 @@ export default function AudioSettingsModal({
       tag: 'Focus'
     },
     {
+      id: 'solfeggio_528',
+      name: '528Hz Solfeggio',
+      desc: 'Miracle frequency known to repair DNA and bring deep peace.',
+      icon: Sparkles,
+      tag: 'Focus'
+    },
+    {
       id: 'whitenoise',
       name: 'Cosmic Pink Noise',
       desc: 'Balanced acoustic spectrum blocking room background distractions.',
+      icon: Wind,
+      tag: 'Noise'
+    },
+    {
+      id: 'brownnoise',
+      name: 'Deep Brown Noise',
+      desc: 'Deep soothing rumble mimicking ocean roars or heavy winds.',
       icon: Wind,
       tag: 'Noise'
     },

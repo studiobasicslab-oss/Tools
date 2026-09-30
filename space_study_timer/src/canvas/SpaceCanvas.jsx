@@ -2,6 +2,11 @@ import React, { useEffect, useRef } from 'react';
 
 export default function SpaceCanvas({ isRunning, totalSeconds, currentMilestone, nextMilestone, progressPercent }) {
   const canvasRef = useRef(null);
+  
+  const propsRef = useRef({ isRunning, currentMilestone, nextMilestone, progressPercent });
+  useEffect(() => {
+    propsRef.current = { isRunning, currentMilestone, nextMilestone, progressPercent };
+  }, [isRunning, currentMilestone, nextMilestone, progressPercent]);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -63,7 +68,7 @@ export default function SpaceCanvas({ isRunning, totalSeconds, currentMilestone,
       ctx.fillRect(0, 0, width, height);
 
       // Smooth warp speed interpolation
-      targetWarpSpeed = isRunning ? 6.0 : 0.8;
+      targetWarpSpeed = propsRef.current.isRunning ? 6.0 : 0.8;
       warpSpeed += (targetWarpSpeed - warpSpeed) * 0.05;
 
       // Draw Nebulae
@@ -92,7 +97,7 @@ export default function SpaceCanvas({ isRunning, totalSeconds, currentMilestone,
         ctx.fillStyle = star.color;
         ctx.globalAlpha = Math.max(0, Math.min(1, star.alpha));
 
-        if (isRunning && warpSpeed > 2.5) {
+        if (propsRef.current.isRunning && warpSpeed > 2.5) {
           // Warp streak
           const streakLen = star.z * warpSpeed * 3.5;
           ctx.strokeStyle = star.color;
@@ -111,24 +116,24 @@ export default function SpaceCanvas({ isRunning, totalSeconds, currentMilestone,
 
       // Draw Approaching Celestial Body (Planet / Moon / Object)
       celestialRotation += 0.003;
-      drawCelestialBody(ctx, width, height, currentMilestone, nextMilestone, progressPercent, celestialRotation);
+      drawCelestialBody(ctx, width, height, propsRef.current.currentMilestone, propsRef.current.nextMilestone, propsRef.current.progressPercent, celestialRotation);
 
       // Ship Position & Dynamic Hover
       shipOscillation += 0.04;
       const shipX = width * 0.38 + Math.cos(shipOscillation * 0.5) * 6;
       const shipY = height * 0.52 + Math.sin(shipOscillation) * 8;
-      shipAngle = (Math.sin(shipOscillation * 0.7) * 0.03) + (isRunning ? -0.04 : 0);
+      shipAngle = (Math.sin(shipOscillation * 0.7) * 0.03) + (propsRef.current.isRunning ? -0.04 : 0);
 
       // Emit Engine Particles if running or idle idling
-      const spawnRate = isRunning ? 6 : 1;
+      const spawnRate = propsRef.current.isRunning ? 6 : 1;
       for (let i = 0; i < spawnRate; i++) {
         if (particles.length < PARTICLE_MAX) {
           particles.push({
             x: shipX - 58,
             y: shipY + 2 + (Math.random() - 0.5) * 8,
-            vx: (-(Math.random() * (isRunning ? 14 : 3) + (isRunning ? 10 : 2))),
-            vy: (Math.random() - 0.5) * (isRunning ? 4 : 1.5),
-            size: Math.random() * (isRunning ? 8 : 4) + 2,
+            vx: (-(Math.random() * (propsRef.current.isRunning ? 14 : 3) + (propsRef.current.isRunning ? 10 : 2))),
+            vy: (Math.random() - 0.5) * (propsRef.current.isRunning ? 4 : 1.5),
+            size: Math.random() * (propsRef.current.isRunning ? 8 : 4) + 2,
             life: 1.0,
             decay: Math.random() * 0.04 + 0.02,
             type: Math.random() > 0.4 ? 'plasma' : 'spark'
@@ -153,7 +158,7 @@ export default function SpaceCanvas({ isRunning, totalSeconds, currentMilestone,
         ctx.globalAlpha = p.life;
         if (p.type === 'plasma') {
           const pGrad = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, p.size * 2);
-          if (isRunning) {
+          if (propsRef.current.isRunning) {
             pGrad.addColorStop(0, '#ffffff');
             pGrad.addColorStop(0.3, '#38bdf8');
             pGrad.addColorStop(0.7, '#6366f1');
@@ -168,7 +173,7 @@ export default function SpaceCanvas({ isRunning, totalSeconds, currentMilestone,
           ctx.arc(p.x, p.y, p.size * 2, 0, Math.PI * 2);
           ctx.fill();
         } else {
-          ctx.fillStyle = isRunning ? '#a5f3fc' : '#fed7aa';
+          ctx.fillStyle = propsRef.current.isRunning ? '#a5f3fc' : '#fed7aa';
           ctx.beginPath();
           ctx.arc(p.x, p.y, p.size * 0.8, 0, Math.PI * 2);
           ctx.fill();
@@ -177,7 +182,7 @@ export default function SpaceCanvas({ isRunning, totalSeconds, currentMilestone,
       }
 
       // Draw Spaceship
-      drawSpaceship(ctx, shipX, shipY, shipAngle, isRunning);
+      drawSpaceship(ctx, shipX, shipY, shipAngle, propsRef.current.isRunning);
 
       animationFrameId = requestAnimationFrame(render);
     };
@@ -188,7 +193,7 @@ export default function SpaceCanvas({ isRunning, totalSeconds, currentMilestone,
       window.removeEventListener('resize', handleResize);
       cancelAnimationFrame(animationFrameId);
     };
-  }, [isRunning, totalSeconds, currentMilestone, nextMilestone, progressPercent]);
+  }, []);
 
   return (
     <canvas
