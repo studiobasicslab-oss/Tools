@@ -203,16 +203,34 @@ export default function AudioSettingsModal({
         {/* Ambient Mode Presets */}
         <div className="space-y-2.5 mb-6 max-h-64 overflow-y-auto pr-1">
           <label className="block text-xs font-mono text-slate-400 mb-2">
-            SELECT FOCUS SOUNDSCAPE:
+            MIX FOCUS SOUNDSCAPES (Select multiple):
           </label>
           {soundModes.map((mode) => {
             const Icon = mode.icon;
-            const isSelected = audioMode === mode.id;
+            const isSelected = Array.isArray(audioMode) 
+              ? audioMode.includes(mode.id) 
+              : audioMode === mode.id;
 
             return (
               <div
                 key={mode.id}
-                onClick={() => setAudioMode(mode.id)}
+                onClick={() => {
+                  if (mode.id === 'off') {
+                    setAudioMode(['off']);
+                  } else {
+                    const current = Array.isArray(audioMode) ? audioMode : [audioMode];
+                    let nextModes;
+                    if (current.includes(mode.id)) {
+                      // Deselect
+                      nextModes = current.filter(m => m !== mode.id && m !== 'off');
+                      if (nextModes.length === 0) nextModes = ['off'];
+                    } else {
+                      // Select
+                      nextModes = [...current.filter(m => m !== 'off'), mode.id];
+                    }
+                    setAudioMode(nextModes);
+                  }
+                }}
                 className={`p-3 rounded-2xl border cursor-pointer transition-all flex items-start justify-between gap-3 ${
                   isSelected
                     ? 'bg-cyan-950/40 border-cyan-400 shadow-[0_0_15px_rgba(6,182,212,0.15)]'

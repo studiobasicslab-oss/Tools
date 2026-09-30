@@ -74,7 +74,10 @@ export function useMissionStore() {
   };
 
   // Audio state
-  const [audioMode, setAudioMode] = useState(persisted.soundMode || getDefaultSoundForTheme(activeTheme));
+  const [audioMode, setAudioMode] = useState(() => {
+    const saved = persisted.soundMode || getDefaultSoundForTheme(activeTheme);
+    return Array.isArray(saved) ? saved : [saved];
+  });
   const [audioVolume, setAudioVolume] = useState(persisted.soundVolume || 0.35);
   const [isMuted, setIsMuted] = useState(persisted.isMuted || false);
 
@@ -96,9 +99,9 @@ export function useMissionStore() {
     savePersisted((prev) => ({
       ...prev,
       theme: t,
-      soundMode: defaultSound
+      soundMode: [defaultSound]
     }));
-    setAudioMode(defaultSound);
+    setAudioMode([defaultSound]);
   };
 
   // Update streak on date change
@@ -196,7 +199,7 @@ export function useMissionStore() {
   useEffect(() => {
     if (isFlying && !isPaused && !isMuted) {
       spaceAudio.setVolume(audioVolume);
-      spaceAudio.setAmbientMode(audioMode);
+      spaceAudio.setAmbientModes(audioMode);
     } else {
       spaceAudio.stopAmbient();
     }

@@ -2,10 +2,10 @@
 class SpaceAudioEngine {
   constructor() {
     this.ctx = null;
-    this.ambientNode = null;
+    this.ambientNodes = {};
     this.ambientGain = null;
     this.isMuted = false;
-    this.currentMode = 'drone'; // 'drone', 'engine', 'alpha', 'whitenoise', 'train_tracks', 'train_rain', 'off'
+    this.activeModes = [];
     this.volume = 0.35;
   }
 
@@ -26,9 +26,11 @@ class SpaceAudioEngine {
     if (this.ambientGain && this.ctx) {
       this.ambientGain.gain.setValueAtTime(this.isMuted ? 0 : this.volume * 0.25, this.ctx.currentTime);
     }
-    if (this.ambientNode && this.ambientNode.audio) {
-      this.ambientNode.audio.volume = this.isMuted ? 0 : this.volume * 0.5;
-    }
+    Object.values(this.ambientNodes).forEach(node => {
+      if (node && node.audio) {
+        node.audio.volume = this.isMuted ? 0 : this.volume * 0.5;
+      }
+    });
   }
 
   toggleMute() {
@@ -229,19 +231,45 @@ class SpaceAudioEngine {
     });
   }
 
-  setAmbientMode(mode) {
-    this.currentMode = mode;
-    this.stopAmbient();
+  setAmbientModes(modesArray) {
+    if (!Array.isArray(modesArray)) {
+      modesArray = modesArray === 'off' || !modesArray ? [] : [modesArray];
+    }
+    this.activeModes = modesArray;
 
-    if (mode === 'off' || this.isMuted) return;
+    if (this.isMuted || modesArray.includes('off')) {
+      this.stopAmbient();
+      return;
+    }
 
     this.init();
     if (!this.ctx) return;
 
-    try {
+    if (!this.ambientGain) {
       this.ambientGain = this.ctx.createGain();
       this.ambientGain.gain.setValueAtTime(this.isMuted ? 0 : this.volume * 0.25, this.ctx.currentTime);
       this.ambientGain.connect(this.ctx.destination);
+    }
+
+    // Stop modes that are no longer active
+    Object.keys(this.ambientNodes).forEach(mode => {
+      if (!modesArray.includes(mode)) {
+        try {
+          this.ambientNodes[mode].stop();
+        } catch (e) {}
+        delete this.ambientNodes[mode];
+      }
+    });
+
+    // Start new modes
+    modesArray.forEach(mode => {
+      if (this.ambientNodes[mode]) return; // already playing
+      this._startMode(mode);
+    });
+  }
+
+  _startMode(mode) {
+    try {
 
       if (mode === 'drone') {
         const osc1 = this.ctx.createOscillator();
@@ -266,7 +294,7 @@ class SpaceAudioEngine {
         osc1.start();
         osc2.start();
         osc3.start();
-        this.ambientNode = { stop: () => { osc1.stop(); osc2.stop(); osc3.stop(); } };
+        this.ambientNodes[mode] = { stop: () => { osc1.stop(); osc2.stop(); osc3.stop(); } };
 
       } else if (mode === 'train_tracks') {
         // Rhythmic Train Tracks Click-Clack & Low Carriage Rumble
@@ -306,7 +334,7 @@ class SpaceAudioEngine {
         noise.start();
         subOsc.start();
         lfo.start();
-        this.ambientNode = { stop: () => { noise.stop(); subOsc.stop(); lfo.stop(); } };
+        this.ambientNodes[mode] = { stop: () => { noise.stop(); subOsc.stop(); lfo.stop(); } };
 
       } else if (mode === 'train_rain') {
         // Rain on Train Window Glass
@@ -329,7 +357,7 @@ class SpaceAudioEngine {
         filter.connect(this.ambientGain);
 
         noise.start();
-        this.ambientNode = { stop: () => { noise.stop(); } };
+        this.ambientNodes[mode] = { stop: () => { noise.stop(); } };
 
       } else if (mode === 'engine') {
         const bufferSize = this.ctx.sampleRate * 2;
@@ -358,7 +386,7 @@ class SpaceAudioEngine {
 
         noise.start();
         subOsc.start();
-        this.ambientNode = { stop: () => { noise.stop(); subOsc.stop(); } };
+        this.ambientNodes[mode] = { stop: () => { noise.stop(); subOsc.stop(); } };
 
       } else if (mode === 'alpha') {
         const oscLeft = this.ctx.createOscillator();
@@ -378,7 +406,7 @@ class SpaceAudioEngine {
 
         oscLeft.start();
         oscRight.start();
-        this.ambientNode = { stop: () => { oscLeft.stop(); oscRight.stop(); } };
+        this.ambientNodes[mode] = { stop: () => { oscLeft.stop(); oscRight.stop(); } };
 
       } else if (mode === 'whitenoise') {
         const bufferSize = this.ctx.sampleRate * 2;
@@ -400,56 +428,56 @@ class SpaceAudioEngine {
         filter.connect(this.ambientGain);
 
         noise.start();
-        this.ambientNode = { stop: () => { noise.stop(); } };
+        this.ambientNodes[mode] = { stop: () => { noise.stop(); } };
 
       } else if (mode === 'brownnoise') {
         const audio = new Audio('https://raw.githubusercontent.com/remvze/moodist/main/public/sounds/noise/brown-noise.wav');
         audio.loop = true;
         audio.volume = this.isMuted ? 0 : this.volume * 0.5;
         audio.play().catch(e => console.warn(e));
-        this.ambientNode = { stop: () => { audio.pause(); audio.src = ''; }, audio };
+        this.ambientNodes[mode] = { stop: () => { audio.pause(); audio.src = ''; }, audio };
 
       } else if (mode === 'heavy_rain') {
         const audio = new Audio('https://raw.githubusercontent.com/remvze/moodist/main/public/sounds/rain/heavy-rain.mp3');
         audio.loop = true;
         audio.volume = this.isMuted ? 0 : this.volume * 0.5;
         audio.play().catch(e => console.warn(e));
-        this.ambientNode = { stop: () => { audio.pause(); audio.src = ''; }, audio };
+        this.ambientNodes[mode] = { stop: () => { audio.pause(); audio.src = ''; }, audio };
 
       } else if (mode === 'stream') {
         const audio = new Audio('https://raw.githubusercontent.com/remvze/moodist/main/public/sounds/nature/river.mp3');
         audio.loop = true;
         audio.volume = this.isMuted ? 0 : this.volume * 0.5;
         audio.play().catch(e => console.warn(e));
-        this.ambientNode = { stop: () => { audio.pause(); audio.src = ''; }, audio };
+        this.ambientNodes[mode] = { stop: () => { audio.pause(); audio.src = ''; }, audio };
 
       } else if (mode === 'campfire_night') {
         const audio = new Audio('https://raw.githubusercontent.com/remvze/moodist/main/public/sounds/nature/campfire.mp3');
         audio.loop = true;
         audio.volume = this.isMuted ? 0 : this.volume * 0.5;
         audio.play().catch(e => console.warn(e));
-        this.ambientNode = { stop: () => { audio.pause(); audio.src = ''; }, audio };
+        this.ambientNodes[mode] = { stop: () => { audio.pause(); audio.src = ''; }, audio };
 
       } else if (mode === 'coffee_shop') {
         const audio = new Audio('https://raw.githubusercontent.com/remvze/moodist/main/public/sounds/places/cafe.mp3');
         audio.loop = true;
         audio.volume = this.isMuted ? 0 : this.volume * 0.5;
         audio.play().catch(e => console.warn(e));
-        this.ambientNode = { stop: () => { audio.pause(); audio.src = ''; }, audio };
+        this.ambientNodes[mode] = { stop: () => { audio.pause(); audio.src = ''; }, audio };
 
       } else if (mode === 'thunderstorm') {
         const audio = new Audio('https://raw.githubusercontent.com/remvze/moodist/main/public/sounds/rain/thunder.mp3');
         audio.loop = true;
         audio.volume = this.isMuted ? 0 : this.volume * 0.5;
         audio.play().catch(e => console.warn(e));
-        this.ambientNode = { stop: () => { audio.pause(); audio.src = ''; }, audio };
+        this.ambientNodes[mode] = { stop: () => { audio.pause(); audio.src = ''; }, audio };
 
       } else if (mode === 'waves') {
         const audio = new Audio('https://raw.githubusercontent.com/remvze/moodist/main/public/sounds/nature/waves.mp3');
         audio.loop = true;
         audio.volume = this.isMuted ? 0 : this.volume * 0.5;
         audio.play().catch(e => console.warn(e));
-        this.ambientNode = { stop: () => { audio.pause(); audio.src = ''; }, audio };
+        this.ambientNodes[mode] = { stop: () => { audio.pause(); audio.src = ''; }, audio };
 
       } else if (mode === 'solfeggio_528') {
         const osc = this.ctx.createOscillator();
@@ -462,7 +490,7 @@ class SpaceAudioEngine {
         subOsc.connect(this.ambientGain);
         osc.start();
         subOsc.start();
-        this.ambientNode = { stop: () => { osc.stop(); subOsc.stop(); } };
+        this.ambientNodes[mode] = { stop: () => { osc.stop(); subOsc.stop(); } };
 
       } else if (mode === 'candle_crackle') {
         // Cozy crackling wood wick & warm fireplace hum
@@ -502,7 +530,7 @@ class SpaceAudioEngine {
 
         noise.start();
         lowOsc.start();
-        this.ambientNode = { stop: () => { noise.stop(); lowOsc.stop(); } };
+        this.ambientNodes[mode] = { stop: () => { noise.stop(); lowOsc.stop(); } };
 
       } else if (mode === 'ice_drip') {
         // Sub-zero polar wind & gentle crystal melt water drops
@@ -536,7 +564,7 @@ class SpaceAudioEngine {
 
         // Rhythmic gentle water drop oscillator
         let dropInterval = setInterval(() => {
-          if (!this.ctx || this.isMuted || this.currentMode !== 'ice_drip') return;
+          if (!this.ctx || this.isMuted || !this.activeModes.includes('ice_drip')) return;
           try {
             const dropTime = this.ctx.currentTime;
             const dropOsc = this.ctx.createOscillator();
@@ -557,7 +585,7 @@ class SpaceAudioEngine {
           } catch (e) {}
         }, 2200);
 
-        this.ambientNode = {
+        this.ambientNodes[mode] = {
           stop: () => {
             windSource.stop();
             windLfo.stop();
@@ -571,12 +599,12 @@ class SpaceAudioEngine {
   }
 
   stopAmbient() {
-    if (this.ambientNode) {
+    Object.values(this.ambientNodes).forEach(node => {
       try {
-        this.ambientNode.stop();
+        node.stop();
       } catch (e) {}
-      this.ambientNode = null;
-    }
+    });
+    this.ambientNodes = {};
   }
 }
 
