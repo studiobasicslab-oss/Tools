@@ -403,49 +403,49 @@ class SpaceAudioEngine {
         this.ambientNode = { stop: () => { noise.stop(); } };
 
       } else if (mode === 'brownnoise') {
-        const audio = new Audio('/audio/brown_noise.mp3');
+        const audio = new Audio('https://raw.githubusercontent.com/remvze/moodist/main/public/sounds/noise/brown-noise.wav');
         audio.loop = true;
         audio.volume = this.isMuted ? 0 : this.volume * 0.5;
         audio.play().catch(e => console.warn(e));
         this.ambientNode = { stop: () => { audio.pause(); audio.src = ''; }, audio };
 
       } else if (mode === 'heavy_rain') {
-        const audio = new Audio('/audio/heavy_rain.mp3');
+        const audio = new Audio('https://raw.githubusercontent.com/remvze/moodist/main/public/sounds/rain/heavy-rain.mp3');
         audio.loop = true;
         audio.volume = this.isMuted ? 0 : this.volume * 0.5;
         audio.play().catch(e => console.warn(e));
         this.ambientNode = { stop: () => { audio.pause(); audio.src = ''; }, audio };
 
       } else if (mode === 'stream') {
-        const audio = new Audio('/audio/stream.mp3');
+        const audio = new Audio('https://raw.githubusercontent.com/remvze/moodist/main/public/sounds/nature/river.mp3');
         audio.loop = true;
         audio.volume = this.isMuted ? 0 : this.volume * 0.5;
         audio.play().catch(e => console.warn(e));
         this.ambientNode = { stop: () => { audio.pause(); audio.src = ''; }, audio };
 
       } else if (mode === 'campfire_night') {
-        const audio = new Audio('/audio/campfire_night.mp3');
+        const audio = new Audio('https://raw.githubusercontent.com/remvze/moodist/main/public/sounds/nature/campfire.mp3');
         audio.loop = true;
         audio.volume = this.isMuted ? 0 : this.volume * 0.5;
         audio.play().catch(e => console.warn(e));
         this.ambientNode = { stop: () => { audio.pause(); audio.src = ''; }, audio };
 
       } else if (mode === 'coffee_shop') {
-        const audio = new Audio('/audio/coffee_shop.mp3');
+        const audio = new Audio('https://raw.githubusercontent.com/remvze/moodist/main/public/sounds/places/cafe.mp3');
         audio.loop = true;
         audio.volume = this.isMuted ? 0 : this.volume * 0.5;
         audio.play().catch(e => console.warn(e));
         this.ambientNode = { stop: () => { audio.pause(); audio.src = ''; }, audio };
 
       } else if (mode === 'thunderstorm') {
-        const audio = new Audio('/audio/thunderstorm.mp3');
+        const audio = new Audio('https://raw.githubusercontent.com/remvze/moodist/main/public/sounds/rain/thunder.mp3');
         audio.loop = true;
         audio.volume = this.isMuted ? 0 : this.volume * 0.5;
         audio.play().catch(e => console.warn(e));
         this.ambientNode = { stop: () => { audio.pause(); audio.src = ''; }, audio };
 
       } else if (mode === 'waves') {
-        const audio = new Audio('/audio/waves.mp3');
+        const audio = new Audio('https://raw.githubusercontent.com/remvze/moodist/main/public/sounds/nature/waves.mp3');
         audio.loop = true;
         audio.volume = this.isMuted ? 0 : this.volume * 0.5;
         audio.play().catch(e => console.warn(e));
